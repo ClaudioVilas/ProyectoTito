@@ -1,0 +1,63 @@
+.header {
+position: absolute;
+width: 1440px;
+height: 126.43px;
+border: 1px;
+border-style: solid;
+}
+
+.botonheader{
+    position: absolute;
+    width: 214px;
+    height: 72px;
+    margin-top: 27px;
+    margin-left: 67px;
+}
+
+.botonheaderprint{
+    position: absolute;
+    width: 69px;
+    height: 25px;
+    margin-top: 52px;
+    margin-left: 786px;
+}
+
+.botonheaderbusiness{
+    position: absolute;
+    width: 87px;
+    height: 25px;
+    margin-top: 52px;
+    margin-left: 913px;
+}
+
+.botonheaderworker{
+    position: absolute;
+    width: 68px;
+    height: 25px;
+    margin-top: 52px;
+    margin-left: 1057px;
+}
+
+.botonheaderdoenload{
+    position: absolute;
+    width: 69px;
+    height: 25px;
+    margin-top: 52px;
+    margin-left: 1173.5px;
+}
+
+.title{
+    position: absolute;
+    width: 742px;
+    height: 124px;
+    margin-top: 270px;
+    margin-left: 314px;
+}
+
+.subtitle{
+    position: absolute;
+    width: 186px;
+    height: 18.06px;
+    margin-top: 236px;
+    margin-left: 592px;
+}
