@@ -1,0 +1,275 @@
+/* @media screen and (max-width: 1440px){ */
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+.header {
+    /* Rectangle 4269 */
+    Width: 1440px;
+    Height: 126.43px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /* Neutral/100 */
+    background: #FFFFFF;
+}
+
+.botontito{
+    position: absolute;
+    Width: 214px;
+    Height: 72px;
+    margin-top: 27px;
+    margin-left: 67px;
+    /* Estilo de fuente */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.botonheaderprint{
+    /* Plans */
+    position: absolute;
+    Width: 87px;
+    Height: 25px;
+    margin-top: 52px;
+    margin-left: 786px;
+    /* Estilo de fuente */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+
+    /* identical to box height */
+    color: #4A3AFF;
+}
+
+.botonheaderbusiness{
+    /* Contact */
+    position: absolute;
+    Width: 68px;
+    Height: 25px;
+    margin-top: 52px;
+    margin-left: 931px;
+    /* Estilo de fuente */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #4A3AFF;
+}
+
+.botonheaderworker{
+    /* Contact */
+    position: absolute;
+    Width: 68px;
+    Height: 25px;
+    margin-top: 52px;
+    margin-left: 1057px;
+    /* Estilo de fuente */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+
+    /* identical to box height */
+    color: #4A3AFF;
+}
+
+.botonheaderdownload{
+    /* Button Text */
+    position: absolute;
+    Width: 163px;
+    Height: 61px;
+    margin-top: 32px;
+    margin-left: 1213px;
+    border-radius: 56px;
+    padding-left: 10px;
+    padding-top: 20px;
+    background-color: #4A3AFF;
+
+
+    /* Text Single/200/Regular */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+
+    /* identical to box height, or 111% */
+    text-align: center;
+
+    /* Neutral/100 */
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title{
+    /* We connect employers with workers */
+    /* position: absolute; */
+    position: absolute;
+    width: 742px;
+    height: 124px;
+    margin-left: 314px;
+    margin-top: 270px;
+    /* Headings/Typography Size 1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+
+    /* or 124% */
+    text-align: center;
+
+    /* Neutral/800 */
+    color: #170F49;
+
+}
+
+.subtitle{
+    /* be kind. be free */
+    /* position: absolute; */
+    position: absolute;
+    width: 186px;
+    height: 18.06px;
+    margin-left: 592px;
+    margin-top: 236px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+
+    text-align: center;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+
+    /* Primary/Color 1 */
+    color: #4A3AFF;
+}
+
+.subtitle2{
+    /* Leave us your email to be in touch with the recent news */
+    position: absolute;
+    width: 604px;
+    height: 30px;
+    margin-left: 418px;
+    margin-top: 428px;
+
+
+    /* Paragraph/Default */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    /* Neutral/600 */
+
+    color: #6F6C90;
+    
+}
+
+.contorno{
+    box-sizing: border-box;
+    Width: 607.22px;
+    Height: 78.19px;
+    position: absolute;
+    margin-left: 415px;
+
+    margin-top: 477.77px;
+
+    border-radius: 60px;
+    border: 1px; 
+    border-style: solid;
+    border-color: #EFF0F6;
+}
+
+.contornotexto{
+    margin-left: 39.16px;
+    margin-top: 25.97px;
+    Width: 307.97px;
+    Height: 30.13px;
+    /* X constraint: Scale;
+    Y constraint: Scale; */
+    /* Text style: Paragraph/Default;
+    Font family: DM Sans;
+    Font style: Regular;
+    Font size: 18px;
+    Line height: 30px;
+    Line height: 128%;
+    Align: Left;
+    Vertical align: Top;
+    Fill Color Style: Neutral/600;
+    Fill: Solid;
+    #6F6C90; */
+}
+
+.botonsuscribite{
+    position: absolute;
+    Width: 154.49px;
+    Height: 55px;
+    margin-top: -45.97px;
+    margin-Left: 444.89px;
+    border-radius: 56px;
+    padding-top: 12px;
+    padding-left: 7px;
+    Gap: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 16px 32 px 19px; */
+    gap: 8px;
+    background-color: #4A3AFF;
+    color: #FFFFFF;
+    border-radius: 56px;
+}
+
+.subtitle3{
+    position: absolute;
+    width: 497.69px;
+    height: 19.26px;
+    margin-top: 569.77px;
+    margin-left: 479.54px;
+
+    /* Text Single/100/Regular */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+    text-align: center;
+
+    /* Neutral/600 */
+    color: #6F6C90;
+
+}
+/* } */
+
