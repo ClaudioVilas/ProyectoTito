@@ -215,19 +215,17 @@
     margin-top: 25.97px;
     Width: 307.97px;
     Height: 30.13px;
-    /* X constraint: Scale;
-    Y constraint: Scale; */
-    /* Text style: Paragraph/Default;
-    Font family: DM Sans;
-    Font style: Regular;
-    Font size: 18px;
-    Line height: 30px;
-    Line height: 128%;
+
+    font-family: 'DM Sans';
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    line-height: 128%;
     Align: Left;
-    Vertical align: Top;
-    Fill Color Style: Neutral/600;
+    vertical-align: Top;
+    /* Fill-Color-Style: Neutral/600; */
     Fill: Solid;
-    #6F6C90; */
+    color: #6F6C90;
 }
 
 .botonsuscribite{
