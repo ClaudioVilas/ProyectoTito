@@ -9,6 +9,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
 .header {
     /* Rectangle 4269 */
     Width: 1440px;
@@ -269,5 +271,236 @@
     color: #6F6C90;
 
 }
-/* } */
+
+.subtitle4{
+    position: absolute;
+    width: 120px;
+    height: 20.07px;
+    margin-left: 633.69px;
+    margin-top: 749.97px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* or 111% */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* Primary/Color 1 */
+
+    color: #4A3AFF;
+}
+
+.header2{
+    /* HOW IT WORKS? */
+    position: absolute;
+    width: 668px;
+    height: 62.21px;
+    margin-left: 351px;
+    margin-top: 791px;
+
+    /* Headings/Typography Size 1 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* or 124% */
+
+    text-align: center;
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+
+.subtitle5{
+    /* Watch a short video about TITO FREE and discover how this wonderful app works */
+    position: absolute;
+    height: 64.21px;
+    width: 508px;
+    margin-left: 434.69px;
+    margin-top: 869.36px;
+
+    /* Paragraph/Default */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    /* or 167% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Neutral/600 */
+    color: #6F6C90;
+}
+
+
+.comentario{
+    /* Connect workers with restaurants that have positions to fill on demand */
+    position: absolute;
+    width: 395px;
+    height: 139px;
+    margin-left: 851.62px;
+    margin-top: 1047px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #313131;
+}
+
+
+.imagenvideo{
+    /* contenedor video */
+    position: absolute;
+    width: 529px;
+    height: 350px;
+    margin-left: 204px;
+    margin-top: 990px;
+
+}
+
+
+.joinnowboton{
+    height: 55px;
+    width: 182px;
+    margin-left: 852px;
+    margin-top: 1186px;
+    border-radius: 56px;
+    background: #4A3AFF;
+    box-shadow: 0px 36px 14px rgba(0, 0, 0, 0.01), 0px 20px 12px rgba(0, 0, 0, 0.05), 0px 9px 9px rgba(0, 0, 0, 0.09), 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.textjoin{
+    /* Button Text */
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    margin-left: 32px;
+    margin-top: 16.05px;
+
+    /* Text Single/200/Bold */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    /* Neutral/100 */
+
+    color: #FFFFFF;
+}
+
+
+.header3{
+    /* Tito business */
+    position: absolute;
+    width: 668px;
+    height: 62.21px;
+    margin-left: 118px;
+    margin-top: 179px;
+
+    /* Headings/Typography Size 1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    
+    /* or 124% */
+
+
+    /* Neutral/800 */
+    color: #170F49;
+} 
+
+
+.subtitle6{
+    /* Download the app and start hiring the best workers in the position you need */
+    position: absolute;
+    width: 620px;
+    height: 23px;
+    margin-left: 119px;
+    margin-top: 250px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #606060;
+}
+
+
+.card1{
+    /* Waiter */
+    position: absolute;
+    width: 288px;
+    height: 128px;
+    margin-left: 253px;
+    margin-top: 400px;
+
+    background-color: #d42828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    }
+
+.card1text{
+    position: absolute;
+    width: 64px;
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+/* identical to box height, or 310% */
+
+
+    color: #000000; 
+}
+
+
+.cardtext2{
+    /* xxxx workers avaibles */
+    position: absolute;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+color: #999999;
+
+}
+
+/* }
 
