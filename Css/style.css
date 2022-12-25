@@ -450,56 +450,219 @@
 }
 
 
-.card1{
+.card1, .card4, .card7, .card10{
     /* Waiter */
     position: absolute;
     width: 288px;
     height: 128px;
     margin-left: 253px;
     margin-top: 400px;
-
-    background-color: #d42828;
+    background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
-    }
+}
 
-.card1text{
+.card4{
+    margin-top: 600px;
+}
+
+.card7{
+    margin-top: 800px;
+}
+
+
+.card10{
+    margin-top: 1000px;
+}
+
+
+
+.imagencard1, .imagencard4, .imagencard7, .imagencard10{
+    /* image 5 */
     position: absolute;
-    width: 64px;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card1text, .card4text, .card7text, .card10text{
+    position: absolute;
+    /* width: 64px; */
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-/* identical to box height, or 310% */
-
-
+    /* identical to box height, or 310% */
     color: #000000; 
 }
 
 
-.cardtext2{
+.card1text2, .card4text2, .card7text2, .card10text2 {
     /* xxxx workers avaibles */
     position: absolute;
     width: 123px;
     height: 16px;
     margin-left: 110px;
     margin-top: 74px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
     /* identical to box height */
+    color: #999999;
+}
 
 
-color: #999999;
+.card2, .card5, .card8, .card11{
+    /* Waiter */
+    position: absolute;
+    width: 288px;
+    height: 128px;
+    margin-left: 653px;
+    margin-top: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
 
+.card5{
+    margin-top: 600px;
+}
+
+
+.card8{
+    margin-top: 800px;
+}
+
+
+.card11{
+    margin-top: 1000px;
+}
+
+
+.imagencard2, .imagencard5, .imagencard8, .imagencard11{
+    /* image 5 */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card2text, .card5text, .card8text, .card11text{
+    position: absolute;
+    /* width: 62px; */
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    /* identical to box height, or 310% */
+    color: #000000; 
+}
+
+
+.card2text2, .card5text2, .card8text2, .card11text2{
+    /* xxxx workers avaibles */
+    position: absolute;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #999999;
+}
+
+
+.card3, .card6, .card9, .card12{
+    /* Waiter */
+    position: absolute;
+    width: 288px;
+    height: 128px;
+    margin-left: 1053px;
+    margin-top: 400px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+.card6{
+    margin-top: 600px;
+}
+
+
+.card9{
+    margin-top: 800px;
+}
+
+
+.card12{
+    margin-top: 1000px;
+}
+
+.imagencard3, .imagencard6, .imagencard9, .imagencard12{
+    /* image 5 */
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card3text, .card6text, .card9text, .card12text{
+    position: absolute;
+    /* width: 62px; */
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    /* identical to box height, or 310% */
+    color: #000000; 
+}
+
+
+.card3text2, .card6text2, .card9text2, .card12text2{
+    /* xxxx workers avaibles */
+    position: absolute;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    color: #999999;
 }
 
 /* }
