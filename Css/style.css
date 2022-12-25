@@ -11,6 +11,8 @@
 
  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
 .header {
     /* Rectangle 4269 */
     Width: 1440px;
@@ -223,7 +225,7 @@
     font-size: 18px;
     line-height: 30px;
     line-height: 128%;
-    Align: Left;
+    text-Align: Left;
     vertical-align: Top;
     /* Fill-Color-Style: Neutral/600; */
     Fill: Solid;
@@ -432,14 +434,13 @@
 } 
 
 
-.subtitle6{
+.subtitle6 {
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
     width: 620px;
     height: 23px;
-    margin-left: 119px;
+    margin-left: 125px;
     margin-top: 250px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -664,6 +665,155 @@
     /* identical to box height */
     color: #999999;
 }
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    width: 668px;
+    height: 48px;
+    margin-left: 119px;
+    margin-top: 1225px;
+
+    /* Headings/Typography Size 1 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* or 124% */
+
+
+    /* Neutral/800 */
+    color: #170F49;
+}
+
+
+ .subtitle7{
+    /* Download the app and start hiring the best workers in the position you need */
+    position: absolute;
+    width: 400px;
+    height: 20px;
+    margin-left: 125px;
+    margin-top: 1290px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #606060;
+}
+
+.rectangulobigcard{
+    position: absolute;
+    width: 71px;
+    height: 122px;
+    margin-left: 308px;
+    margin-top: -29px;
+    background: #9747FF;
+}
+
+
+.polygonbigcard{
+    /* Polygon 1 */
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    margin-left: 288px;
+    margin-top: -29px;
+
+}
+
+
+.bigcard1{
+    /* category */
+    position: absolute;
+    width: 390px;
+    height: 510px;
+    margin-left: 100px;
+    margin-top: 1450px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.bigcard1title{
+    /* Get ready */
+    position: absolute;
+    /* width: 152px; */
+    height: 42px;
+    /* margin-bottom: calc(50% - 155px/2 - 0.5px); */
+    margin-top: 93px;
+    margin-left: 114px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+    align-content: center;
+    color: #000000;
+}
+
+
+.bigcard1subtitle{
+    /* You need to complete some necesary steps for your first job */
+    position: absolute;
+    width: 281px;
+    height: 40px;
+    margin-left: 54px;
+    margin-top: 142px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #606060;
+}
+
+
+.listabigcard1{
+    /* 500 visitors */
+    /* width: 181px; */
+    height: 27px;
+    margin-top: 215px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    color: #000000;
+}
+
+.item2, .item3{
+    margin-top: 30px;
+}
+
+.bigcard1footer{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 200px;
+    width: 107px;
+    height: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    color: #8F8F8F;
+}
+
+
+
+
 
 /* }
 
