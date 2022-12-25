@@ -704,28 +704,37 @@
     color: #606060;
 }
 
-.rectangulobigcard{
-    position: absolute;
-    width: 71px;
-    height: 122px;
-    margin-left: 308px;
-    margin-top: -29px;
-    background: #9747FF;
-}
 
+/* .polygonbigcard1{
 
-.polygonbigcard{
-    /* Polygon 1 */
     position: absolute;
     width: 39px;
     height: 39px;
     margin-left: 288px;
     margin-top: -29px;
 
+} */
+
+
+.rectangulobigcard1, .rectangulobigcard2, .rectangulobigcard3{
+    position: absolute;
+    width: 71px;
+    height: 122px;
+    margin-left: 80px;
+    margin-top: -90px;
+   
 }
 
 
-.bigcard1{
+.polygonbigcard1, .polygonbigcard2, .polygonbigcard3{
+    position: absolute;
+    margin-left: 65px;
+    margin-top: -90.9px;
+   
+}
+
+
+.bigcard1, .bigcard2, .bigcard3{
     /* category */
     position: absolute;
     width: 390px;
@@ -736,9 +745,30 @@
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
     border-radius: 16px;
     background-color: #FFFFFF;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
 }
 
-.bigcard1title{
+
+.bigcard2{
+    margin-left: 528px;
+}
+
+.bigcard3{
+    margin-left: 952px;
+}
+
+
+
+.bigcard1title, .bigcard1title2, .bigcard1title3{
     /* Get ready */
     position: absolute;
     /* width: 152px; */
@@ -746,7 +776,6 @@
     /* margin-bottom: calc(50% - 155px/2 - 0.5px); */
     margin-top: 93px;
     margin-left: 114px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -758,7 +787,7 @@
 }
 
 
-.bigcard1subtitle{
+.bigcard1subtitle, .bigcard1subtitle2, .bigcard1subtitle3{
     /* You need to complete some necesary steps for your first job */
     position: absolute;
     width: 281px;
@@ -775,7 +804,7 @@
 }
 
 
-.listabigcard1{
+.listabigcard1, .listabigcard2, .listabigcard3{
     /* 500 visitors */
     /* width: 181px; */
     height: 27px;
@@ -789,11 +818,11 @@
     color: #000000;
 }
 
-.item2, .item3{
+.item1, .item2, .item3{
     margin-top: 30px;
 }
 
-.bigcard1footer{
+.bigcard1footer, .bigcard1footer2, .bigcard1footer3{
     position: absolute;
     margin-left: 140px;
     margin-top: 200px;
@@ -810,6 +839,7 @@
     /* identical to box height, or 27px */
     color: #8F8F8F;
 }
+
 
 
 
