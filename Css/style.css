@@ -256,6 +256,7 @@
 }
 
 .contorno{
+    position: absolute;
     box-sizing: border-box;
     Width: 607.22px;
     Height: 78.19px;
@@ -271,6 +272,7 @@
 }
 
 .contornotexto{
+    position: absolute;
     margin-left: 39.16px;
     margin-top: 25.97px;
     Width: 307.97px;
@@ -292,7 +294,7 @@
     position: absolute;
     Width: 154.49px;
     Height: 55px;
-    margin-top: -45.97px;
+    margin-top: 10px;
     margin-Left: 444.89px;
     border-radius: 56px;
     padding-top: 12px;
@@ -432,6 +434,7 @@
 
 
 .joinnowboton{
+    position: absolute;
     height: 55px;
     width: 182px;
     margin-left: 852px;
@@ -468,13 +471,13 @@
 
 
 .subrayadotitobusiness{
-    /* Rectangle 4532 */
+    /* Rectangle 4518 */
     position: absolute;
     width: 320px;
     height: 13px;
     margin-left: 121px;
-    margin-top: 219px;
-    background: #D64DE1;
+    margin-top: 1560px;
+    background: #7551FF;
 
 }
 
@@ -484,7 +487,7 @@
     width: 668px;
     height: 62.21px;
     margin-left: 118px;
-    margin-top: 179px;
+    margin-top: 1519px;
 
     /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
@@ -507,7 +510,7 @@
     width: 620px;
     height: 23px;
     margin-left: 125px;
-    margin-top: 250px;
+    margin-top: 1581px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -524,23 +527,23 @@
     width: 288px;
     height: 128px;
     margin-left: 253px;
-    margin-top: 400px;
+    margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
 
 .card4{
-    margin-top: 600px;
+    margin-top: 1876px;
 }
 
 .card7{
-    margin-top: 800px;
+    margin-top: 2076px;
 }
 
 
 .card10{
-    margin-top: 1000px;
+    margin-top: 2276px;
 }
 
 
@@ -596,24 +599,24 @@
     width: 288px;
     height: 128px;
     margin-left: 653px;
-    margin-top: 400px;
+    margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
 
 .card5{
-    margin-top: 600px;
+    margin-top: 1876px;
 }
 
 
 .card8{
-    margin-top: 800px;
+    margin-top: 2076px;
 }
 
 
 .card11{
-    margin-top: 1000px;
+    margin-top: 2276px;
 }
 
 
@@ -668,7 +671,7 @@
     width: 288px;
     height: 128px;
     margin-left: 1053px;
-    margin-top: 400px;
+    margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
@@ -676,17 +679,17 @@
 
 
 .card6{
-    margin-top: 600px;
+    margin-top: 1876px;
 }
 
 
 .card9{
-    margin-top: 800px;
+    margin-top: 2076px;
 }
 
 
 .card12{
-    margin-top: 1000px;
+    margin-top: 2276px;
 }
 
 .imagencard3, .imagencard6, .imagencard9, .imagencard12{
@@ -740,7 +743,7 @@
     width: 668px;
     height: 48px;
     margin-left: 119px;
-    margin-top: 1225px;
+    margin-top: 2506px;
 
     /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
@@ -762,7 +765,7 @@
     width: 279px;
     height: 13px;
     margin-left: 121px;
-    margin-top: 1265px;
+    margin-top: 2546px;
     background: #FFDCC8;
 }
 
@@ -773,7 +776,7 @@
     width: 400px;
     height: 20px;
     margin-left: 125px;
-    margin-top: 1290px;
+    margin-top: 2568px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
@@ -783,14 +786,37 @@
 }
 
 
-.rectangulobigcard1, .rectangulobigcard2, .rectangulobigcard3{
+.bigcard1, .bigcard2, .bigcard3{
+/* category */
+    position: absolute;
+    width: 390px;
+    height: 510px;
+    margin-left: 100px;
+    margin-top: 2663px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+
+}
+
+
+.bigcard1polygon, .bigcard2polygon, .bigcard3polygon{
+    position: absolute;
+    margin-left: 98px;
+    margin-top: -29px;
+   
+}
+
+
+.bigcard1rectangulo, .bigcard2rectangulo, .bigcard3rectangulo{
     position: absolute;
     width: 71px;
     height: 122px;
     margin-left: 115px;
     margin-top: -29px;
-   
 }
+
 
 .numero{
   /* 1 */
@@ -813,12 +839,6 @@
 }
 
 
-.polygonbigcard1, .polygonbigcard2, .polygonbigcard3{
-    position: absolute;
-    margin-left: 99px;
-    margin-top: -29px;
-   
-}
 
 
 .bigcard1, .bigcard2, .bigcard3{
@@ -827,7 +847,7 @@
     width: 390px;
     height: 510px;
     margin-left: 100px;
-    margin-top: 1450px;
+    margin-top: 2663px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
     border-radius: 16px;
@@ -855,7 +875,7 @@
 }
 
 
-.bigcard1title, .bigcard1title2, .bigcard1title3{
+.bigcard1title, .bigcard2title, .bigcard3title{
     /* Get ready */
     position: absolute;
     /* width: 152px; */
@@ -874,7 +894,7 @@
 }
 
 
-.bigcard1subtitle, .bigcard1subtitle2, .bigcard1subtitle3{
+.bigcard1subtitle, .bigcard2subtitle, .bigcard3subtitle{
     /* You need to complete some necesary steps for your first job */
     position: absolute;
     width: 281px;
@@ -891,7 +911,7 @@
 }
 
 
-.listabigcard1, .listabigcard2, .listabigcard3{
+.bigcard1lista, .bigcard2lista, .bigcard3lista{
     /* 500 visitors */
     /* width: 181px; */
     height: 27px;
@@ -910,7 +930,7 @@
     color: #000000;
 }
 
-.bigcard1footer, .bigcard1footer2, .bigcard1footer3{
+.bigcard1footer, .bigcard2footer, .bigcard3footer{
     position: absolute;
     margin-left: 140px;
     margin-top: 200px;
@@ -955,7 +975,7 @@
     width: 421px;
     height: 48px;
     margin-left: 509px;
-    margin-top: 2150px;
+    margin-top: 3402px;
 
     /* Headings/Typography Size 1 */
 
@@ -979,8 +999,8 @@
         width: 421px;
         height: 13px;
         margin-left: 509px;
-        margin-top: 2190px;
-        background: #7551FF;
+        margin-top: 3445px;
+        background: #D64DE1;
 }
 
 
@@ -990,7 +1010,7 @@
     width: 409px;
     height: 39px;
     margin-left: 515px;
-    margin-top: 2230px;
+    margin-top: 3475px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -1010,7 +1030,7 @@
     width: 394px;
     height: 660px;
     margin-left: 277px;
-    margin-top: 2339px;
+    margin-top: 3623px;
 
     /* Primary/Color 1 */
 
@@ -1255,7 +1275,7 @@ color: #D9DBE9;
     width: 394px;
     height: 660px;
     margin-left: 759px;
-    margin-top: 2339px;
+    margin-top: 3623px;
     /* Neutral/100 */
     background: #FFFFFF;
     /* Neutral/300 */
@@ -1479,6 +1499,46 @@ color: #D9DBE9;
     color: #6F6C90;
 }
 
+
+.elipse{
+    /* Ellipse 5 */
+    position: absolute;
+    width: 787.64px;
+    height: 790.29px;
+    /* margin-left: -392px; */
+    margin-top: 2849px;
+
+    background: rgba(255, 255, 255, 0.79);
+    backdrop-filter: blur(70.063px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+
+.elipse2{
+    /* Ellipse 5 */
+    position: absolute;
+    width: 787.64px;
+    height: 790.29px;
+    margin-left: 631px;
+    margin-top: 828px;
+    transform: rotate(180deg);
+    background: rgba(255, 255, 255, 0.79);
+    backdrop-filter: blur(70.063px);
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+
+.elipse3{
+    /* Ellipse 5 */
+    position: absolute;
+    width: 787.64px;
+    height: 790.29px;
+    /* margin-left: -150px; */
+    margin-top: 254.49px;
+
+    background: rgba(255, 255, 255, 0.79);
+    backdrop-filter: blur(70.063px);
+}
 
 /* }
 
