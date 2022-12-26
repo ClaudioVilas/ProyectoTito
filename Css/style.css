@@ -1307,6 +1307,18 @@ color: #D9DBE9;
 }
 
 
+.rectangulogris{
+        /* Icon Background */
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        margin-left: 46px;
+        margin-top: 50px;
+        background-color: #ECEBFF;
+        border-radius: 16px;
+}
+
+
 .bigcard5title{
     position: absolute;
     /* width: 147px; */
