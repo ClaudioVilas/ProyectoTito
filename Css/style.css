@@ -9,9 +9,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
 .header {
     /* Rectangle 4269 */
@@ -125,6 +125,62 @@
     order: 0;
     flex-grow: 0;
 }
+
+.imagen1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 219px;
+} 
+
+
+.imagen2{  
+    position: absolute;
+    margin-left: 348px;
+    margin-top: 149px;
+} 
+
+
+.imagen3{
+    position: absolute;
+    margin-left: 1113px;
+    margin-top: 380px;
+} 
+
+
+.imagen4{
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 574px;
+} 
+
+
+.imagen5{
+    position: absolute;
+    margin-left: 1279px;
+    margin-top: 258px;
+} 
+
+
+.imagen6{
+    position: absolute;
+    margin-left: 1268px;
+    margin-top: 513px;
+} 
+
+
+.imagen7{
+    position: absolute;
+    margin-left: 1073px;
+    margin-top: 149px;
+} 
+
+
+.imagen8{
+    position: absolute;
+    margin-left: 253px;
+    margin-top: 355px;
+} 
+
 
 .title{
     /* We connect employers with workers */
@@ -411,6 +467,17 @@
 }
 
 
+.subrayadotitobusiness{
+    /* Rectangle 4532 */
+    position: absolute;
+    width: 320px;
+    height: 13px;
+    margin-left: 121px;
+    margin-top: 219px;
+    background: #D64DE1;
+
+}
+
 .header3{
     /* Tito business */
     position: absolute;
@@ -689,6 +756,17 @@
 }
 
 
+.subrayadotito{
+    /* Rectangle 4531 */
+    position: absolute;
+    width: 279px;
+    height: 13px;
+    margin-left: 121px;
+    margin-top: 1265px;
+    background: #FFDCC8;
+}
+
+
  .subtitle7{
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
@@ -885,6 +963,17 @@
 }
 
 
+.subrayadopricing{
+        /* Rectangle 4531 */
+        position: absolute;
+        width: 421px;
+        height: 13px;
+        margin-left: 509px;
+        margin-top: 2190px;
+        background: #7551FF;
+}
+
+
 .subtitle9{
     /* For workers always free. For business you have one month free then just $69 per month. */
     position: absolute;
@@ -989,9 +1078,9 @@ color: #D9DBE9;
     flex-grow: 1;
 }
 
+
 .bigcard1footer4text{
     /* Button Text */
-
     /* Text Single/200/Bold */
     font-family: 'DM Sans';
     font-style: normal;
@@ -999,16 +1088,10 @@ color: #D9DBE9;
     font-size: 18px;
     line-height: 20px;
     /* identical to box height, or 111% */
-
     text-align: center;
-
     /* Primary/Color 1 */
-
     color: #4A3AFF;
-
-
     /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
