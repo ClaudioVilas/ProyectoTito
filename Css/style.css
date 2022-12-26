@@ -310,6 +310,28 @@
     border-radius: 56px;
 }
 
+
+.circulitoytilde{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+}
+
+
+.circulito{
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 569px;
+}
+
+
+.tilde{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: 575px;
+}
+
+
 .subtitle3{
     position: absolute;
     width: 497.69px;
@@ -956,7 +978,7 @@
     width: 791px;
     height: 31px;
     margin-left: 350px;
-    margin-top: 2050px;
+    margin-top: 3210px;
 
     font-family: 'DM Sans';
     font-style: normal;
@@ -1229,7 +1251,7 @@ color: #D9DBE9;
     padding: 26px 38px;
     gap: 6px;
     margin-left: 35px;
-    margin-top: 40px;
+    margin-top: 260px;
     
 
     width: 308px;
@@ -1428,8 +1450,8 @@ color: #D9DBE9;
     align-items: center;
     padding: 26px 38px;
     gap: 6px;
-    margin-left: 10px;
-    margin-top: 40px;
+    margin-left: 40px;
+    margin-top: 260px;
 
     width: 308px;
     height: 72px;
@@ -1481,7 +1503,7 @@ color: #D9DBE9;
     position: absolute;
     width: 191px;
     height: 30px;
-    margin-left: 70px;
+    margin-left: 100px;
     margin-top: 11px;
 
     /* Paragraph/Default */
@@ -1539,6 +1561,117 @@ color: #D9DBE9;
     background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
 }
+
+
+.circulitoytilde1{
+    position: absolute;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde2{
+    position: absolute;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde3{
+    position: absolute;
+    width: 300px;
+    margin-top: 135px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde4{
+    position: absolute;
+    width: 300px;
+    margin-top: 175px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde1texto{
+    /* Text Single/200/Regular */
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    /* Neutral/400 */
+
+    color: #D9DBE9;
+}
+
+
+
+ .circulitoytilde5{
+    position: absolute;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.tilde1{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -19px;
+}
+
+.circulitoytilde2texto{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -30px;
+}
+
+
+.circulitoytilde6{
+    position: absolute;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 25px;
+    line-height: 30px;
+
+}
+
+
+.circulitoytilde7{
+    position: absolute;
+    width: 300px;
+    margin-top: 135px;
+    margin-left: 25px;
+    line-height: 30px;
+
+}
+
+
+.circulitoytilde8{
+    position: absolute;
+    width: 300px;
+    margin-top: 175px;
+    margin-left: 25px;
+    line-height: 30px;
+
+}
+
+
+
+
+
 
 /* }
 
