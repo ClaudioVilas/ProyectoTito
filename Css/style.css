@@ -783,17 +783,6 @@
 }
 
 
-/* .polygonbigcard1{
-
-    position: absolute;
-    width: 39px;
-    height: 39px;
-    margin-left: 288px;
-    margin-top: -29px;
-
-} */
-
-
 .rectangulobigcard1, .rectangulobigcard2, .rectangulobigcard3{
     position: absolute;
     width: 71px;
@@ -801,6 +790,26 @@
     margin-left: 115px;
     margin-top: -29px;
    
+}
+
+.numero{
+  /* 1 */
+    position: absolute;
+    width: 9px;
+    height: 17px;
+    margin-left: 339px;
+    margin-top: 23px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
 }
 
 
@@ -897,7 +906,8 @@
 }
 
 .item1, .item2, .item3{
-    margin-top: 30px;
+    margin-top: 10px;
+    color: #000000;
 }
 
 .bigcard1footer, .bigcard1footer2, .bigcard1footer3{
@@ -1169,7 +1179,7 @@ color: #D9DBE9;
 }
 
 
-.item1, .item2, .item3, .item4{
+.bigcard4item1, .bigcard4item2, .bigcard4item3, .bigcard4item4{
     /* Text 200 */
     /* width: 243px; */
     /* height: 20px; */
@@ -1198,7 +1208,7 @@ color: #D9DBE9;
     align-items: center;
     padding: 26px 38px;
     gap: 6px;
-    margin-left: 46px;
+    margin-left: 35px;
     margin-top: 40px;
     
 
@@ -1369,7 +1379,7 @@ color: #D9DBE9;
 }
 
 
-.item5, .item6, .item7, .item8{
+.bigcard5item1, .bigcard5item2, .bigcard5item3, .bigcard5item4{
     /* Text 200 */
     /* width: 243px; */
     /* height: 20px; */
@@ -1398,7 +1408,7 @@ color: #D9DBE9;
     align-items: center;
     padding: 26px 38px;
     gap: 6px;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 40px;
 
     width: 308px;
