@@ -842,7 +842,177 @@
 
 
 
+.subtitle8{
+    /* You decide when an where you work with freedom, just be kind. */
+    position: absolute;
+    width: 791px;
+    height: 31px;
+    margin-left: 350px;
+    margin-top: 2050px;
 
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #606060;
+}
+
+
+.pricing{
+    /* Our pricing plans */
+    position: absolute;
+    width: 421px;
+    height: 48px;
+    margin-left: 509px;
+    margin-top: 2150px;
+
+    /* Headings/Typography Size 1 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* or 124% */
+
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+
+.subtitle9{
+    /* For workers always free. For business you have one month free then just $69 per month. */
+    position: absolute;
+    width: 409px;
+    height: 39px;
+    margin-left: 515px;
+    margin-top: 2230px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #606060;
+}
+
+
+.bigcard4{
+    /* Pricing Card */
+    box-sizing: border-box;
+    position: absolute;
+    width: 394px;
+    height: 660px;
+    margin-left: 277px;
+    margin-top: 2339px;
+
+    /* Primary/Color 1 */
+
+    background: #4A3AFF;
+    /* Neutral/300 */
+
+    border: 1px solid #EFF0F7;
+    box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+
+.bigcard1title4{
+    /* Price */
+    position: absolute;
+    width: 147px;
+    height: 35px;
+    margin-left: 132px;
+    margin-top: 68px;
+    /* Headings/Typography Size 3 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+    /* Neutral/100 */
+    color: #FFFFFF;
+}
+
+
+.bigcard1subtitle4{
+/* Paragraph */
+position: absolute;
+width: 307px;
+height: 60px;
+margin-left: 46px;
+margin-top: 140px;
+
+/* Paragraph/Default */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+/* Neutral/400 */
+color: #D9DBE9;
+}
+
+
+.bigcard1footer4 {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 38px;
+    gap: 6px;
+    margin-left: 46px;
+    margin-top: 300px;
+
+    width: 308px;
+    height: 72px;
+
+    /* Neutral/100 */
+
+    background: #FFFFFF;
+    border-radius: 96px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.bigcard1footer4text{
+    /* Button Text */
+
+    /* Text Single/200/Bold */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    /* Primary/Color 1 */
+
+    color: #4A3AFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
 
 
 /* }
