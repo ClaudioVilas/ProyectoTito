@@ -947,10 +947,52 @@
     color: #000000;
 }
 
-.item1, .item2, .item3{
-    margin-top: 10px;
+
+.circulitomini{
+    position: absolute;
+    margin-left: -135px;
+    margin-top: 2px;
+}
+
+
+.circulitominitext{
+    position: absolute;
+    margin-left: 100px;
     color: #000000;
 }
+
+
+.circulitomini2{
+    position: absolute;
+    margin-left: -135px;
+    margin-top: 50px;
+}
+
+
+.circulitominitext2{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #000000;
+}
+
+
+.circulitomini3{
+    position: absolute;
+    margin-left: -135px;
+    margin-top: 100px;
+}
+
+
+.circulitominitext3{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #000000;
+}
+
+
+
 
 .bigcard1footer, .bigcard2footer, .bigcard3footer{
     position: absolute;
