@@ -26,7 +26,7 @@
     background: #FFFFFF;
 }
 
-.botontito{
+.botontito,.botontito2{
     position: absolute;
     Width: 214px;
     Height: 72px;
@@ -39,6 +39,15 @@
     font-size: 48px;
     line-height: 72px;
 }
+
+
+.botontito2{
+    position: absolute;
+    margin-left: 177px;
+    color: #4A3AFF;
+
+}
+
 
 .botonheaderprint{
     /* Plans */
@@ -1734,6 +1743,19 @@ color: #D9DBE9;
     /* or 106% */
     /* Neutral/800 */
     color: #170F49;
+}
+
+
+.titofreefoooter2{
+    position: absolute;
+    margin-top: 4496px;
+    margin-left: 150px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.4627px;
+    line-height: 31px;
+    color: #4A3AFF;
 }
 
 
