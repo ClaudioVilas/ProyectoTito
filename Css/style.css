@@ -13,6 +13,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+
+#body{
+    /* Home */
+
+
+position: relative;
+width: 1920px;
+height: 4565px;
+overflow: scroll;
+margin-left: 300px;
+
+background: #FFFFFF;
+}
+
+
 .header {
     /* Rectangle 4269 */
     Width: 1440px;
@@ -1005,10 +1020,10 @@
 
 .bigcard1footer, .bigcard2footer, .bigcard3footer{
     position: absolute;
-    margin-left: 140px;
-    margin-top: 200px;
-    width: 107px;
-    height: 27px;
+    margin-left: 101px;
+    margin-top: 170px;
+    width: 187px;
+    height: 63px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
     border-radius: 16px;
@@ -1022,6 +1037,9 @@
 }
 
 
+.bigcard1footertext{
+    margin-top: 20px;
+}
 
 .subtitle8{
     /* You decide when an where you work with freedom, just be kind. */
@@ -1107,7 +1125,7 @@
 
     /* Primary/Color 1 */
 
-    background: #4A3AFF;
+    background: #9747FF;
     /* Neutral/300 */
 
     border: 1px solid #EFF0F7;
@@ -1189,8 +1207,9 @@
 position: absolute;
 width: 307px;
 height: 60px;
-margin-left: 46px;
+margin-left: 44px;
 margin-top: 140px;
+text-align: center;
 
 /* Paragraph/Default */
 font-family: 'DM Sans';
@@ -1396,7 +1415,7 @@ color: #D9DBE9;
     position: absolute;
     width: 307px;
     height: 60px;
-    margin-left: 46px;
+    margin-left: 80px;
     margin-top: 140px;
 
     /* Paragraph/Default */
