@@ -1781,10 +1781,10 @@ color: #D9DBE9;
 .footer{
     /* Copyright */
     position: absolute;
-    width: 582.36px;
+    width: 600px;
     height: 20px;
-    margin-left: 800px;
-    margin-top: 4498.42px;
+    margin-left: 600px;
+    margin-top: 4496px;
 
     /* Text Single/200/Regular */
 
@@ -1799,8 +1799,15 @@ color: #D9DBE9;
 
     /* Neutral/600 */
 
-    color: #6F6C90;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
 }
+
+
+
 
 /* }
 
