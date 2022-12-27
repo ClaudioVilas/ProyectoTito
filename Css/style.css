@@ -1697,7 +1697,6 @@ color: #D9DBE9;
     margin-top: 95px;
     margin-left: 25px;
     line-height: 30px;
-
 }
 
 
@@ -1707,7 +1706,6 @@ color: #D9DBE9;
     margin-top: 135px;
     margin-left: 25px;
     line-height: 30px;
-
 }
 
 
@@ -1717,13 +1715,51 @@ color: #D9DBE9;
     margin-top: 175px;
     margin-left: 25px;
     line-height: 30px;
-
 }
 
 
+.titofreefoooter{
+    /* Tito Free */
+    position: absolute;
+    width: 184.36px;
+    height: 32px;
+    margin-left: 86px;
+    margin-top: 4496px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.4627px;
+    line-height: 31px;
+    /* or 106% */
+    /* Neutral/800 */
+    color: #170F49;
+}
 
 
+.footer{
+    /* Copyright */
+    position: absolute;
+    width: 582.36px;
+    height: 20px;
+    margin-left: 1251.64px;
+    margin-top: 4498.42px;
 
+    /* Text Single/200/Regular */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: right;
+
+    /* Neutral/600 */
+
+    color: #6F6C90;
+}
 
 /* }
 
