@@ -491,6 +491,21 @@ background: #FFFFFF;
 
 }
 
+
+.botongoogle {
+    position: absolute;
+    margin-top: 1228px;
+    margin-left: 1050px;
+}
+
+
+.botonapple{
+    position: absolute;
+    margin-top: 1228px;
+    margin-left: 830px;
+}
+
+
 .textjoin{
     /* Button Text */
     position: absolute;
