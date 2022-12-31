@@ -53,6 +53,7 @@
         font-weight: 900;
         font-size: 48px;
         line-height: 72px;
+        color: #000000;
     }
     
     
@@ -292,7 +293,7 @@
 .underworkingpicture{
     /* Rectangle */
     position: absolute;
-    width: 1069px;
+      width: 1069px;
     height: 733px;
     margin-left: 764px;
 }
