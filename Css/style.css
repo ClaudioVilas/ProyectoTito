@@ -1798,7 +1798,7 @@ color: #D9DBE9;
     position: absolute;
     width: 600px;
     height: 20px;
-    margin-left: 600px;
+    margin-left: 630px;
     margin-top: 4496px;
 
     /* Text Single/200/Regular */
@@ -1821,6 +1821,23 @@ color: #D9DBE9;
     text-transform: none;
 }
 
+
+.botonapple2{
+    position: absolute; 
+
+    margin-top: 1300px;
+    margin-left: 213px;
+    margin-top: 4480px;
+}
+
+
+.botongoogle2{
+    position: absolute; 
+
+    margin-top: 1300px;
+    margin-left: 413px;
+    margin-top: 4480px;
+}
 
 
 
