@@ -16,14 +16,11 @@
 
 #body{
     /* Home */
-
-
 position: relative;
 width: 1920px;
 height: 4565px;
 overflow: scroll;
-margin-left: 300px;
-
+margin-left: 250px;
 background: #FFFFFF;
 }
 
