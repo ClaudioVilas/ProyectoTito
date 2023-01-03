@@ -293,6 +293,7 @@ background: #FFFFFF;
     border: 1px; 
     border-style: solid;
     border-color: #EFF0F6;
+    font-size: 22px;
 }
 
 .contornotexto{
@@ -321,7 +322,7 @@ background: #FFFFFF;
     margin-top: 490px;
     margin-Left: 840px;
     border-radius: 56px;
-    padding-top: 12px;
+    padding-top: 14px;
     padding-left: 7px;
     Gap: 8px;
     display: flex;
@@ -332,6 +333,7 @@ background: #FFFFFF;
     background-color: #4A3AFF;
     color: #FFFFFF;
     border-radius: 56px;
+    border: none;
 }
 
 
