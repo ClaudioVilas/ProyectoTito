@@ -283,7 +283,6 @@ background: #FFFFFF;
     Height: 78.19px;
     position: absolute;
     margin-left: 405px;
-
     margin-top: 477.77px;
 
     border-radius: 60px;
@@ -334,24 +333,20 @@ background: #FFFFFF;
 }
 
 
-.circulitoytilde{
+.mailclienty{
     position: absolute;
-    width: 3px;
-    height: 3px;
+    Width: 607.22px;
+    Height: 78.19px;
+    margin-left: 405px;
+    margin-top: 465px;
 }
 
-
-.circulito{
-    position: absolute;
-    margin-left: 470px;
-    margin-top: 569px;
-}
 
 
 .tilde{
     position: absolute;
     margin-left: 475px;
-    margin-top: 575px;
+    margin-top: 680px;
 }
 
 
@@ -359,7 +354,7 @@ background: #FFFFFF;
     position: absolute;
     width: 497.69px;
     height: 19.26px;
-    margin-top: 569.77px;
+    margin-top: 680px;
     margin-left: 479.54px;
 
     /* Text Single/100/Regular */
