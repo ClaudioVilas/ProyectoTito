@@ -27,16 +27,17 @@ background: #FFFFFF;
 
 .header {
     /* Rectangle 4269 */
+    position: fixed;
     Width: 1440px;
     Height: 126.43px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-
-    /* Neutral/100 */
+    z-index: 1;
     background: #FFFFFF;
 }
+
 
 .botontito,.botontito2{
     position: absolute;
@@ -50,6 +51,7 @@ background: #FFFFFF;
     font-weight: 900;
     font-size: 48px;
     line-height: 72px;
+    color: #000000;
 }
 
 
