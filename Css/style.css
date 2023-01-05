@@ -15,38 +15,28 @@
 
 
 #body{
-    /* Home */
-position: relative;
-/* width: 1920px; */
+
 height: 4565px;
-overflow: scroll;
-margin-left: 250px;
+/* overflow: scroll; */
 background: #FFFFFF;
 }
 
 
-
 .header {
-    /* Rectangle 4269 */
     position: fixed;
-    Width: 1440px;
     Height: 126.43px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 100%;
     z-index: 1;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 
-.botontito,.botontito2{
+.titofree{
     position: absolute;
-    Width: 214px;
     Height: 72px;
-    margin-top: 27px;
-    margin-left: 67px;
-    /* Estilo de fuente */
+    margin-left: 4.65%;
+    margin-top: 21px;
+    margin-right: 80.49%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
@@ -55,80 +45,50 @@ background: #FFFFFF;
     color: #000000;
 }
 
-
-.botontito2{
-    position: absolute;
-    margin-left: 177px;
-    color: #4A3AFF;
-
+.textotito{
+    color: #000000;
 }
 
 
-.botonheaderprint{
-    /* Plans */
+.textofee{
+    margin-left: 10px;
+    color: #4A3AFF;
+}
+
+
+.printable, .business, .worker, .download{
     position: absolute;
-    Width: 87px;
-    Height: 25px;
+    margin-left: 55.91%;
+    margin-right: 40.07%;
     margin-top: 52px;
-    margin-left: 786px;
-    /* Estilo de fuente */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
-    line-height: 25px;
-
-    /* identical to box height */
+    line-height: 25px;   
     color: #4A3AFF;
 }
 
-.botonheaderbusiness{
-    /* Contact */
-    position: absolute;
-    Width: 68px;
-    Height: 25px;
-    margin-top: 52px;
-    margin-left: 931px;
-    /* Estilo de fuente */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-    /* identical to box height */
-    color: #4A3AFF;
+.business{
+    margin-left: 65.91%;
 }
 
-.botonheaderworker{
-    /* Contact */
-    position: absolute;
-    Width: 68px;
-    Height: 25px;
-    margin-top: 52px;
-    margin-left: 1057px;
-    /* Estilo de fuente */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-
-    /* identical to box height */
-    color: #4A3AFF;
+.worker{
+    margin-left: 75.91%;
 }
 
-.botonheaderdownload{
-    /* Button Text */
+.download{
     position: absolute;
+    display: flex;
     Width: 163px;
     Height: 61px;
     margin-top: 32px;
-    margin-left: 1173px;
+    margin-left: 82.91%;
     border-radius: 56px;
-    /* padding-left: 10px; */
     padding-top: 20px;
+    padding-left: 41px;
     background-color: #4A3AFF;
-
+    border-style: none;
 
     /* Text Single/200/Regular */
     font-family: 'DM Sans';
@@ -137,17 +97,8 @@ background: #FFFFFF;
     font-size: 18px;
     line-height: 20px;
 
-    /* identical to box height, or 111% */
-    text-align: center;
-
     /* Neutral/100 */
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .imagen1{
@@ -206,80 +157,58 @@ background: #FFFFFF;
 } 
 
 
-.title{
-    /* We connect employers with workers */
-    /* position: absolute; */
-    position: absolute;
-    width: 742px;
-    height: 124px;
-    margin-left: 314px;
-    margin-top: 270px;
-    /* Headings/Typography Size 1 */
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 62px;
-
-    /* or 124% */
-    text-align: center;
-
-    /* Neutral/800 */
-    color: #170F49;
-
-}
-
-.subtitle{
+.bekind{
     /* be kind. be free */
-    /* position: absolute; */
     position: absolute;
     width: 186px;
     height: 18.06px;
-    margin-left: 592px;
+    margin-left: 40%;
     margin-top: 236px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    /* or 112% */
-
     text-align: center;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-
-    /* Primary/Color 1 */
     color: #4A3AFF;
 }
 
-.subtitle2{
+.weconnect{
+    /* We connect employers with workers */
+    position: absolute;
+    width: 742px;
+    height: 124px;
+    margin-left: 25%;   
+    margin-top: 270px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #170F49;
+}
+
+
+.leaveusyour{
     /* Leave us your email to be in touch with the recent news */
     position: absolute;
     width: 604px;
     height: 30px;
-    margin-left: 418px;
+    margin-left: 30%;
     margin-top: 428px;
-
-
-    /* Paragraph/Default */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    /* identical to box height, or 167% */
-
     text-align: center;
-
-    /* Neutral/600 */
-
     color: #6F6C90;
-    
 }
 
-.contorno{
+/* .contorno{
     position: absolute;
     box-sizing: border-box;
     Width: 607.22px;
@@ -287,7 +216,6 @@ background: #FFFFFF;
     position: absolute;
     margin-left: 405px;
     margin-top: 477.77px;
-
     border-radius: 60px;
     border: 1px; 
     border-style: solid;
@@ -309,7 +237,6 @@ background: #FFFFFF;
     line-height: 128%;
     text-Align: Left;
     vertical-align: Top;
-    /* Fill-Color-Style: Neutral/600; */
     Fill: Solid;
     color: #6F6C90;
 }
@@ -327,134 +254,110 @@ background: #FFFFFF;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* padding: 16px 32 px 19px; */
     gap: 8px;
     background-color: #4A3AFF;
     color: #FFFFFF;
     border-radius: 56px;
     border: none;
-}
+} */
 
 
 .mailclienty{
     position: absolute;
     Width: 607.22px;
     Height: 78.19px;
-    margin-left: 405px;
+    margin-left: 29%;
     margin-top: 465px;
 }
 
 
-
-.tilde{
+.tildecontextoitsfree{
+    /* It's 100% free and we will never send more than one email */
     position: absolute;
-    margin-left: 475px;
+    height: 19.26px;
+    margin-left: 32%;
     margin-top: 680px;
 }
 
-
-.subtitle3{
+.tilde{
     position: absolute;
-    width: 497.69px;
-    height: 19.26px;
-    margin-top: 680px;
-    margin-left: 479.54px;
+}
 
-    /* Text Single/100/Regular */
-
+.itsfree{
+    /* It's 100% free and we will never send more than one email */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    /* or 112% */
-    text-align: center;
-
-    /* Neutral/600 */
     color: #6F6C90;
-
+    margin-left: 30px;
 }
 
-.subtitle4{
+
+.itssimple{
+    /* it's simple */
     position: absolute;
     width: 120px;
     height: 20.07px;
-    margin-left: 633.69px;
+    margin-left: 42%;
     margin-top: 749.97px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
     /* or 111% */
-
     letter-spacing: 0.1em;
     text-transform: uppercase;
-
     /* Primary/Color 1 */
-
     color: #4A3AFF;
 }
 
-.header2{
+
+.howitworks{
     /* HOW IT WORKS? */
     position: absolute;
     width: 668px;
     height: 62.21px;
-    margin-left: 351px;
+    margin-left: 26%;
     margin-top: 791px;
-
-    /* Headings/Typography Size 1 */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
-
     text-align: center;
-
-    /* Neutral/800 */
-
     color: #170F49;
 }
 
 
-.subtitle5{
+.watchashortvideo{
     /* Watch a short video about TITO FREE and discover how this wonderful app works */
     position: absolute;
     height: 64.21px;
     width: 508px;
-    margin-left: 434.69px;
+    margin-left: 30%;
     margin-top: 869.36px;
-
-    /* Paragraph/Default */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-
-    /* or 167% */
     display: flex;
     align-items: center;
     text-align: center;
-
-    /* Neutral/600 */
     color: #6F6C90;
 }
 
 
-.comentario{
+.connectworkes{
     /* Connect workers with restaurants that have positions to fill on demand */
     position: absolute;
     width: 395px;
     height: 139px;
-    margin-left: 851.62px;
+    margin-left: 46%;
     margin-top: 1047px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
