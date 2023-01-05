@@ -17,12 +17,13 @@
 #body{
     /* Home */
 position: relative;
-width: 1920px;
+/* width: 1920px; */
 height: 4565px;
 overflow: scroll;
 margin-left: 250px;
 background: #FFFFFF;
 }
+
 
 
 .header {
@@ -538,6 +539,11 @@ background: #FFFFFF;
 
 }
 
+#espacioenblanco{
+    position: absolute;
+    margin-top: 1350px;
+}
+
 .header3{
     /* Tito business */
     position: absolute;
@@ -791,6 +797,12 @@ background: #FFFFFF;
     line-height: 16px;
     /* identical to box height */
     color: #999999;
+}
+
+
+#espacioenblanco2{
+    position: absolute;
+    margin-top: 2350px;
 }
 
 
