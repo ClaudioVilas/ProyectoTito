@@ -1,6 +1,4 @@
-/* @media screen and (max-width: 1440px){ */
-
-    
+  
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
@@ -15,7 +13,6 @@
 
 
 #body{
-
 height: 4565px;
 /* overflow: scroll; */
 background: #FFFFFF;
@@ -23,6 +20,7 @@ background: #FFFFFF;
 
 
 .header {
+    display: flex;
     position: fixed;
     Height: 126.43px;
     width: 100%;
@@ -32,6 +30,7 @@ background: #FFFFFF;
 
 
 .titofree{
+    display: flex;
     position: absolute;
     Height: 72px;
     margin-left: 4.65%;
@@ -46,17 +45,20 @@ background: #FFFFFF;
 }
 
 .textotito{
+    display: flex;
     color: #000000;
 }
 
 
 .textofee{
+    display: flex;
     margin-left: 10px;
     color: #4A3AFF;
 }
 
 
 .printable, .business, .worker, .download{
+    display: flex;
     position: absolute;
     margin-left: 55.91%;
     margin-right: 40.07%;
@@ -70,16 +72,18 @@ background: #FFFFFF;
 }
 
 .business{
+    display: flex;
     margin-left: 65.91%;
 }
 
 .worker{
+    display: flex;
     margin-left: 75.91%;
 }
 
 .download{
-    position: absolute;
     display: flex;
+    position: absolute;
     Width: 163px;
     Height: 61px;
     margin-top: 32px;
@@ -89,14 +93,12 @@ background: #FFFFFF;
     padding-left: 41px;
     background-color: #4A3AFF;
     border-style: none;
-
     /* Text Single/200/Regular */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-
     /* Neutral/100 */
     color: #FFFFFF;
 }
@@ -104,6 +106,14 @@ background: #FFFFFF;
 .imagen1{
     position: absolute;
     margin-left: 100px;
+    margin-top: 219px;
+} 
+
+
+.imagen1bis{
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
     margin-top: 219px;
 } 
 
@@ -159,6 +169,7 @@ background: #FFFFFF;
 
 .bekind{
     /* be kind. be free */
+    display: flex;
     position: absolute;
     width: 186px;
     height: 18.06px;
@@ -178,6 +189,7 @@ background: #FFFFFF;
 .weconnect{
     /* We connect employers with workers */
     position: absolute;
+    display: flex;
     width: 742px;
     height: 124px;
     margin-left: 25%;   
@@ -195,6 +207,7 @@ background: #FFFFFF;
 .leaveusyour{
     /* Leave us your email to be in touch with the recent news */
     position: absolute;
+    display: flex;
     width: 604px;
     height: 30px;
     margin-left: 30%;
@@ -264,6 +277,7 @@ background: #FFFFFF;
 
 .mailclienty{
     position: absolute;
+    display: flex;
     Width: 607.22px;
     Height: 78.19px;
     margin-left: 29%;
@@ -274,32 +288,30 @@ background: #FFFFFF;
 .tildecontextoitsfree{
     /* It's 100% free and we will never send more than one email */
     position: absolute;
+    display: flex;
     height: 19.26px;
-    margin-left: 32%;
+    margin-left: 31%;
     margin-top: 680px;
 }
 
-.tilde{
-    position: absolute;
-}
 
 .itsfree{
     /* It's 100% free and we will never send more than one email */
+    margin-left: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
     color: #6F6C90;
-    margin-left: 30px;
+
 }
 
 
 .itssimple{
     /* it's simple */
     position: absolute;
-    width: 120px;
-    height: 20.07px;
+    display: flex;
     margin-left: 42%;
     margin-top: 749.97px;
     font-family: 'DM Sans';
@@ -307,10 +319,7 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* or 111% */
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-    /* Primary/Color 1 */
     color: #4A3AFF;
 }
 
@@ -318,16 +327,14 @@ background: #FFFFFF;
 .howitworks{
     /* HOW IT WORKS? */
     position: absolute;
-    width: 668px;
-    height: 62.21px;
-    margin-left: 26%;
+    display: flex;
+    margin-left: 35%;
     margin-top: 791px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    text-align: center;
     color: #170F49;
 }
 
@@ -335,25 +342,33 @@ background: #FFFFFF;
 .watchashortvideo{
     /* Watch a short video about TITO FREE and discover how this wonderful app works */
     position: absolute;
-    height: 64.21px;
-    width: 508px;
-    margin-left: 30%;
+    display: flex;
+    margin-left: 27.5%;
     margin-top: 869.36px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     color: #6F6C90;
+}
+
+
+.imagenvideo{
+    /* contenedor video */
+    position: absolute;
+    display: flex;
+    width: 529px;
+    height: 350px;
+    margin-left: 12%;
+    margin-top: 990px;
 }
 
 
 .connectworkes{
     /* Connect workers with restaurants that have positions to fill on demand */
     position: absolute;
+    display: flex;
     width: 395px;
     height: 139px;
     margin-left: 46%;
@@ -363,126 +378,76 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-
     color: #313131;
-}
-
-
-.imagenvideo{
-    /* contenedor video */
-    position: absolute;
-    width: 529px;
-    height: 350px;
-    margin-left: 204px;
-    margin-top: 990px;
-
-}
-
-
-.joinnowboton{
-    position: absolute;
-    height: 55px;
-    width: 182px;
-    margin-left: 852px;
-    margin-top: 1186px;
-    border-radius: 56px;
-    background: #4A3AFF;
-    box-shadow: 0px 36px 14px rgba(0, 0, 0, 0.01), 0px 20px 12px rgba(0, 0, 0, 0.05), 0px 9px 9px rgba(0, 0, 0, 0.09), 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-
 }
 
 
 .botongoogle {
     position: absolute;
+    display: flex;
     margin-top: 1228px;
-    margin-left: 1050px;
+    margin-left: 45%;
 }
 
 
 .botonapple{
     position: absolute;
+    display: flex;
     margin-top: 1228px;
-    margin-left: 830px;
+    margin-left: 58%;
 }
 
 
-.textjoin{
-    /* Button Text */
+#espacioenblanco{
+    /* se utiliza para ir al sector tito business */
     position: absolute;
-    width: 90px;
-    height: 20px;
-    margin-left: 32px;
-    margin-top: 16.05px;
-
-    /* Text Single/200/Bold */
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: center;
-
-    /* Neutral/100 */
-
-    color: #FFFFFF;
+    margin-top: 1350px;
 }
 
 
 .subrayadotitobusiness{
     /* Rectangle 4518 */
     position: absolute;
+    display: flex;
     width: 320px;
     height: 13px;
-    margin-left: 121px;
+    margin-left: 6%;
     margin-top: 1560px;
     background: #7551FF;
 
 }
 
-#espacioenblanco{
-    position: absolute;
-    margin-top: 1350px;
-}
 
-.header3{
-    /* Tito business */
+.titobusiness{
+    /* Titulo Tito business */
     position: absolute;
+    display: flex;
     width: 668px;
     height: 62.21px;
-    margin-left: 118px;
+    margin-left: 6%;
     margin-top: 1519px;
-
-    /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    
-    /* or 124% */
-
-
-    /* Neutral/800 */
     color: #170F49;
 } 
 
 
-.subtitle6 {
+.downloadtheapp {
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
+    display: flex;
     width: 620px;
     height: 23px;
-    margin-left: 125px;
+    margin-left: 6%;
     margin-top: 1581px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-
     color: #606060;
 }
 
@@ -490,9 +455,10 @@ background: #FFFFFF;
 .card1, .card4, .card7, .card10{
     /* Waiter */
     position: absolute;
+    display: flex;
     width: 288px;
     height: 128px;
-    margin-left: 253px;
+    margin-left: 20%;
     margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -507,7 +473,6 @@ background: #FFFFFF;
     margin-top: 2076px;
 }
 
-
 .card10{
     margin-top: 2276px;
 }
@@ -517,6 +482,7 @@ background: #FFFFFF;
 .imagencard1, .imagencard4, .imagencard7, .imagencard10{
     /* image 5 */
     position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
@@ -528,7 +494,7 @@ background: #FFFFFF;
 
 .card1text, .card4text, .card7text, .card10text{
     position: absolute;
-    /* width: 64px; */
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -537,7 +503,6 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
     color: #000000; 
 }
 
@@ -545,6 +510,7 @@ background: #FFFFFF;
 .card1text2, .card4text2, .card7text2, .card10text2 {
     /* xxxx workers avaibles */
     position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -554,7 +520,6 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
     color: #999999;
 }
 
@@ -562,9 +527,10 @@ background: #FFFFFF;
 .card2, .card5, .card8, .card11{
     /* Waiter */
     position: absolute;
+    display: flex;
     width: 288px;
     height: 128px;
-    margin-left: 653px;
+    margin-left: 40%;
     margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -589,6 +555,7 @@ background: #FFFFFF;
 .imagencard2, .imagencard5, .imagencard8, .imagencard11{
     /* image 5 */
     position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
@@ -600,7 +567,7 @@ background: #FFFFFF;
 
 .card2text, .card5text, .card8text, .card11text{
     position: absolute;
-    /* width: 62px; */
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -609,7 +576,6 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
     color: #000000; 
 }
 
@@ -617,6 +583,7 @@ background: #FFFFFF;
 .card2text2, .card5text2, .card8text2, .card11text2{
     /* xxxx workers avaibles */
     position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -626,7 +593,6 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
     color: #999999;
 }
 
@@ -634,9 +600,10 @@ background: #FFFFFF;
 .card3, .card6, .card9, .card12{
     /* Waiter */
     position: absolute;
+    display: flex;
     width: 288px;
     height: 128px;
-    margin-left: 1053px;
+    margin-left: 60%;
     margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -661,6 +628,7 @@ background: #FFFFFF;
 .imagencard3, .imagencard6, .imagencard9, .imagencard12{
     /* image 5 */
     position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
@@ -672,7 +640,7 @@ background: #FFFFFF;
 
 .card3text, .card6text, .card9text, .card12text{
     position: absolute;
-    /* width: 62px; */
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -681,7 +649,6 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
     color: #000000; 
 }
 
@@ -689,6 +656,7 @@ background: #FFFFFF;
 .card3text2, .card6text2, .card9text2, .card12text2{
     /* xxxx workers avaibles */
     position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -698,7 +666,6 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
     color: #999999;
 }
 
@@ -712,42 +679,39 @@ background: #FFFFFF;
 .titoworker{
     /* Tito Worker */
     position: absolute;
+    display: flex;
     width: 668px;
     height: 48px;
-    margin-left: 119px;
+    margin-left: 6%;
     margin-top: 2506px;
-
-    /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
-
-
-    /* Neutral/800 */
     color: #170F49;
 }
 
 
-.subrayadotito{
+.subrayadotitoworker{
     /* Rectangle 4531 */
     position: absolute;
+    display: flex;
     width: 279px;
     height: 13px;
-    margin-left: 121px;
+    margin-left: 6%;
     margin-top: 2546px;
     background: #FFDCC8;
 }
 
 
- .subtitle7{
+ .improveyourskills{
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
+    display: flex;
     width: 400px;
     height: 20px;
-    margin-left: 125px;
+    margin-left: 6%;
     margin-top: 2568px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -758,24 +722,32 @@ background: #FFFFFF;
 }
 
 
-.bigcard1, .bigcard2, .bigcard3{
+.bigcard1, .bigcard2, .bigcard3 {
 /* category */
     position: absolute;
+    display: flex;
     width: 390px;
     height: 510px;
-    margin-left: 100px;
+    margin-left: 10%;
     margin-top: 2663px;
-
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
     border-radius: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
 
 }
 
 
 .bigcard1polygon, .bigcard2polygon, .bigcard3polygon{
     position: absolute;
-    margin-left: 98px;
+    display: flex;
+    margin-left: 70.5%;
     margin-top: -29px;
    
 }
@@ -783,9 +755,10 @@ background: #FFFFFF;
 
 .bigcard1rectangulo, .bigcard2rectangulo, .bigcard3rectangulo{
     position: absolute;
+    display: flex;
     width: 71px;
     height: 122px;
-    margin-left: 115px;
+    margin-left: 75%;
     margin-top: -29px;
 }
 
@@ -793,75 +766,42 @@ background: #FFFFFF;
 .numero{
   /* 1 */
     position: absolute;
+    display: flex;
     width: 9px;
     height: 17px;
-    margin-left: 339px;
+    margin-left: 83%;
     margin-top: 23px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #FFFFFF;
 }
 
 
-
-
-.bigcard1, .bigcard2, .bigcard3{
-    /* category */
-    position: absolute;
-    width: 390px;
-    height: 510px;
-    margin-left: 100px;
-    margin-top: 2663px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
-    border-radius: 16px;
-    background-color: #FFFFFF;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #000000;
-}
-
-
 .bigcard2{
-    margin-left: 528px;
+    margin-left: 38%;
 }
 
 
 .bigcard3{
-    margin-left: 952px;
+    margin-left: 65%;
 }
 
 
 .bigcard1title, .bigcard2title, .bigcard3title{
     /* Get ready */
     position: absolute;
-    /* width: 152px; */
+    display: flex;
     height: 42px;
-    /* margin-bottom: calc(50% - 155px/2 - 0.5px); */
+    margin-left: 27%;
     margin-top: 93px;
-    margin-left: 114px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
-    /* identical to box height */
-    align-content: center;
     color: #000000;
 }
 
@@ -869,75 +809,80 @@ background: #FFFFFF;
 .bigcard1subtitle, .bigcard2subtitle, .bigcard3subtitle{
     /* You need to complete some necesary steps for your first job */
     position: absolute;
+    display: flex;
     width: 281px;
     height: 40px;
-    margin-left: 54px;
+    margin-left: 15%;
     margin-top: 142px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    text-align: center;
     color: #606060;
 }
 
 
 .bigcard1lista, .bigcard2lista, .bigcard3lista{
     /* 500 visitors */
-    /* width: 181px; */
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
     height: 27px;
-    margin-top: 215px;
+    margin-top: 225px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
     color: #000000;
 }
 
 
 .circulitomini{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 2px;
 }
 
 
 .circulitominitext{
     position: absolute;
-    margin-left: 100px;
+    display: flex;
+    margin-left: 10%;
     color: #000000;
 }
 
 
 .circulitomini2{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 50px;
 }
 
 
 .circulitominitext2{
     position: absolute;
+    display: flex;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 10%;
     color: #000000;
 }
 
 
 .circulitomini3{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 100px;
 }
 
 
 .circulitominitext3{
     position: absolute;
+    display: flex;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 10%;
     color: #000000;
 }
 
@@ -946,8 +891,9 @@ background: #FFFFFF;
 
 .bigcard1footer, .bigcard2footer, .bigcard3footer{
     position: absolute;
-    margin-left: 101px;
-    margin-top: 170px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 400px;
     width: 187px;
     height: 63px;
     background: #FFFFFF;
@@ -964,79 +910,74 @@ background: #FFFFFF;
 
 
 .bigcard1footertext{
+    position: absolute;
+    display: flex;
     margin-top: 20px;
+    margin-left: 20%;
 }
 
-.subtitle8{
+
+.youdecidewhen{
     /* You decide when an where you work with freedom, just be kind. */
     position: absolute;
-    width: 791px;
-    height: 31px;
-    margin-left: 350px;
-    margin-top: 3210px;
-
+    display: flex;
+    margin-left: 27%;
+    margin-top: 3250px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    text-align: center;
-
     color: #606060;
-}
-
-
-.pricing{
-    /* Our pricing plans */
-    position: absolute;
-    width: 421px;
-    height: 48px;
-    margin-left: 509px;
-    margin-top: 3402px;
-
-    /* Headings/Typography Size 1 */
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 62px;
-    /* or 124% */
-
-
-    /* Neutral/800 */
-
-    color: #170F49;
 }
 
 
 .subrayadopricing{
         /* Rectangle 4531 */
         position: absolute;
+        display: flex;
         width: 421px;
         height: 13px;
-        margin-left: 509px;
+        margin-left: 36%;
         margin-top: 3445px;
         background: #D64DE1;
 }
 
 
-.subtitle9{
+.pricing{
+    /* Our pricing plans */
+    position: absolute;
+    display: flex;
+    width: 421px;
+    height: 48px;
+    margin-left: 36%;
+    margin-top: 3402px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+
+
+.forworkersalwaysfree{
     /* For workers always free. For business you have one month free then just $69 per month. */
     position: absolute;
+    display: flex;
     width: 409px;
     height: 39px;
-    margin-left: 515px;
+    margin-left: 36%;
     margin-top: 3475px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    text-align: center;
-
     color: #606060;
+    text-align: center;
 }
 
 
@@ -1046,7 +987,7 @@ background: #FFFFFF;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 277px;
+    margin-left: 20%;
     margin-top: 3623px;
 
     /* Primary/Color 1 */
@@ -1063,6 +1004,7 @@ background: #FFFFFF;
 .rectangle4464{
 /* Rectangle 4464 */
     position: absolute;
+    display: flex;
     width: 98px;
     height: 40px;
     margin-left: 256px;
@@ -1074,6 +1016,7 @@ background: #FFFFFF;
 .rectangle4464text{
     /* Free */
     position: absolute;
+    display: flex;
     width: 50px;
     height: 15px;
     margin-left: 24px;
@@ -1291,7 +1234,7 @@ color: #D9DBE9;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 759px;
+    margin-left: 55%;
     margin-top: 3623px;
     /* Neutral/100 */
     background: #FFFFFF;
@@ -1707,50 +1650,43 @@ color: #D9DBE9;
 .footer{
     /* Copyright */
     position: absolute;
+    display: flex;
     width: 600px;
     height: 20px;
-    margin-left: 630px;
-    margin-top: 4496px;
-
-    /* Text Single/200/Regular */
-
+    margin-left: 62%;
+    margin-top: 4492px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: right;
-
-    /* Neutral/600 */
-
     color: #000000;
     background-color: #FFFFFF;
     border: none;
     text-decoration: none;
     text-transform: none;
+    
 }
 
 
 .botonapple2{
     position: absolute; 
-
+    display: flex;
     margin-top: 1300px;
-    margin-left: 213px;
+    margin-left: 13%;
     margin-top: 4480px;
 }
 
 
 .botongoogle2{
     position: absolute; 
-
+    display: flex;
     margin-top: 1300px;
-    margin-left: 413px;
+    margin-left: 25%;
     margin-top: 4480px;
 }
 
 
 
-/* }
+
 
