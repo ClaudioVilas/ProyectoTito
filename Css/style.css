@@ -22,6 +22,7 @@ background: #FFFFFF;
 .header {
     display: flex;
     position: fixed;
+    margin-left: 2%;
     Height: 126.43px;
     width: 100%;
     z-index: 1;
@@ -105,65 +106,68 @@ background: #FFFFFF;
 
 .imagen1{
     position: absolute;
-    margin-left: 100px;
-    margin-top: 219px;
-} 
-
-
-.imagen1bis{
-    position: absolute;
     display: flex;
-    margin-left: 10%;
+    margin-left: 4%;
     margin-top: 219px;
 } 
+
 
 
 .imagen2{  
     position: absolute;
-    margin-left: 348px;
+    display: flex;
+    margin-left: 18%;
     margin-top: 149px;
 } 
 
 
+
 .imagen3{
     position: absolute;
-    margin-left: 1113px;
+    display: flex;
+    margin-left: 95%;
     margin-top: 380px;
 } 
 
 
+
 .imagen4{
     position: absolute;
-    margin-left: 130px;
+    display: flex;
+    margin-left: 8%;
     margin-top: 574px;
 } 
 
 
 .imagen5{
     position: absolute;
-    margin-left: 1279px;
-    margin-top: 258px;
+    display: flex;
+    margin-left: 88%;
+    margin-top: 170px;
 } 
 
 
 .imagen6{
     position: absolute;
-    margin-left: 1268px;
-    margin-top: 513px;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 700px;
 } 
 
 
 .imagen7{
     position: absolute;
-    margin-left: 1073px;
-    margin-top: 149px;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 400px;
 } 
 
 
 .imagen8{
     position: absolute;
-    margin-left: 253px;
-    margin-top: 355px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 390px;
 } 
 
 
@@ -173,7 +177,7 @@ background: #FFFFFF;
     position: absolute;
     width: 186px;
     height: 18.06px;
-    margin-left: 40%;
+    margin-left: 45%;
     margin-top: 236px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -192,7 +196,7 @@ background: #FFFFFF;
     display: flex;
     width: 742px;
     height: 124px;
-    margin-left: 25%;   
+    margin-left: 30%;   
     margin-top: 270px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -210,7 +214,7 @@ background: #FFFFFF;
     display: flex;
     width: 604px;
     height: 30px;
-    margin-left: 30%;
+    margin-left: 37%;
     margin-top: 428px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -280,7 +284,7 @@ background: #FFFFFF;
     display: flex;
     Width: 607.22px;
     Height: 78.19px;
-    margin-left: 29%;
+    margin-left: 34%;
     margin-top: 465px;
 }
 
@@ -290,7 +294,7 @@ background: #FFFFFF;
     position: absolute;
     display: flex;
     height: 19.26px;
-    margin-left: 31%;
+    margin-left: 36%;
     margin-top: 680px;
 }
 
@@ -312,7 +316,7 @@ background: #FFFFFF;
     /* it's simple */
     position: absolute;
     display: flex;
-    margin-left: 42%;
+    margin-left: 47%;
     margin-top: 749.97px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -328,7 +332,7 @@ background: #FFFFFF;
     /* HOW IT WORKS? */
     position: absolute;
     display: flex;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-top: 791px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -343,7 +347,7 @@ background: #FFFFFF;
     /* Watch a short video about TITO FREE and discover how this wonderful app works */
     position: absolute;
     display: flex;
-    margin-left: 27.5%;
+    margin-left: 33%;
     margin-top: 869.36px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -371,7 +375,7 @@ background: #FFFFFF;
     display: flex;
     width: 395px;
     height: 139px;
-    margin-left: 46%;
+    margin-left: 56%;
     margin-top: 1047px;
     font-family: 'Roboto';
     font-style: normal;
@@ -386,7 +390,7 @@ background: #FFFFFF;
     position: absolute;
     display: flex;
     margin-top: 1228px;
-    margin-left: 45%;
+    margin-left: 55%;
 }
 
 
@@ -394,7 +398,7 @@ background: #FFFFFF;
     position: absolute;
     display: flex;
     margin-top: 1228px;
-    margin-left: 58%;
+    margin-left: 68%;
 }
 
 
@@ -530,7 +534,7 @@ background: #FFFFFF;
     display: flex;
     width: 288px;
     height: 128px;
-    margin-left: 40%;
+    margin-left: 42%;
     margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -603,7 +607,7 @@ background: #FFFFFF;
     display: flex;
     width: 288px;
     height: 128px;
-    margin-left: 60%;
+    margin-left: 62%;
     margin-top: 1676px;
     background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
@@ -728,7 +732,7 @@ background: #FFFFFF;
     display: flex;
     width: 390px;
     height: 510px;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 2663px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
@@ -781,12 +785,12 @@ background: #FFFFFF;
 
 
 .bigcard2{
-    margin-left: 38%;
+    margin-left: 40%;
 }
 
 
 .bigcard3{
-    margin-left: 65%;
+    margin-left: 68%;
 }
 
 
@@ -921,7 +925,7 @@ background: #FFFFFF;
     /* You decide when an where you work with freedom, just be kind. */
     position: absolute;
     display: flex;
-    margin-left: 27%;
+    margin-left: 31%;
     margin-top: 3250px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -938,7 +942,7 @@ background: #FFFFFF;
         display: flex;
         width: 421px;
         height: 13px;
-        margin-left: 36%;
+        margin-left: 40%;
         margin-top: 3445px;
         background: #D64DE1;
 }
@@ -950,7 +954,7 @@ background: #FFFFFF;
     display: flex;
     width: 421px;
     height: 48px;
-    margin-left: 36%;
+    margin-left: 40%;
     margin-top: 3402px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -961,15 +965,13 @@ background: #FFFFFF;
 }
 
 
-
-
 .forworkersalwaysfree{
     /* For workers always free. For business you have one month free then just $69 per month. */
     position: absolute;
     display: flex;
     width: 409px;
     height: 39px;
-    margin-left: 36%;
+    margin-left: 40%;
     margin-top: 3475px;
     font-family: 'Inter';
     font-style: normal;
@@ -987,7 +989,7 @@ background: #FFFFFF;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 20%;
+    margin-left: 19%;
     margin-top: 3623px;
 
     /* Primary/Color 1 */
@@ -1072,23 +1074,19 @@ background: #FFFFFF;
 
 
 .bigcard4subtitle{
-/* Paragraph */
-position: absolute;
-width: 307px;
-height: 60px;
-margin-left: 44px;
-margin-top: 140px;
-text-align: center;
-
-/* Paragraph/Default */
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-/* Neutral/400 */
-color: #D9DBE9;
+    /* Paragraph */
+    position: absolute;
+    width: 307px;
+    height: 60px;
+    margin-left: 44px;
+    margin-top: 140px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #D9DBE9;
 }
 
 
@@ -1118,19 +1116,11 @@ color: #D9DBE9;
     height: 22px;
     margin-top: -40px;
     margin-left: 130px;
-
-    /* Text Single/300/Medium */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-    /* identical to box height, or 110% */
-
-
-    /* Neutral/400 */
-
     color: #D9DBE9;
 }
 
@@ -1142,14 +1132,11 @@ color: #D9DBE9;
     height: 20px;
     margin-left: 49px;
     margin-top: 17px;
-    /* Text Single/200/Bold */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
-    /* Neutral/100 */
     color: #FFFFFF;
 }
 
@@ -1160,20 +1147,12 @@ color: #D9DBE9;
 
 
 .bigcard4item1, .bigcard4item2, .bigcard4item3, .bigcard4item4{
-    /* Text 200 */
-    /* width: 243px; */
-    /* height: 20px; */
-    /* Text Single/200/Regular */
     margin-top: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 5px; */
-    /* identical to box height, or 111% */
-    /* Neutral/400 */
     color: #D9DBE9;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1190,18 +1169,10 @@ color: #D9DBE9;
     gap: 6px;
     margin-left: 35px;
     margin-top: 260px;
-    
-
     width: 308px;
     height: 72px;
-
-    /* Neutral/100 */
-
     background: #FFFFFF;
     border-radius: 96px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -1209,19 +1180,14 @@ color: #D9DBE9;
 
 
 .bigcard4footertext{
-    /* Button Text */
-    /* Text Single/200/Bold */
     margin-top: 20px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
     text-align: center;
-    /* Primary/Color 1 */
     color: #4A3AFF;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -1234,11 +1200,9 @@ color: #D9DBE9;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 55%;
+    margin-left: 60%;
     margin-top: 3623px;
-    /* Neutral/100 */
     background: #FFFFFF;
-    /* Neutral/300 */
     border: 1px solid #EFF0F7;
     box-shadow: 53px 196px 81px rgba(0, 0, 0, 0.01), 30px 110px 68px rgba(0, 0, 0, 0.05), 13px 49px 51px rgba(0, 0, 0, 0.09), 3px 12px 28px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 24px;
@@ -1474,39 +1438,28 @@ color: #D9DBE9;
 .elipse{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    /* margin-left: -392px; */
+    display: flex;
     margin-top: 2849px;
-
-    background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
-    /* Note: backdrop-filter has minimal browser support */
 }
 
 
 .elipse2{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    margin-left: 631px;
+    display: flex;
+    margin-left: 78.5%;
     margin-top: 828px;
     transform: rotate(180deg);
-    background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
-    /* Note: backdrop-filter has minimal browser support */
 }
 
 
 .elipse3{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    /* margin-left: -150px; */
+    display: flex;
     margin-top: 254.49px;
-
     background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
 }
@@ -1686,7 +1639,13 @@ color: #D9DBE9;
     margin-top: 4480px;
 }
 
-
+.linea{
+    width: 50%;
+    height: 100%;
+    border-color: #000000;
+    border-style: solid;
+    
+}
 
 
 
