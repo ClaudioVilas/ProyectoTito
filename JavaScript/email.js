@@ -1,40 +1,43 @@
-// let emailsuscribe = document.querySelector ("#exampleFormControlInput1")
-// let botonsuscribe = document.querySelector ('.botonsuscribite')
+// codigo para mensaje de enviado para el servicio de formspree
 
 
-// botonsuscribe.addEventListener ("click", (e) =>{
+// let botonsuscribe = document.querySelector ('#form')
 
-//     e.preventDefault();
-//     localStorage.setItem("emailsuscribe", emailsuscribe.value);
-//         if(
+// botonsuscribe.addEventListener ("submit", handlesubmit)
 
-// )
-//             Swal.fire('Tu datos han sido enviados correctamente');
-// })
+// async function handlesubmit (event) {
+//     event.preventDefault();
+//     const form = new FormData (this)
+//     const response = await fetch  (this.action, {
+//         method: this.method,
+//         body: form, 
+//         headers: {
+//             'Accept' : 'application/json'
+//         }
+//     })
+
+// if (response.ok){
+//     this.reset()
+//     Swal.fire(
+//         'We Get your Email',
+//         'We will contact you soon',
+//         'success'
+//       )
+//     }
+// }
+
+// codigo para mensaje de enviado para el servicio de clientify
 
 
-let botonsuscribe = document.querySelector ('#form')
+let botonsuscribe = document.querySelector ('.btn-icon')
 
-botonsuscribe.addEventListener ("submit", handlesubmit)
 
-async function handlesubmit (event) {
-    event.preventDefault();
-    const form = new FormData (this)
-    const response = await fetch  (this.action, {
-        method: this.method,
-        body: form, 
-        headers: {
-            'Accept' : 'application/json'
-        }
-    })
+botonsuscribe.addEventListener ("click", (e) =>{
 
-if (response.ok){
-    this.reset()
-    Swal.fire(
+    e.preventDefault();
+        Swal.fire(
         'We Get your Email',
         'We will contact you soon',
         'success'
       )
-    }
-}
-
+})
