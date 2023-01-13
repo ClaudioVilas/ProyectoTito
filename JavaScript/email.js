@@ -29,15 +29,21 @@
 // codigo para mensaje de enviado para el servicio de clientify
 
 
-let botonsuscribe = document.querySelector ('.btn-icon')
+let botonsuscribe = document.querySelector ('#btn-icon')
 
 
-botonsuscribe.addEventListener ("click", (e) =>{
+botonsuscribe.addEventListener ('click', test)
 
-    e.preventDefault();
-        Swal.fire(
-        'We Get your Email',
-        'We will contact you soon',
-        'success'
-      )
-})
+function test () {
+    console.log ("test")
+} 
+
+// botonsuscribe.addEventListener ("click", (e) =>{
+
+//     e.preventDefault();
+//         Swal.fire(
+//         'We Get your Email',
+//         'We will contact you soon',
+//         'success'
+//       )
+// })
