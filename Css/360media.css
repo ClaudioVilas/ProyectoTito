@@ -20,10 +20,14 @@
 }
 
 
+.elipse{
+    margin-top: 247px;
+}
+
 .header{
     position: absolute;
     display: fixed;
-    width: 100%;
+    width: 360px;
     height: 33px;
     font-family: 'Poppins';
     font-style: normal;
@@ -56,10 +60,15 @@
 
 .fixed-top{
     display: flex;
+    width: 360px;
     margin-top: 15px;
     margin-right: 10px;
 }
 
+
+.printablemobile, .businessmobile, .workermobile, .downloadmobile{
+    margin-left: 0%;
+}
 
 
 .imagen1{
@@ -188,6 +197,7 @@
     /* We connect employers with workers */
     position: absolute;
     display: flex;
+    width: 360px;
     height: 64px;
     margin-left: 19px;
     margin-right: 14px;
@@ -209,6 +219,7 @@
 .leaveusyour{
     position: absolute;
     height: 30px;
+    width: 100%;
     margin-left: 10%;
     margin-right: 4.44%;
     margin-top: 230px;
@@ -270,6 +281,7 @@
 
 .itssimple{
     position: absolute;
+    display: flex;
     width: 156px;
     height: 22.22px;
     margin-left: 39%;
@@ -290,6 +302,7 @@
 
 .howitworks{
     position: absolute;
+    display: flex;
     width: 329px;
     height: 48.9px;
     margin-left: 35%;
@@ -303,4 +316,92 @@
     /* or 125% */
     text-align: center;
     color: #000000;
+}
+
+
+.watchashortvideo{
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 71.11px;
+    margin-left: 7%;
+    margin-right: 8px;
+    margin-top: 743px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 150% */
+    align-items: center;
+    text-align: center;
+    color: #383838;
+}
+
+
+.imagenvideo{
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    width: 329px;
+    height: 208px;
+    margin-top: 817px;
+}
+
+
+
+.connectworkes{
+    position: absolute;
+    display: flex;
+    height: 56px;
+    width: 320px;
+    margin-left: 19px;
+    margin-top: 1061px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.botonapple, .botongoogle{
+display: none;
+}
+
+
+
+.botonapplemobile, .botongooglemobile{
+    margin-left: -20px;
+    margin-top: 1110px;
+}
+
+
+.subrayadotitobusiness{
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 5px;
+    margin-left: 3%;
+    margin-top: 1213px;
+    background: #7551FF;
+}
+
+.titobusiness{
+    position: absolute;
+    display: flex;
+    margin-left: 3%;
+    margin-top: 1180px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    /* or 388% */
+    display: flex;
+    align-items: center;
+    /* Neutral/800 */
+    color: #170F49;
 }
