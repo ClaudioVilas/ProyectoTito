@@ -230,59 +230,6 @@ display: flex;
     color: #6F6C90;
 }
 
-/* .contorno{
-    position: absolute;
-    box-sizing: border-box;
-    Width: 607.22px;
-    Height: 78.19px;
-    position: absolute;
-    margin-left: 405px;
-    margin-top: 477.77px;
-    border-radius: 60px;
-    border: 1px; 
-    border-style: solid;
-    border-color: #EFF0F6;
-    font-size: 22px;
-}
-
-.contornotexto{
-    position: absolute;
-    margin-left: 39.16px;
-    margin-top: 25.97px;
-    Width: 307.97px;
-    Height: 30.13px;
-
-    font-family: 'DM Sans';
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 30px;
-    line-height: 128%;
-    text-Align: Left;
-    vertical-align: Top;
-    Fill: Solid;
-    color: #6F6C90;
-}
-
-.botonsuscribite{
-    position: absolute;
-    Width: 154.49px;
-    Height: 55px;
-    margin-top: 490px;
-    margin-Left: 840px;
-    border-radius: 56px;
-    padding-top: 14px;
-    padding-left: 7px;
-    Gap: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 8px;
-    background-color: #4A3AFF;
-    color: #FFFFFF;
-    border-radius: 56px;
-    border: none;
-} */
-
 
 .mailclienty{
     position: absolute;
@@ -1643,6 +1590,3 @@ display: flex;
     margin-left: 25%;
     margin-top: 4480px;
 }
-
-
-
