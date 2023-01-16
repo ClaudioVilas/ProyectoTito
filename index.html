@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./Css/style.css">
-    <link rel="stylesheet" media="(max-width: 376px)" href="./Css/360media.css" />
+    <link rel="stylesheet" media="(max-width: 360px)" href="./Css/360media.css" />
     <title>Proyecto Tito</title>
 </head>
 
 
 <body id = "body">
 
-    <img src="./Imagenes/ellipse5.png" class = "elipse" alt = "elipse"/>
+    <!-- <img src="./Imagenes/ellipse5.png" class = "elipse" alt = "elipse"/>
     <img src="./Imagenes/ellipse5.png" class = "elipse2" alt = "elipse2"/>
-    <img src="./Imagenes/ellipse5.png" class = "elipse3" alt = "elipse3"/>
+    <img src="./Imagenes/ellipse5.png" class = "elipse3" alt = "elipse3"/> -->
 
     
 <header class = 'header' >
-
     <div class="titofree">
         <a class = 'textotito' href="#body" style="text-decoration:none">Tito</a>
         <a class = 'textofee' href="#body" style="text-decoration:none">Free</a>
     </div>
 
+<div class="menuheader">
     <a class = 'printable' href="./Pdf/Slide 16_18 - Printable.pdf" download style="text-decoration:none"> Printable </a>
     
     <a class = 'business' href = "#espacioenblanco" style="text-decoration:none"> Business </a>
@@ -32,9 +32,64 @@
     <a class = 'worker' href="#espacioenblanco2" style="text-decoration:none"> Worker </a>
 
     <a class = 'download' href ="./Pages/underworkiing.html" style="text-decoration:none"> Download </a>
-
-
+</div>
 </header>
+
+
+<!-- Menu Hamburgesa para mobile -->
+<nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class = 'nav-item active printable' href="./Pdf/Slide 16_18 - Printable.pdf" download style="text-decoration:none"> Printable </a>
+            </li>
+            <li class="nav-item">
+                <a class = 'navbar-nav business' href = "#espacioenblanco" style="text-decoration:none"> Business </a>
+            </li>
+            <li class="nav-item">
+                <a class = 'navbar-nav worker' href="#espacioenblanco2" style="text-decoration:none"> Worker </a>
+            </li>
+            <li class="nav-item">
+                <a class = 'navbar-nav download' href ="./Pages/underworkiing.html" style="text-decoration:none"> Download </a>
+            </li>
+
+            <!-- dejar comentado -->
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+        </ul> -->
+        <!-- <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="cubo"></div>
+
+
 
 <img class = 'imagen1' src="./Imagenes/avatar.png" />
 <img class = 'imagen2' src="./Imagenes/female.png" />
@@ -44,6 +99,7 @@
 <img class = 'imagen6' src="./Imagenes/ellipse10.png" />
 <img class = 'imagen7' src="./Imagenes/male1.png" />
 <img class = 'imagen8' src="./Imagenes/male.png" />
+
 
 
 <div class = "bekind">
@@ -58,14 +114,15 @@
 
 <div class = "leaveusyour">
     Leave us your email to be in touch with the recent news
-</div>
+</div> -->
 
 
 
 <!-- insercion de mail formulario de clientify -->
-<div class = "mailclienty" >
-    <script type="text/javascript" src="https://api.clientify.net/web-marketing/superforms/script/108620.js"></script>
-</div>
+
+ <div class = "mailclienty" >
+    <script type="text/javascript" src="https://api.clientify.net/web-marketing/superforms/script/109995.js"></script>
+</div> 
 
 <!-- <button id = 'btn-icon'> probando </button> -->
 
@@ -78,16 +135,17 @@ method = "POST">
 </form> -->
 
 
+
 <div class= "tildecontextoitsfree">
     <img class= "tilde" src = './Imagenes/tilde.png'/>
     <div class = "itsfree"> It's 100% free and we will never send more than one email per month </div>
 </div>
 
-
 <div class = "itssimple" > ITS SIMPLE </div>
 
-<div class = "howitworks" > HOW IT WORKS? </div>
 
+<div class = "howitworks" > HOW IT WORKS? </div>
+<!-- 
 <div class = "watchashortvideo" > Watch a short video about TITO FREE and discover how this wonderful app works </div>
 
 
@@ -399,16 +457,18 @@ method = "POST">
 
 
 
-<div> <p class = ' titofreefoooter'>Tito</p> <p class = ' titofreefoooter2'>Free</p> </div>
+<div> <p class = ' titofreefoooter'>Tito</p> <p class = ' titofreefoooter2'>Free</p> </div> -->
 
 
+<!-- dejar comentado -->
 <!-- <button class="footer"> Terms & Conditions Copyright © 2022 Tito Free | All Rights Reserved  -->
-<button type="button" class="btn btn-primary footer" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-decoration:none">
+
+<!-- <button type="button" class="btn btn-primary footer" data-bs-toggle="modal" data-bs-target="#exampleModal" style="text-decoration:none">
         Terms & Conditions Copyright © 2022 Tito Free | All Rights Reserved
       </button>
-      
+       -->
       <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -520,7 +580,10 @@ method = "POST">
                 Application, please contact us through our website.
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+
+
+
               <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
             </div>
           </div>

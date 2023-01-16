@@ -1590,3 +1590,7 @@ display: flex;
     margin-left: 25%;
     margin-top: 4480px;
 }
+
+.fixed-top{
+    display: none;
+}

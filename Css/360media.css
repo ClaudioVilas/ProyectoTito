@@ -13,60 +13,73 @@
 
 
 #body{
+    /* overflow: scroll; */
+    width: 360px;
+    background: #FFFFFF;
+    display: flex;
+}
 
-        /* overflow: scroll; */
-
-        background: #FFFFFF;
-        display: flex;
-    }
 
 .header{
-margin-left: 0%;
+    position: absolute;
+    display: fixed;
+    width: 100%;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    z-index: 1;
 }
 
-.header {
-    margin-left: 2%;
-    Height: 33px;
-    width: 100%;
-    z-index: 1;
-    background-color: rgb(234, 102, 25);
-}
 
 
 .titofree{
     display: flex;
     position: absolute;
-    Height: 72px;
     margin-left: 4.65%;
-    margin-top: 21px;
-    margin-right: 80.49%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
-    line-height: 72px;
+    line-height: 36px;
     color: #000000;
 }
+
+
+.menuheader{
+    display: none;
+}
+
+
+.fixed-top{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
 
 
 .imagen1{
     position: absolute;
     display: flex;
-    margin-left: 95%;
+    margin-left: 65%;
     margin-top: 71px;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
 } 
-
 
 
 .imagen2{  
     position: absolute;
     display: flex;
-    margin-left: 125%;
+    margin-left: 312px;
     margin-top: 102px;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+
 } 
 
 
@@ -74,10 +87,11 @@ margin-left: 0%;
 .imagen3{
     position: absolute;
     display: flex;
-    margin-left: 125%;
-    margin-top: 302px;
-    width: 24px;
-    height: 24px;
+    margin-left: 312px;
+    margin-top: 427px;
+    width: 32px;
+    height: 32px;
+
 } 
 
 
@@ -85,38 +99,41 @@ margin-left: 0%;
 .imagen4{
     position: absolute;
     display: flex;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 300px;
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
+
 } 
 
 
 .imagen5{
     position: absolute;
     display: flex;
-    margin-left: 45%;
+    margin-left: 30%;
     margin-top: 90px;
-    width: 24px;
-    height: 24px;
+    width: 50px;
+    height: 50px;
+
 } 
 
 
 .imagen6{
     position: absolute;
-    display: none;
-    margin-left: 70%;
-    margin-top: 700px;
-    width: 24px;
-    height: 24px;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 463px;
+    width: 100px;
+    height: 100px;
+
 } 
 
 
 .imagen7{
     position: absolute;
     display: flex;
-    margin-left: 45%;
-    margin-top: 400px;
+    margin-left: 10%;
+    margin-top: 439px;
     width: 24px;
     height: 24px;
 } 
@@ -124,29 +141,45 @@ margin-left: 0%;
 
 .imagen8{
     position: absolute;
-    display: none;
-    margin-left: 25%;
-    margin-top: 390px;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 115px;
     width: 24px;
     height: 24px;
 } 
 
 
+.cubo{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    border: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
 .bekind{
     /* be kind. be free */
     position: absolute;
-    height: 23px;
-    margin-top: 130px;
-    margin-left: 75%;
+    display: flex;
+    /* height: 23px; */
+    margin-left: 25%;
     margin-right: 15px;
+    margin-top: 130px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
+    /* or 112% */
     text-align: center;
     letter-spacing: 0.24em;
     text-transform: uppercase;
+    
+    /* Primary/Color 1 */
+    
     color: #4A3AFF;
 }
 
@@ -154,15 +187,120 @@ margin-left: 0%;
 .weconnect{
     /* We connect employers with workers */
     position: absolute;
+    display: flex;
     height: 64px;
-    margin-top: 175px;
-    margin-left: 50%;   
+    margin-left: 19px;
     margin-right: 14px;
+    margin-top: 175px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
+    /* or 160% */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+.leaveusyour{
+    position: absolute;
+    height: 30px;
+    margin-left: 10%;
+    margin-right: 4.44%;
+    margin-top: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* identical to box height, or 250% */
+    text-align: center;
+    /* Neutral/600 */
+    color: #6F6C90;
+}
+
+
+.mailclienty{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 260px;
+}
+
+
+
+.tildecontextoitsfree{
+    position: absolute;
+    display: flex;
+    height: 34px;
+    margin-left: 5%;
+    margin-right: 3.33%;
+    margin-top: 430px;
+
+}
+
+
+.itsfree{
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-align: center;
+    /* Neutral/600 */
+    color: #6F6C90;
+}
+
+
+.tilde{
+    position: absolute;
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-top: 3px;
+}
+
+
+.itssimple{
+    position: absolute;
+    width: 156px;
+    height: 22.22px;
+    margin-left: 39%;
+    margin-top: 700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* Primary/Color 1 */
+    color: #4A3AFF;
+}
+
+
+.howitworks{
+    position: absolute;
+    width: 329px;
+    height: 48.9px;
+    margin-left: 35%;
+    margin-top: 726px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
     text-align: center;
     color: #000000;
 }
