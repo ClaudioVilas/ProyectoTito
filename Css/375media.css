@@ -39,7 +39,6 @@
     line-height: 36px;
     color: #000000;
     z-index: 1;
-    background-color: aquamarine;
 }
 
 
@@ -484,6 +483,6 @@ display: none;
 }
 
 #cierre{
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
