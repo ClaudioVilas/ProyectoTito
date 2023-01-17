@@ -38,6 +38,7 @@
     line-height: 36px;
     color: #000000;
     z-index: 1;
+    background-color: aquamarine;
 }
 
 
@@ -389,6 +390,7 @@ display: none;
     margin-top: 1130px;
     background: #7551FF;
 }
+
 
 .titobusiness{
     position: absolute;
