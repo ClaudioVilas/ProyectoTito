@@ -17,6 +17,7 @@
     width: 360px;
     background: #FFFFFF;
     display: flex;
+    margin-left: 22%;
 }
 
 
@@ -428,7 +429,7 @@ display: none;
     position: absolute;
     display: flex;
     margin-top: 15px;
-    margin-left: 43%;
+    margin-left: 55%;
 }
 
 
