@@ -420,6 +420,74 @@ display: none;
     color: #170F49;
 }
 
+
+/* opciones del menu dentro de la hamburgesa */
+
 .navbar{
     border: none;
+}
+
+
+.titohamburgesa{
+    margin-left: 0px;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+
+
+.bekindmobilehamburgesa{
+    /* be kind. be free */
+    display: flex;
+    position: absolute;
+    width: 186px;
+    height: 18.06px;
+    margin-left: 10%;
+    margin-top: 50px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #4A3AFF;
+}
+
+
+.businesshamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 200px;
+}
+
+
+.printinhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 150px;
+}
+
+
+.workerhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 250px;
+}
+
+
+.downloadhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 350px;
+}
+
+#cierre{
+    margin-right: 100px;
 }

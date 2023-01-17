@@ -1,0 +1,85 @@
+/* @media screen and (max-width: 360px){ */
+
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+    
+    
+#body{
+    /* Home */   
+    position: relative;
+    width: 360px;
+    height: 1024px;
+    overflow: scroll;
+    margin-left: 300px;
+    background: #FFFFFF;
+}
+    
+
+.titofreemobile{
+    position: absolute;
+    display: flex;
+    width: 115px;
+    height: 33px;
+    margin-top: 16px;
+    margin-left: 15px;
+}
+
+.weareworking{
+    position: absolute;
+    display: flex;
+    width: 179px;
+    height: 319px;
+    margin-top: 104px;
+    margin-left: 15px;
+}
+    
+
+.underworkingpicture{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-top: 404px;
+    margin-left: 32px;
+}
+
+.applemobile, .googleemobile{
+    position: absolute;
+    display: flex;
+    width: 94px;
+    height: 30px;
+    margin-top: 712px;
+    margin-left: 252px;
+
+}
+
+.applemobile{
+    margin-left: 148px;
+}
+
+
+.titofreeunderworking{
+    position: absolute;
+    display: flex;
+    width: 94px;
+    height: 30px;
+    margin-top: 712px;
+    margin-left: 16px;
+
+}
+
+.footer{
+    font-size: 8px;
+    width: 320px;
+    margin-left: 0px;
+}
