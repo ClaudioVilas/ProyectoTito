@@ -114,6 +114,8 @@ display: flex;
     display: flex;
     margin-left: 4%;
     margin-top: 219px;
+    width: 60px;
+    height: 60px;
 } 
 
 
@@ -123,6 +125,8 @@ display: flex;
     display: flex;
     margin-left: 18%;
     margin-top: 149px;
+    width: 60px;
+    height: 60px;
 } 
 
 
@@ -141,6 +145,8 @@ display: flex;
     display: flex;
     margin-left: 8%;
     margin-top: 574px;
+    width: 60px;
+    height: 60px;
 } 
 
 
@@ -157,6 +163,7 @@ display: flex;
     display: flex;
     margin-left: 70%;
     margin-top: 700px;
+
 } 
 
 
@@ -165,6 +172,8 @@ display: flex;
     display: flex;
     margin-left: 70%;
     margin-top: 400px;
+    width: 60px;
+    height: 60px;
 } 
 
 
@@ -173,6 +182,8 @@ display: flex;
     display: flex;
     margin-left: 25%;
     margin-top: 390px;
+    width: 60px;
+    height: 60px;
 } 
 
 
@@ -1592,5 +1603,9 @@ display: flex;
 }
 
 .fixed-top{
+    display: none;
+}
+
+.botonapplemobile, .botongooglemobile{
     display: none;
 }
