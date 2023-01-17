@@ -14,10 +14,10 @@
 
 #body{
     /* overflow: scroll; */
-    width: 360px;
+    width: 375px;
     background: #FFFFFF;
     display: flex;
-    margin-left: 22%;
+    margin-left: 0%;
 }
 
 
@@ -29,7 +29,7 @@
 .header{
     position: absolute;
     display: flex;
-    width: 360px;
+    width: 375px;
     height: 33px;
     font-family: 'Poppins';
     font-style: normal;
@@ -61,21 +61,21 @@
 
 .fixed-top{
     display: flex;
-    width: 360px;
+    width: 375px;
     margin-top: 15px;
     margin-right: 10px;
 }
 
 
-.printablemobile, .businessmobile, .workermobile, .downloadmobile{
+/* .printablemobile, .businessmobile, .workermobile, .downloadmobile{
     margin-left: 0%;
-}
+} */
 
 
 .imagen1{
     position: absolute;
     display: flex;
-    margin-left: 75%;
+    margin-left: 65%;
     margin-top: 72px;
     width: 24px;
     height: 24px;
@@ -85,13 +85,11 @@
 .imagen2{  
     position: absolute;
     display: flex;
-    margin-left: 90%;
+    margin-left: 80%;
     margin-top: 102px;
     width: 24px;
     height: 24px;
-
 } 
-
 
 
 .imagen3{
@@ -101,9 +99,7 @@
     margin-top: 530px;
     width: 38px;
     height: 44px;
-
 } 
-
 
 
 .imagen4{
@@ -113,7 +109,6 @@
     margin-top: 500px;
     width: 24px;
     height: 24px;
-
 } 
 
 
@@ -124,7 +119,6 @@
     margin-top: 90px;
     width: 38px;
     height: 44px;
-
 } 
 
 
@@ -135,7 +129,6 @@
     margin-top: 500px;
     width: 70px;
     height: 70px;
-
 } 
 
 
@@ -162,8 +155,8 @@
 .cubo, .cubo2{
     position: absolute;
     display: flex;
-    width: 360px;
-    height: 100%;
+    width: 375px;
+    height: 1000px;
     border: #000000;
     border-style: solid;
     border-width: 1px;
@@ -171,7 +164,7 @@
 
 
 .cubo2{
-    width: 180px;
+    width: 187.5px;
 }
 
 
@@ -192,10 +185,8 @@
     text-align: center;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-    
-    /* Primary/Color 1 */
-    
-    color: #4A3AFF;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
 }
 
 
@@ -205,19 +196,16 @@
     display: flex;
     width: 360px;
     height: 64px;
-    margin-left: 19px;
+    margin-left: 15px;
     margin-right: 14px;
     margin-top: 175px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 32px;
     /* or 160% */
-    
     text-align: center;
-    
     color: #000000;
 }
 
@@ -226,7 +214,7 @@
     position: absolute;
     height: 30px;
     width: 100%;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-right: 4.44%;
     margin-top: 230px;
     font-family: 'Roboto';
@@ -244,9 +232,10 @@
 .mailclienty{
     position: absolute;
     display: flex;
-    width: 100%;
-    margin-left: 0%;
+    width: 350px;
+    margin-left: 5px;
     margin-top: 260px;
+    padding: 0px;
 }
 
 
@@ -256,7 +245,6 @@
     display: flex;
     height: 34px;
     margin-left: 5%;
-    margin-right: 3.33%;
     margin-top: 430px;
 
 }
@@ -313,7 +301,6 @@
     height: 48.9px;
     margin-left: 35%;
     margin-top: 630px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -330,7 +317,7 @@
     display: flex;
     width: 320px;
     height: 71.11px;
-    margin-left: 7%;
+    margin-left: 5%;
     margin-right: 8px;
     margin-top: 650px;
     font-family: 'Roboto';
@@ -348,7 +335,7 @@
 .imagenvideo{
     position: absolute;
     display: flex;
-    margin-left: 5%;
+    margin-left: 2%;
     width: 329px;
     height: 208px;
     margin-top: 720px;
@@ -388,7 +375,7 @@ display: none;
 
 
 .botongooglemobile{
-    margin-left: 50%;
+    margin-left: 40%;
 
 }
 
@@ -429,7 +416,7 @@ display: none;
     position: absolute;
     display: flex;
     margin-top: 15px;
-    margin-left: 55%;
+    margin-left: 39%;
 }
 
 
