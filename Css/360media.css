@@ -22,6 +22,7 @@
 
 .elipse{
     margin-top: 247px;
+    width: 360px;
 }
 
 
@@ -377,12 +378,12 @@ display: none;
 }
 
 
-
 .botonapplemobile, .botongooglemobile{
     position: absolute;
     display: flex;
-    margin-left: 0px;
-    margin-top: 1000px;
+    width: 144px;
+    margin-left: 10%;
+    margin-top: 1020px;
 }
 
 
@@ -419,6 +420,27 @@ display: none;
     /* Neutral/800 */
     color: #170F49;
 }
+
+
+.downloadtheapp{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1150px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    color: #383838;  
+}
+
+
+
+
+
 
 
 

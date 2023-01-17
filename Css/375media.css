@@ -370,13 +370,14 @@ display: none;
 .botonapplemobile, .botongooglemobile{
     position: absolute;
     display: flex;
-    margin-left: 0px;
-    margin-top: 1000px;
+    width: 144px;
+    margin-left: 10%;
+    margin-top: 1020px;
 }
 
 
 .botongooglemobile{
-    margin-left: 40%;
+    margin-left: 50%;
 
 }
 
