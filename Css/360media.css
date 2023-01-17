@@ -425,6 +425,10 @@ display: none;
 
 .navbar{
     border: none;
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 43%;
 }
 
 
