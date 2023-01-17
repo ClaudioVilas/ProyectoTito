@@ -11,6 +11,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
 #body{
     /* overflow: scroll; */
@@ -172,6 +173,7 @@
 
 .cubo2{
     width: 180px;
+    height: 3000px;
 }
 
 
@@ -355,7 +357,6 @@
 }
 
 
-
 .connectworkes{
     position: absolute;
     display: flex;
@@ -373,8 +374,8 @@
 }
 
 
-.botonapple, .botongoogle{
-display: none;
+.botonapple, .botongoogle, .botonapple2, .botongoogle2{
+    display: none;
 }
 
 
@@ -403,6 +404,7 @@ display: none;
     background: #7551FF;
 }
 
+
 .titobusiness{
     position: absolute;
     display: flex;
@@ -410,14 +412,10 @@ display: none;
     margin-left: 3%;
     margin-top: 1095px;
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    font-style: bold;
+    font-weight: 700px;
     font-size: 16px;
     line-height: 62px;
-    /* or 388% */
-    display: flex;
-    align-items: center;
-    /* Neutral/800 */
     color: #170F49;
 }
 
@@ -438,11 +436,64 @@ display: none;
 }
 
 
+.cardsdesktop{
+    display: none;
+}
 
 
+#carouselExample{
+    position: absolute;
+    display: flex;
+    margin-top: 1200px;
+    margin-left: 15%;
+    width: 255px;
+    height: 95px;
+    background-color: #F7EFFF;
+}
 
 
+.textocarusel{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
 
+.fotocarusel{
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.subrayadotitoworker{
+    /* Rectangle 4531 */
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 6px;
+    margin-left: 3%;
+    margin-top: 1350px;
+    background: #FFDCC8;
+}
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 48px;
+    margin-left: 3%;
+    margin-top: 1316px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+}
 
 
 
