@@ -1614,3 +1614,31 @@ display: flex;
 #carouselExampleCaptions{
     display: none;
 }
+
+#carouselExample{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: none;
+}
+
+.youdecide{
+    display: none;
+}
+
+
+.subrayadoourpricing{
+    display: none;
+}
+
+
+.ourpricing{
+    display: none;
+}
+
+
+#bigcard2mobile{
+    display: none;
+}
