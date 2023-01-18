@@ -458,6 +458,156 @@
     margin-left: 10px;
 }
 
+.subrayadotitoworker{
+    /* Rectangle 4531 */
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 6px;
+    margin-left: 3%;
+    margin-top: 1350px;
+    background: #FFDCC8;
+}
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 48px;
+    margin-left: 3%;
+    margin-top: 1316px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.improveyourskills{
+    /*  Improve your skills and your professional career */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 9px;
+    margin-left: 3%;
+    margin-top: 1366px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+    /* identical to box height */
+    color: #606038;
+}
+
+
+.bigcard1, .bigcard2, .bigcard3, .bigcard4, .bigcard5, .youdecidewhen, .subrayadopricing, .pricing, .forworkersalwaysfree{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    position: absolute;
+    display: flex;
+    width: 170px;
+    height: 228px;
+    margin-top: 1400px;
+    margin-left: 27%;
+
+}
+
+
+.youdecide{
+    position: absolute;
+    display: flex;
+    margin-top: 1650px;
+    margin-left: 10%;
+}
+
+
+.ourpricing{
+    /* our pricing plan foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1700px;
+    margin-left: 35%;
+}
+
+
+.subrayadoourpricing{
+    /* subrayado our pricing foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1710px;
+    margin-left: 30%;
+}
+
+
+#bigcard2mobile{
+    position: absolute;
+    display: flex;
+    margin-top: 1750px;
+    margin-left: 23%;
+
+}
+
+.titofreefoooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 3%;
+}
+
+
+.titofreefoooter2{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 20%;
+}
+
+
+.botonapplefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 40%;
+}
+
+
+.botongooglefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 70%;
+}
+
+.footer{
+    /* Copyright */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 20px;
+    margin-top: 2300px;
+    margin-left: 13%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
 
 
 
