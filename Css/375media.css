@@ -319,7 +319,7 @@
     display: flex;
     width: 320px;
     height: 71.11px;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 8px;
     margin-top: 650px;
     font-family: 'Roboto';
@@ -337,7 +337,7 @@
 .imagenvideo{
     position: absolute;
     display: flex;
-    margin-left: 2%;
+    margin-left: 5%;
     width: 329px;
     height: 208px;
     margin-top: 720px;
@@ -408,6 +408,21 @@
     display: flex;
     align-items: center;
     /* Neutral/800 */
+    color: #170F49;
+}
+
+
+#header3{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1095px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
     color: #170F49;
 }
 

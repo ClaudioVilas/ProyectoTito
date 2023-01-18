@@ -329,7 +329,7 @@
 .imagenvideo{
     position: absolute;
     display: flex;
-    margin-left: 5%;
+    margin-left: 7%;
     width: 329px;
     height: 208px;
     margin-top: 720px;
@@ -411,7 +411,6 @@
     font-size: 16px;
     line-height: 62px;
     color: #170F49;
-
 }
 
 
