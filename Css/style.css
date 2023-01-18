@@ -1642,3 +1642,9 @@ display: flex;
 #bigcard2mobile{
     display: none;
 }
+
+
+.botongooglefooter, .botonapplefooter{
+    display: none;
+}
+

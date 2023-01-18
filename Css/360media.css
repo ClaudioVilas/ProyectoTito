@@ -160,23 +160,6 @@
 } 
 
 
-.cubo, .cubo2{
-    position: absolute;
-    display: flex;
-    width: 360px;
-    height: 3000px;
-    border: #000000;
-    border-style: solid;
-    border-width: 1px;
-}
-
-
-.cubo2{
-    width: 180px;
-    height: 3000px;
-}
-
-
 .bekind{
     /* be kind. be free */
     position: absolute;
@@ -407,12 +390,28 @@
     width: 360px;
     margin-left: 3%;
     margin-top: 1095px;
-    font-family: 'Roboto';
-    font-style: bold;
-    font-weight: 700px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
     line-height: 62px;
     color: #170F49;
+}
+
+
+#header3{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1095px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+
 }
 
 
