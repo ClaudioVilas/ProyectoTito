@@ -13,12 +13,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
-#body{
+#bodi{
     /* overflow: scroll; */
     max-width: 375px;
     background: #FFFFFF;
     display: flex;
-    margin-left: 0%;
+    margin-left: 5px;
 }
 
 
