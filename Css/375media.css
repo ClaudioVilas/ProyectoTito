@@ -15,7 +15,7 @@
 
 #body{
     /* overflow: scroll; */
-    width: 375px;
+    max-width: 375px;
     background: #FFFFFF;
     display: flex;
     margin-left: 0%;
@@ -455,11 +455,11 @@
 }
 
 
-#carouselExample{
+#carouselExample1{
     position: absolute;
     display: flex;
     margin-top: 1200px;
-    margin-left: 20%;
+    margin-left: 15%;
     width: 255px;
     height: 95px;
     background-color: #F7EFFF;
@@ -479,6 +479,7 @@
     margin-top: 15px;
     margin-left: 10px;
 }
+
 
 .subrayadotitoworker{
     /* Rectangle 4531 */
@@ -569,13 +570,6 @@
 }
 
 
-#bigcard2mobile{
-    position: absolute;
-    display: flex;
-    margin-top: 1750px;
-    margin-left: 23%;
-
-}
 
 .titofreefoooter{
     position: absolute;
@@ -691,17 +685,6 @@
 }
 
 
-#carouselExampleIndicators{
-    position: absolute;
-    display: flex;
-    width: 170px;
-    height: 228px;
-    margin-top: 1400px;
-    margin-left: 27%;
-
-}
-
-
 .youdecide{
     position: absolute;
     display: flex;
@@ -728,12 +711,11 @@
 }
 
 
-#bigcard2mobile{
+#bigcardmobile{
     position: absolute;
     display: flex;
     margin-top: 1750px;
     margin-left: 23%;
-
 }
 
 .titofreefoooter{
@@ -822,7 +804,7 @@
     margin-left: 60px;
 }
 
-.active{
+.mostrar{
     transform: translate(-600px);
 }
 
@@ -883,5 +865,4 @@
     margin-top: 450px;
     margin-left: 80px;
 }
-
 
