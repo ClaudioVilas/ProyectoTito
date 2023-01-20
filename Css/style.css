@@ -1564,7 +1564,7 @@ display: flex;
 }
 
 
-.footer{
+#footer{
     /* Copyright */
     position: absolute;
     display: flex;
@@ -1659,3 +1659,4 @@ display: flex;
 #bigcardmobile,#carouselExample1{
     display: none;
 }
+

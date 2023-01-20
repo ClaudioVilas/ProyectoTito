@@ -1,0 +1,873 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+
+
+#body{
+    /* overflow: scroll; */
+    width: 720px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+
+.elipse{
+    margin-top: 247px;
+}
+
+
+.header{
+    position: absolute;
+    display: flex;
+    margin-left: 0px;
+    width: 375px;
+    height: 33px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    z-index: 1;
+}
+
+
+.titofree{
+    display: flex;
+    position: absolute;
+    margin-left: 4.65%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+
+.menuheader{
+    display: none;
+}
+
+
+.fixed-top{
+    display: flex;
+    width: 375px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+
+/* .printablemobile, .businessmobile, .workermobile, .downloadmobile{
+    margin-left: 0%;
+} */
+
+
+.imagen1{
+    position: absolute;
+    display: flex;
+    margin-left: 65%;
+    margin-top: 72px;
+    width: 24px;
+    height: 24px;
+} 
+
+
+.imagen2{  
+    position: absolute;
+    display: flex;
+    margin-left: 85%;
+    margin-top: 102px;
+    width: 24px;
+    height: 24px;
+} 
+
+
+.imagen3{
+    position: absolute;
+    display: flex;
+    margin-left: 80%;
+    margin-top: 530px;
+    width: 38px;
+    height: 44px;
+} 
+
+
+.imagen4{
+    position: absolute;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 500px;
+    width: 24px;
+    height: 24px;
+} 
+
+
+.imagen5{
+    position: absolute;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 90px;
+    width: 38px;
+    height: 44px;
+} 
+
+
+.imagen6{
+    position: absolute;
+    display: flex;
+    margin-left: 50%;
+    margin-top: 500px;
+    width: 70px;
+    height: 70px;
+} 
+
+
+.imagen7{
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 550px;
+    width: 24px;
+    height: 24px;
+} 
+
+
+.imagen8{
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 115px;
+    width: 24px;
+    height: 24px;
+} 
+
+
+.cubo, .cubo2{
+    position: absolute;
+    display: flex;
+    width: 375px;
+    height: 1000px;
+    border: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.cubo2{
+    width: 187.5px;
+}
+
+
+.bekind{
+    /* be kind. be free */
+    position: absolute;
+    display: flex;
+    /* height: 23px; */
+    margin-left: 25%;
+    margin-right: 15px;
+    margin-top: 130px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    /* or 112% */
+    text-align: center;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
+}
+
+
+.weconnect{
+    /* We connect employers with workers */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 64px;
+    margin-left: 15px;
+    margin-right: 14px;
+    margin-top: 175px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+    text-align: center;
+    color: #000000;
+}
+
+
+.leaveusyour{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    margin-left: 9%;
+    margin-right: 4.44%;
+    margin-top: 230px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    /* identical to box height, or 250% */
+    text-align: center;
+    /* Neutral/600 */
+    color: #6F6C90;
+}
+
+
+.mailclienty{
+    position: absolute;
+    display: flex;
+    width: 350px;
+    margin-left: 5px;
+    margin-top: 260px;
+    padding: 0px;
+}
+
+
+
+.tildecontextoitsfree{
+    position: absolute;
+    display: flex;
+    height: 34px;
+    margin-left: 5%;
+    margin-top: 430px;
+
+}
+
+
+.itsfree{
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    text-align: center;
+    /* Neutral/600 */
+    color: #6F6C90;
+}
+
+
+.tilde{
+    position: absolute;
+    display: flex;
+    width: 11px;
+    height: 11px;
+    margin-top: 3px;
+}
+
+
+.itssimple{
+    position: absolute;
+    display: flex;
+    width: 156px;
+    height: 22.22px;
+    margin-left: 39%;
+    margin-top: 600px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* Primary/Color 1 */
+    color: #4A3AFF;
+}
+
+
+.howitworks{
+    position: absolute;
+    display: flex;
+    width: 329px;
+    height: 48.9px;
+    margin-left: 35%;
+    margin-top: 630px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    text-align: center;
+    color: #000000;
+}
+
+
+.watchashortvideo{
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 71.11px;
+    margin-left: 7%;
+    margin-right: 8px;
+    margin-top: 650px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    /* or 150% */
+    align-items: center;
+    text-align: center;
+    color: #383838;
+}
+
+
+.imagenvideo{
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    width: 329px;
+    height: 208px;
+    margin-top: 720px;
+}
+
+
+
+.connectworkes{
+    position: absolute;
+    display: flex;
+    height: 56px;
+    width: 320px;
+    margin-left: 19px;
+    margin-top: 950px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.botonapple, .botongoogle, .botonapple2, .botongoogle2{
+    display: none;
+}
+
+
+.botonapplemobile, .botongooglemobile{
+    position: absolute;
+    display: flex;
+    width: 144px;
+    margin-left: 10%;
+    margin-top: 1020px;
+}
+
+
+.botongooglemobile{
+    margin-left: 50%;
+
+}
+
+
+#espacioenblanco{
+    display: flex;
+    position: absolute;
+    margin-top: 1090px;
+}
+
+
+.subrayadotitobusiness{
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 5px;
+    margin-left: 3%;
+    margin-top: 1130px;
+    background: #7551FF;
+}
+
+
+.titobusiness{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1095px;
+    font-family: 'Robotro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    /* or 388% */
+    display: flex;
+    align-items: center;
+    /* Neutral/800 */
+    color: #170F49;
+}
+
+
+#header3{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1095px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.downloadtheapp{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    margin-left: 3%;
+    margin-top: 1150px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    color: #383838;  
+}
+
+
+.cardsdesktop{
+    display: none;
+}
+
+
+#carouselExample1{
+    position: absolute;
+    display: flex;
+    margin-top: 1200px;
+    margin-left: 15%;
+    width: 255px;
+    height: 95px;
+    background-color: #F7EFFF;
+}
+
+
+.textocarusel{
+    position: absolute;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.fotocarusel{
+    position: absolute;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.subrayadotitoworker{
+    /* Rectangle 4531 */
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 6px;
+    margin-left: 3%;
+    margin-top: 1350px;
+    background: #FFDCC8;
+}
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 48px;
+    margin-left: 3%;
+    margin-top: 1316px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.improveyourskills{
+    /*  Improve your skills and your professional career */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 9px;
+    margin-left: 3%;
+    margin-top: 1366px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+    /* identical to box height */
+    color: #606038;
+}
+
+
+.bigcard1, .bigcard2, .bigcard3, .bigcard4, .bigcard5, .youdecidewhen, .subrayadopricing, .pricing, .forworkersalwaysfree{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    position: absolute;
+    display: flex;
+    width: 170px;
+    height: 228px;
+    margin-top: 1400px;
+    margin-left: 27%;
+
+}
+
+
+.youdecide{
+    position: absolute;
+    display: flex;
+    margin-top: 1650px;
+    margin-left: 10%;
+}
+
+
+.ourpricing{
+    /* our pricing plan foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1700px;
+    margin-left: 35%;
+}
+
+
+.subrayadoourpricing{
+    /* subrayado our pricing foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1710px;
+    margin-left: 30%;
+}
+
+
+
+.titofreefoooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 3%;
+}
+
+
+.titofreefoooter2{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 20%;
+}
+
+
+.botonapplefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 40%;
+}
+
+
+.botongooglefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 70%;
+}
+
+#footer{
+    /* Copyright */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 20px;
+    margin-top: 2300px;
+    margin-left: 13%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+/* desde aca copiar hacia abajo a 375 ------------------------------ */
+
+#espacioenblanco2{
+    display: flex;
+    position: absolute;
+    margin-top: 1300px;
+
+}
+
+.subrayadotitoworker{
+    /* Rectangle 4531 */
+    position: absolute;
+    display: flex;
+    width: 106px;
+    height: 6px;
+    margin-left: 3%;
+    margin-top: 1350px;
+    background: #FFDCC8;
+}
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 48px;
+    margin-left: 3%;
+    margin-top: 1316px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.improveyourskills{
+    /*  Improve your skills and your professional career */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 9px;
+    margin-left: 3%;
+    margin-top: 1366px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 7px;
+    line-height: 8px;
+    /* identical to box height */
+    color: #606038;
+}
+
+
+.bigcard1, .bigcard2, .bigcard3, .bigcard4, .bigcard5, .youdecidewhen, .subrayadopricing, .pricing, .forworkersalwaysfree{
+    display: none;
+}
+
+
+.youdecide{
+    position: absolute;
+    display: flex;
+    margin-top: 1650px;
+    margin-left: 10%;
+}
+
+
+.ourpricing{
+    /* our pricing plan foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1700px;
+    margin-left: 35%;
+}
+
+
+.subrayadoourpricing{
+    /* subrayado our pricing foto */
+    position: absolute;
+    display: flex;
+    margin-top: 1710px;
+    margin-left: 30%;
+}
+
+
+#bigcardmobile{
+    position: absolute;
+    display: flex;
+    margin-top: 1750px;
+    margin-left: 23%;
+}
+
+.titofreefoooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 3%;
+}
+
+
+.titofreefoooter2{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 20%;
+}
+
+
+.botonapplefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 40%;
+}
+
+
+.botongooglefooter{
+    position: absolute;
+    display: flex;
+    margin-top: 2250px;
+    margin-left: 70%;
+}
+
+.footer{
+    /* Copyright */
+    position: absolute;
+    display: flex;
+    width: 360px;
+    height: 20px;
+    margin-top: 2300px;
+    margin-left: 13%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+/* opciones del menu dentro de la hamburgesa */
+
+.icon-menu{
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 320px;
+    z-index: 2;
+
+}
+
+ #menu{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-left: 7px;
+    border-radius: 56px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    z-index: 1;
+}
+
+.titohamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.mostrar{
+    transform: translate(-600px);
+}
+
+
+.opacity{
+
+    background-color: #000000;
+    transition: all .5s ease;
+}
+
+
+#bekindmobilehamburgesa{
+    /* be kind. be free */
+    display: flex;
+    position: absolute;
+    width: 360px;
+    padding-top: 120px;
+    margin-left: 75px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #4A3AFF;
+}
+
+
+#printinhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 3%;
+    padding-top: 250px;
+}
+
+
+#businesshamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 3%;
+}
+
+
+#workerhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 3%;
+}
+
+
+#downloadhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 450px;
+    margin-left: 80px;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #000000;
+}
