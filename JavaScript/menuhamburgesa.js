@@ -2,6 +2,8 @@ const iconoMenu = document.querySelector ("#icon-menu")
 
 const ocultar = document.querySelector ("#businesshamburgesa")
 
+const ocultar2 = document.querySelector ("#workerhamburgesa")
+
     iconoMenu.addEventListener ("click", () => {
         menu.classList.toggle ("active")
             document.body.classList.toggle ("opacity")
@@ -12,6 +14,14 @@ const ocultar = document.querySelector ("#businesshamburgesa")
         menu.classList.toggle ("active")
             document.body.classList.toggle ("opacity")
     })
+
+
+    ocultar2.addEventListener ("click", () => {
+        menu.classList.toggle ("active")
+            document.body.classList.toggle ("opacity")
+    })
+
+
 
 
 
