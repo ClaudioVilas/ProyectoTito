@@ -13,11 +13,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
-#body{
+#bodi{
     /* overflow: scroll; */
     width: 360px;
-    background: #FFFFFF;
+    position: absolute;
     display: flex;
+    background: #FFFFFF;
+    margin-left: 20px;
 }
 
 
@@ -664,7 +666,7 @@
     position: absolute;
 }
 
-.active{
+.mostrar{
     transform: translate(-600px);
 }
 

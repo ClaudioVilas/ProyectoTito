@@ -1655,3 +1655,7 @@ display: flex;
 .cont-menu{
     display: none;
 }
+
+#bigcardmobile,#carouselExample1{
+    display: none;
+}
