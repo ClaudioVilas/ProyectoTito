@@ -13,12 +13,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
-#bodi{
+#body{
     /* overflow: scroll; */
-    max-width: 375px;
+    width: 375px;
     background: #FFFFFF;
     display: flex;
-    margin-left: 5px;
 }
 
 
@@ -602,7 +601,7 @@
     margin-left: 70%;
 }
 
-.footer{
+#footer{
     /* Copyright */
     position: absolute;
     display: flex;

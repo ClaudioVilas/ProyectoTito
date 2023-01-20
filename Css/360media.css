@@ -13,7 +13,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
-#bodi{
+#body{
     /* overflow: scroll; */
     width: 360px;
     position: absolute;
@@ -586,7 +586,7 @@
     position: absolute;
     display: flex;
     margin-top: 2250px;
-    margin-left: 3%;
+
 }
 
 
@@ -594,7 +594,6 @@
     position: absolute;
     display: flex;
     margin-top: 2250px;
-    margin-left: 20%;
 }
 
 
@@ -602,7 +601,8 @@
     position: absolute;
     display: flex;
     margin-top: 2250px;
-    margin-left: 40%;
+    /* margin-left: 40%; */
+    width: 90px;
 }
 
 
@@ -610,10 +610,11 @@
     position: absolute;
     display: flex;
     margin-top: 2250px;
-    margin-left: 70%;
+    /* margin-left: 40%; */
+    width: 90px;
 }
 
-.footer{
+#footer{
     /* Copyright */
     position: absolute;
     display: flex;
