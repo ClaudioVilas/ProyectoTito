@@ -13,6 +13,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+
+
 #body{
     /* overflow: scroll; */
     width: 375px;
@@ -814,6 +816,7 @@
     transition: all .5s ease;
 }
 
+
 #bekindmobilehamburgesa{
     /* be kind. be free */
     display: flex;
@@ -839,13 +842,13 @@
     padding-top: 250px;
 }
 
+
 #businesshamburgesa{
     display: flex;
     position: absolute;
     margin-top: 300px;
     margin-left: 3%;
 }
-
 
 
 #workerhamburgesa{
@@ -856,7 +859,6 @@
 }
 
 
-
 #downloadhamburgesa{
     display: flex;
     position: absolute;
@@ -865,3 +867,7 @@
     margin-left: 80px;
 }
 
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #000000;
+}
