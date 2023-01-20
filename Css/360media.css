@@ -38,7 +38,6 @@
     font-size: 24px;
     line-height: 36px;
     color: #000000;
-    z-index: 1;
 }
 
 
@@ -62,6 +61,7 @@
 
 .fixed-top{
     display: flex;
+    position: absolute;
     width: 360px;
     margin-top: 15px;
     margin-right: 10px;
@@ -160,7 +160,7 @@
 } 
 
 
-.bekind{
+#bekind{
     /* be kind. be free */
     position: absolute;
     display: flex;
@@ -373,6 +373,13 @@
 }
 
 
+#espacioenblanco{
+    display: flex;
+    position: absolute;
+    margin-top: 1090px;
+}
+
+
 .subrayadotitobusiness{
     position: absolute;
     display: flex;
@@ -381,6 +388,13 @@
     margin-left: 3%;
     margin-top: 1130px;
     background: #7551FF;
+}
+
+
+#header3{
+    width: 360px;
+    height: 25px;
+    margin-top: 1100px;
 }
 
 
@@ -461,6 +475,13 @@
 }
 
 /* desde aca copiar hacia abajo a 375 ------------------------------ */
+
+#espacioenblanco2{
+    display: flex;
+    position: absolute;
+    margin-top: 1300px;
+
+}
 
 .subrayadotitoworker{
     /* Rectangle 4531 */
@@ -618,76 +639,100 @@
 
 /* opciones del menu dentro de la hamburgesa */
 
-.navbar{
-    border: none;
-    position: absolute;
+.icon-menu{
     display: flex;
-    margin-top: 15px;
-    margin-left: 43%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 320px;
+    z-index: 2;
+
 }
 
+ #menu{
+    display: flex;
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    background-color: #ffffff;
+    margin-left: 7px;
+    border-radius: 56px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    z-index: 1;
+}
 
 .titohamburgesa{
-    margin-left: 0px;
-    position: absolute;
     display: flex;
-    margin-left: 5%;
-    margin-top: 40px;
+    position: absolute;
+}
+
+.active{
+    transform: translate(-600px);
 }
 
 
-.bekindmobilehamburgesa{
+.opacity{
+
+    background-color: #000000;
+    transition: all .5s ease;
+}
+
+#bekindmobilehamburgesa{
     /* be kind. be free */
     display: flex;
     position: absolute;
-    width: 186px;
-    height: 18.06px;
-    margin-left: 10%;
-    margin-top: 50px;
+    width: 360px;
+    padding-top: 120px;
+    margin-left: 25px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    text-align: center;
     letter-spacing: 0.24em;
     text-transform: uppercase;
     color: #4A3AFF;
 }
 
 
-.businesshamburgesa{
+#printinhamburgesa{
     display: flex;
     position: absolute;
-    margin-left: 0%;
-    margin-top: 200px;
+    margin-left: 3%;
+    padding-top: 250px;
+}
+
+#businesshamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 3%;
 }
 
 
-.printinhamburgesa{
+
+#workerhamburgesa{
     display: flex;
     position: absolute;
-    margin-left: 0%;
-    margin-top: 150px;
+    margin-top: 350px;
+    margin-left: 3%;
 }
 
 
-.workerhamburgesa{
-    display: flex;
-    position: absolute;
-    margin-left: 0%;
-    margin-top: 250px;
-}
 
-
-.downloadhamburgesa{
+#downloadhamburgesa{
     display: flex;
     position: absolute;
     margin-left: 10%;
-    margin-top: 350px;
+    margin-top: 450px;
+    margin-left: 80px;
 }
 
-#cierre{
-    margin-right: 100px;
-}
+
+
+
+
 

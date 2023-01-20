@@ -1648,3 +1648,10 @@ display: flex;
     display: none;
 }
 
+.icon-menu{
+    display: none;
+}
+
+.cont-menu{
+    display: none;
+}
