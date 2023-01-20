@@ -1,0 +1,1685 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+#body{
+
+/* overflow: scroll; */
+background: #FFFFFF;
+display: flex;
+width: 1280px;
+}
+
+
+.cubo{
+    display: flex;
+    position: absolute;
+    width: 1280px;
+    height: 10000px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cubo2{
+    display: flex;
+    position: absolute;
+    width: 640px;
+    height: 10000px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+
+.header {
+    display: flex;
+    position: fixed;
+    margin-left: 0%;
+    Height: 126.43px;
+    z-index: 1;
+    background-color: #FFFFFF;
+}
+
+
+.titofree{
+    display: flex;
+    position: absolute;
+    Height: 72px;
+    margin-left: 1%;
+    margin-top: 21px;
+    margin-right: 80.49%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.textotito{
+    display: flex;
+    color: #000000;
+}
+
+
+.textofee{
+    display: flex;
+    margin-left: 10px;
+    color: #4A3AFF;
+}
+
+
+.printable, .business, .worker, .download{
+    display: flex;
+    position: absolute;
+    margin-left: 700px;
+    margin-right: 40.07%;
+    margin-top: 52px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;   
+    color: #4A3AFF;
+}
+
+.business{
+    display: flex;
+    margin-left: 850px;
+}
+
+.worker{
+    display: flex;
+    margin-left: 1000px;
+}
+
+.download{
+    /* display: flex;
+    position: absolute; */
+    Width: 163px;
+    Height: 61px;
+    margin-top: 32px;
+    margin-left: 1100px;
+    border-radius: 56px;
+    padding-top: 20px;
+    padding-left: 41px;
+    background-color: #4A3AFF;
+    border-style: none;
+    /* Text Single/200/Regular */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* Neutral/100 */
+    color: #FFFFFF;
+}
+
+.download{
+    display: flex;
+}
+
+.imagen1{
+    position: absolute;
+    display: flex;
+    margin-left: 4%;
+    margin-top: 219px;
+    width: 60px;
+    height: 60px;
+} 
+
+
+
+.imagen2{  
+    position: absolute;
+    display: flex;
+    margin-left: 18%;
+    margin-top: 149px;
+    width: 60px;
+    height: 60px;
+} 
+
+
+
+.imagen3{
+    position: absolute;
+    display: flex;
+    margin-left: 90%;
+    margin-top: 380px;
+} 
+
+
+
+.imagen4{
+    position: absolute;
+    display: flex;
+    margin-left: 8%;
+    margin-top: 674px;
+    width: 60px;
+    height: 60px;
+} 
+
+
+.imagen5{
+    position: absolute;
+    display: flex;
+    margin-left: 75%;
+    margin-top: 170px;
+} 
+
+
+.imagen6{
+    position: absolute;
+    display: flex;
+    margin-left: 80%;
+    margin-top: 700px;
+
+} 
+
+
+.imagen7{
+    position: absolute;
+    display: flex;
+    margin-left:85%;
+    margin-top: 500px;
+    width: 60px;
+    height: 60px;
+} 
+
+
+.imagen8{
+    position: absolute;
+    display: flex;
+    margin-left: 20%;
+    margin-top: 390px;
+    width: 60px;
+    height: 60px;
+} 
+
+
+.bekind{
+    /* be kind. be free */
+    display: flex;
+    position: absolute;
+    width: 186px;
+    height: 18.06px;
+    margin-left: 43%;
+    margin-top: 236px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #4A3AFF;
+}
+
+.weconnect{
+    /* We connect employers with workers */
+    position: absolute;
+    display: flex;
+    width: 742px;
+    height: 124px;
+    margin-left: 20%;   
+    margin-top: 270px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #170F49;
+}
+
+
+.leaveusyour{
+    /* Leave us your email to be in touch with the recent news */
+    position: absolute;
+    display: flex;
+    width: 604px;
+    height: 30px;
+    margin-left: 31%;
+    margin-top: 428px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #6F6C90;
+}
+
+
+.mailclienty{
+    position: absolute;
+    display: flex;
+    Width: 607.22px;
+    Height: 78.19px;
+    margin-left: 25%;
+    margin-top: 465px;
+}
+
+
+.tildecontextoitsfree{
+    /* It's 100% free and we will never send more than one email */
+    position: absolute;
+    display: flex;
+    height: 19.26px;
+    margin-left: 27%;
+    margin-top: 680px;
+}
+
+
+.itsfree{
+    /* It's 100% free and we will never send more than one email */
+    margin-left: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6F6C90;
+
+}
+
+
+.itssimple{
+    /* it's simple */
+    position: absolute;
+    display: flex;
+    margin-left: 46%;
+    margin-top: 749.97px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #4A3AFF;
+}
+
+
+.howitworks{
+    /* HOW IT WORKS? */
+    position: absolute;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 791px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.watchashortvideo{
+    /* Watch a short video about TITO FREE and discover how this wonderful app works */
+    position: absolute;
+    display: flex;
+    margin-left: 23%;
+    margin-top: 869.36px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6F6C90;
+}
+
+
+.imagenvideo{
+    /* contenedor video */
+    position: absolute;
+    display: flex;
+    width: 529px;
+    height: 350px;
+    margin-left: 5%;
+    margin-top: 990px;
+}
+
+
+.connectworkes{
+    /* Connect workers with restaurants that have positions to fill on demand */
+    position: absolute;
+    display: flex;
+    width: 395px;
+    height: 139px;
+    margin-left: 56%;
+    margin-top: 1047px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #313131;
+}
+
+
+.botongoogle {
+    position: absolute;
+    display: flex;
+    margin-top: 1228px;
+    margin-left: 53%;
+}
+
+
+.botonapple{
+    position: absolute;
+    display: flex;
+    margin-top: 1228px;
+    margin-left: 70%;
+}
+
+
+#espacioenblanco{
+    /* se utiliza para ir al sector tito business */
+    position: absolute;
+    margin-top: 1350px;
+}
+
+
+.subrayadotitobusiness{
+    /* Rectangle 4518 */
+    position: absolute;
+    display: flex;
+    width: 320px;
+    height: 13px;
+    margin-left: 6%;
+    margin-top: 1560px;
+    background: #7551FF;
+
+}
+
+
+.titobusiness{
+    /* Titulo Tito business */
+    position: absolute;
+    display: flex;
+    width: 668px;
+    height: 62.21px;
+    margin-left: 6%;
+    margin-top: 1519px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #170F49;
+} 
+
+
+.downloadtheapp {
+    /* Download the app and start hiring the best workers in the position you need */
+    position: absolute;
+    display: flex;
+    width: 620px;
+    height: 23px;
+    margin-left: 6%;
+    margin-top: 1581px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #606060;
+}
+
+
+.card1, .card4, .card7, .card10{
+    /* Waiter */
+    position: absolute;
+    display: flex;
+    padding-right: 100px;
+    width: 288px;
+    height: 128px;
+    margin-left: 10%;
+    margin-top: 1676px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card4{
+    margin-top: 1876px;
+}
+
+.card7{
+    margin-top: 2076px;
+}
+
+.card10{
+    margin-top: 2276px;
+}
+
+
+
+.imagencard1, .imagencard4, .imagencard7, .imagencard10{
+    /* image 5 */
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card1text, .card4text, .card7text, .card10text{
+    position: absolute;
+    display: flex;
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    color: #000000; 
+}
+
+
+.card1text2, .card4text2, .card7text2, .card10text2 {
+    /* xxxx workers avaibles */
+    position: absolute;
+    display: flex;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+}
+
+
+.card2, .card5, .card8, .card11{
+    /* Waiter */
+    position: absolute;
+    display: flex;
+    width: 288px;
+    height: 128px;
+    margin-left: 42%;
+    margin-top: 1676px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.card5{
+    margin-top: 1876px;
+}
+
+
+.card8{
+    margin-top: 2076px;
+}
+
+
+.card11{
+    margin-top: 2276px;
+}
+
+
+.imagencard2, .imagencard5, .imagencard8, .imagencard11{
+    /* image 5 */
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card2text, .card5text, .card8text, .card11text{
+    position: absolute;
+    display: flex;
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    color: #000000; 
+}
+
+
+.card2text2, .card5text2, .card8text2, .card11text2{
+    /* xxxx workers avaibles */
+    position: absolute;
+    display: flex;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+}
+
+
+.card3, .card6, .card9, .card12{
+    /* Waiter */
+    position: absolute;
+    display: flex;
+    width: 288px;
+    height: 128px;
+    margin-left: 72%;
+    margin-top: 1676px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+.card6{
+    margin-top: 1876px;
+}
+
+
+.card9{
+    margin-top: 2076px;
+}
+
+
+.card12{
+    margin-top: 2276px;
+}
+
+.imagencard3, .imagencard6, .imagencard9, .imagencard12{
+    /* image 5 */
+    position: absolute;
+    display: flex;
+    width: 60px;
+    height: 60px;
+    margin-left: 24px;
+    margin-top: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+
+.card3text, .card6text, .card9text, .card12text{
+    position: absolute;
+    display: flex;
+    height: 62px;
+    margin-left: 110px;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    color: #000000; 
+}
+
+
+.card3text2, .card6text2, .card9text2, .card12text2{
+    /* xxxx workers avaibles */
+    position: absolute;
+    display: flex;
+    width: 123px;
+    height: 16px;
+    margin-left: 110px;
+    margin-top: 74px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+}
+
+
+#espacioenblanco2{
+    position: absolute;
+    margin-top: 2350px;
+}
+
+
+.titoworker{
+    /* Tito Worker */
+    position: absolute;
+    display: flex;
+    width: 668px;
+    height: 48px;
+    margin-left: 6%;
+    margin-top: 2506px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.subrayadotitoworker{
+    /* Rectangle 4531 */
+    position: absolute;
+    display: flex;
+    width: 279px;
+    height: 13px;
+    margin-left: 6%;
+    margin-top: 2546px;
+    background: #FFDCC8;
+}
+
+
+ .improveyourskills{
+    /* Download the app and start hiring the best workers in the position you need */
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 20px;
+    margin-left: 6%;
+    margin-top: 2568px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #606060;
+}
+
+
+.bigcard1, .bigcard2, .bigcard3 {
+/* category */
+    position: absolute;
+    display: flex;
+    width: 390px;
+    height: 510px;
+    margin-left: 3%;
+    margin-top: 2663px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+.bigcard1polygon, .bigcard2polygon, .bigcard3polygon{
+    position: absolute;
+    display: flex;
+    margin-left: 70.5%;
+    margin-top: -29px;
+   
+}
+
+
+.bigcard1rectangulo, .bigcard2rectangulo, .bigcard3rectangulo{
+    position: absolute;
+    display: flex;
+    width: 71px;
+    height: 122px;
+    margin-left: 75%;
+    margin-top: -29px;
+}
+
+
+.numero{
+  /* 1 */
+    position: absolute;
+    display: flex;
+    width: 9px;
+    height: 17px;
+    margin-left: 83%;
+    margin-top: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+
+.bigcard2{
+    margin-left: 35%;
+}
+
+
+.bigcard3{
+    margin-left: 68%;
+}
+
+
+.bigcard1title, .bigcard2title, .bigcard3title{
+    /* Get ready */
+    position: absolute;
+    display: flex;
+    height: 42px;
+    margin-left: 27%;
+    margin-top: 93px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+}
+
+
+.bigcard1subtitle, .bigcard2subtitle, .bigcard3subtitle{
+    /* You need to complete some necesary steps for your first job */
+    position: absolute;
+    display: flex;
+    width: 281px;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 142px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #606060;
+}
+
+
+.bigcard1lista, .bigcard2lista, .bigcard3lista{
+    /* 500 visitors */
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
+    height: 27px;
+    margin-top: 225px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+}
+
+
+.circulitomini{
+    position: absolute;
+    display: flex;
+    margin-top: 2px;
+}
+
+
+.circulitominitext{
+    position: absolute;
+    display: flex;
+    margin-left: 10%;
+    color: #000000;
+}
+
+
+.circulitomini2{
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+.circulitominitext2{
+    position: absolute;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    color: #000000;
+}
+
+
+.circulitomini3{
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.circulitominitext3{
+    position: absolute;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    color: #000000;
+}
+
+
+
+
+.bigcard1footer, .bigcard2footer, .bigcard3footer{
+    position: absolute;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 400px;
+    width: 187px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+    border-radius: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+    color: #8F8F8F;
+}
+
+
+.bigcard1footertext{
+    position: absolute;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+
+.youdecidewhen{
+    /* You decide when an where you work with freedom, just be kind. */
+    position: absolute;
+    display: flex;
+    margin-left: 21%;
+    margin-top: 3250px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #606060;
+}
+
+
+.subrayadopricing{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 421px;
+        height: 13px;
+        margin-left: 35%;
+        margin-top: 3445px;
+        background: #D64DE1;
+}
+
+
+.pricing{
+    /* Our pricing plans */
+    position: absolute;
+    display: flex;
+    width: 421px;
+    height: 48px;
+    margin-left: 35%;
+    margin-top: 3402px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #170F49;
+}
+
+
+.forworkersalwaysfree{
+    /* For workers always free. For business you have one month free then just $69 per month. */
+    position: absolute;
+    display: flex;
+    width: 409px;
+    height: 39px;
+    margin-left: 35%;
+    margin-top: 3475px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #606060;
+    text-align: center;
+}
+
+
+.bigcard4{
+    /* Pricing Card */
+    box-sizing: border-box;
+    position: absolute;
+    width: 394px;
+    height: 660px;
+    margin-left: 7%;
+    margin-top: 3623px;
+
+    /* Primary/Color 1 */
+
+    background: #9747FF;
+    /* Neutral/300 */
+
+    border: 1px solid #EFF0F7;
+    box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+
+.rectangle4464{
+/* Rectangle 4464 */
+    position: absolute;
+    display: flex;
+    width: 98px;
+    height: 40px;
+    margin-left: 256px;
+    margin-top: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.rectangle4464text{
+    /* Free */
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 15px;
+    margin-left: 24px;
+    margin-top: 12px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* or 100% */
+
+    text-align: center;
+
+    /* Neutral/100 */
+
+    color: #FFFFFF;
+}
+
+
+.cucarda{
+    /* Icon Background */
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    margin-left: 46px;
+    margin-top: 50px;
+
+
+    /* Neutral/100 */
+
+    border-radius: 16px;
+}
+
+
+.bigcard4title{
+    /* Price */
+    position: absolute;
+    width: 147px;
+    height: 35px;
+    margin-left: 132px;
+    margin-top: 68px;
+    /* Headings/Typography Size 3 */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+    /* Neutral/100 */
+    color: #FFFFFF;
+}
+
+
+.bigcard4subtitle{
+    /* Paragraph */
+    position: absolute;
+    width: 307px;
+    height: 60px;
+    margin-left: 44px;
+    margin-top: 140px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #D9DBE9;
+}
+
+
+.bigcard4price{
+    width: 71px;
+    height: 66px;
+    margin-top: 213px;
+    margin-left: 46px;
+
+    /* Headings/Typography Size 1 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    /* identical to box height, or 122% */
+    /* Neutral/100 */
+    color: #FFFFFF; 
+}
+
+
+.bigcard4forever{
+    /* /for ever */
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    margin-top: -40px;
+    margin-left: 130px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    color: #D9DBE9;
+}
+
+
+.bigcar4dwhat{
+    /* Text 200 */
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    margin-left: 49px;
+    margin-top: 17px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+.bigcard4lista{
+    margin-top: 75px;
+}
+
+
+.bigcard4item1, .bigcard4item2, .bigcard4item3, .bigcard4item4{
+    margin-top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #D9DBE9;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.bigcard4footer {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 38px;
+    gap: 6px;
+    margin-left: 35px;
+    margin-top: 260px;
+    width: 308px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 96px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.bigcard4footertext{
+    margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A3AFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.bigcard5{ 
+    /* Pricing Card */
+    box-sizing: border-box;
+    position: absolute;
+    width: 394px;
+    height: 660px;
+    margin-left: 60%;
+    margin-top: 3623px;
+    background: #FFFFFF;
+    border: 1px solid #EFF0F7;
+    box-shadow: 53px 196px 81px rgba(0, 0, 0, 0.01), 30px 110px 68px rgba(0, 0, 0, 0.05), 13px 49px 51px rgba(0, 0, 0, 0.09), 3px 12px 28px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+}
+
+
+.cucarda2{
+        /* Icon Background */
+        width: 72px;
+        height: 72px;
+        position: absolute;
+        margin-left: 46px;
+        margin-top: 50px;
+        border-radius: 16px;
+}
+
+
+.bigcard5title{
+    position: absolute;
+    /* width: 147px; */
+    height: 35px;
+    margin-left: 132px;
+    margin-top: 68px;
+
+    /* Headings/Typography Size 3 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    /* identical to box height, or 146% */
+
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+
+.bigcard5subtitle{
+    /* Paragraph */
+    position: absolute;
+    width: 307px;
+    height: 60px;
+    margin-left: 80px;
+    margin-top: 140px;
+
+    /* Paragraph/Default */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #606060;
+}
+
+
+.bigcard5price{
+    width: 71px;
+    height: 66px;
+    margin-top: 213px;
+    margin-left: 46px;
+
+    /* Headings/Typography Size 1 */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 66px;
+    /* identical to box height, or 122% */
+    /* Neutral/100 */
+    color: #170F49; 
+}
+
+
+.bigcard5forever{
+    /* /for ever */
+    position: absolute;
+    width: 81px;
+    height: 22px;
+    margin-top: -40px;
+    margin-left: 155px;
+
+    /* Text Single/300/Medium */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 110% */
+
+
+    /* Neutral/400 */
+
+    color: #170F49;
+}
+
+.bigcar5dwhat{
+    /* Text 200 */
+    position: absolute;
+    width: 151px;
+    height: 20px;
+    margin-left: 49px;
+    margin-top: 17px;
+
+    /* Text Single/200/Bold */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+
+    /* Neutral/800 */
+
+    color: #170F49;
+}
+
+
+.bigcard5lista{
+    margin-top: 75px;
+}
+
+
+.bigcard5item1, .bigcard5item2, .bigcard5item3, .bigcard5item4{
+    /* Text 200 */
+    /* width: 243px; */
+    /* height: 20px; */
+    /* Text Single/200/Regular */
+    margin-top: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 5px; */
+    /* identical to box height, or 111% */
+    /* Neutral/400 */
+    color: #170F49;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.bigcard5footer{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 38px;
+    gap: 6px;
+    margin-left: 40px;
+    margin-top: 260px;
+
+    width: 308px;
+    height: 72px;
+
+    /* Primary/Color 1 */
+
+    background: #4A3AFF;
+    border-radius: 96px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.bigcard5footertext{
+    /* Button Text */
+    width: 101px;
+    height: 20px;
+    margin-top: 20px;
+    /* Text Single/200/Bold */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+
+    /* Neutral/100 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.footerfinal{
+    /* Paragraph */
+    position: absolute;
+    width: 191px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 11px;
+
+    /* Paragraph/Default */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+
+    /* Neutral/600 */
+
+    color: #6F6C90;
+}
+
+
+.elipse{
+    /* Ellipse 5 */
+    position: absolute;
+    display: flex;
+    margin-top: 2849px;
+    backdrop-filter: blur(70.063px);
+}
+
+
+.elipse2{
+    /* Ellipse 5 */
+    position: absolute;
+    display: flex;
+    margin-left: 78.5%;
+    margin-top: 828px;
+    transform: rotate(180deg);
+    backdrop-filter: blur(70.063px);
+}
+
+
+.elipse3{
+    /* Ellipse 5 */
+    position: absolute;
+    display: flex;
+    margin-top: 254.49px;
+    background: rgba(255, 255, 255, 0.79);
+    backdrop-filter: blur(70.063px);
+}
+
+
+.circulitoytilde1{
+    position: absolute;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde2{
+    position: absolute;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde3{
+    position: absolute;
+    width: 300px;
+    margin-top: 135px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde4{
+    position: absolute;
+    width: 300px;
+    margin-top: 175px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde1texto{
+    /* Text Single/200/Regular */
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -25px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    /* Neutral/400 */
+
+    color: #D9DBE9;
+}
+
+
+
+ .circulitoytilde5{
+    position: absolute;
+    width: 300px;
+    margin-top: 55px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.tilde1{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -19px;
+}
+
+.circulitoytilde2texto{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: -30px;
+}
+
+
+.circulitoytilde6{
+    position: absolute;
+    width: 300px;
+    margin-top: 95px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde7{
+    position: absolute;
+    width: 300px;
+    margin-top: 135px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.circulitoytilde8{
+    position: absolute;
+    width: 300px;
+    margin-top: 175px;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+
+.titofreefoooter{
+    /* Tito Free */
+    position: absolute;
+    width: 184.36px;
+    height: 32px;
+    margin-left: 86px;
+    margin-top: 4496px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.4627px;
+    line-height: 31px;
+    /* or 106% */
+    /* Neutral/800 */
+    color: #170F49;
+}
+
+
+.titofreefoooter2{
+    position: absolute;
+    margin-top: 4496px;
+    margin-left: 150px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29.4627px;
+    line-height: 31px;
+    color: #4A3AFF;
+}
+
+
+#footer{
+    /* Copyright */
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 20px;
+    margin-left: 52%;
+    margin-top: 4492px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    
+}
+
+
+.botonapple2{
+    position: absolute; 
+    display: flex;
+    margin-top: 1300px;
+    margin-left: 17%;
+    margin-top: 4480px;
+}
+
+
+.botongoogle2{
+    position: absolute; 
+    display: flex;
+    margin-top: 1300px;
+    margin-left: 34%;
+    margin-top: 4480px;
+}
+
+.fixed-top{
+    display: none;
+}
+
+.botonapplemobile, .botongooglemobile{
+    display: none;
+}
+
+#carouselExampleCaptions{
+    display: none;
+}
+
+#carouselExample{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: none;
+}
+
+.youdecide{
+    display: none;
+}
+
+
+.subrayadoourpricing{
+    display: none;
+}
+
+
+.ourpricing{
+    display: none;
+}
+
+
+#bigcard2mobile{
+    display: none;
+}
+
+
+.botongooglefooter, .botonapplefooter{
+    display: none;
+}
+
+.icon-menu{
+    display: none;
+}
+
+.cont-menu{
+    display: none;
+}
+
+#bigcardmobile,#carouselExample1{
+    display: none;
+}
+
