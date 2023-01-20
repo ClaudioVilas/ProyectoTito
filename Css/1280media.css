@@ -22,7 +22,7 @@ width: 1280px;
 }
 
 
-.cubo{
+/* .cubo{
     display: flex;
     position: absolute;
     width: 1280px;
@@ -40,14 +40,14 @@ width: 1280px;
     border-color: #000000;
     border-style: solid;
     border-width: 1px;
-}
+} */
 
 
 
 .header {
     display: flex;
     position: fixed;
-    margin-left: 0%;
+    margin-left: 1%;
     Height: 126.43px;
     z-index: 1;
     background-color: #FFFFFF;
@@ -85,8 +85,8 @@ width: 1280px;
 .printable, .business, .worker, .download{
     display: flex;
     position: absolute;
-    margin-left: 700px;
-    margin-right: 40.07%;
+    margin-left: 650px;
+    /* margin-right: 30.07%; */
     margin-top: 52px;
     font-family: 'Roboto';
     font-style: normal;
@@ -98,12 +98,12 @@ width: 1280px;
 
 .business{
     display: flex;
-    margin-left: 850px;
+    margin-left: 800px;
 }
 
 .worker{
     display: flex;
-    margin-left: 1000px;
+    margin-left: 950px;
 }
 
 .download{
@@ -112,7 +112,7 @@ width: 1280px;
     Width: 163px;
     Height: 61px;
     margin-top: 32px;
-    margin-left: 1100px;
+    margin-left: 1050px;
     border-radius: 56px;
     padding-top: 20px;
     padding-left: 41px;
@@ -717,9 +717,9 @@ width: 1280px;
 /* category */
     position: absolute;
     display: flex;
-    width: 390px;
+    width: 340px;
     height: 510px;
-    margin-left: 3%;
+    margin-left: 2%;
     margin-top: 2663px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
@@ -772,12 +772,12 @@ width: 1280px;
 
 
 .bigcard2{
-    margin-left: 35%;
+    margin-left: 33%;
 }
 
 
 .bigcard3{
-    margin-left: 68%;
+    margin-left: 65%;
 }
 
 
@@ -929,7 +929,7 @@ width: 1280px;
         display: flex;
         width: 421px;
         height: 13px;
-        margin-left: 35%;
+        margin-left: 30%;
         margin-top: 3445px;
         background: #D64DE1;
 }
@@ -941,7 +941,7 @@ width: 1280px;
     display: flex;
     width: 421px;
     height: 48px;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 3402px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -958,7 +958,7 @@ width: 1280px;
     display: flex;
     width: 409px;
     height: 39px;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 3475px;
     font-family: 'Inter';
     font-style: normal;
@@ -976,7 +976,7 @@ width: 1280px;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-top: 3623px;
 
     /* Primary/Color 1 */
@@ -1187,7 +1187,7 @@ width: 1280px;
     position: absolute;
     width: 394px;
     height: 660px;
-    margin-left: 60%;
+    margin-left: 50%;
     margin-top: 3623px;
     background: #FFFFFF;
     border: 1px solid #EFF0F7;
@@ -1560,7 +1560,7 @@ width: 1280px;
     position: absolute;
     width: 184.36px;
     height: 32px;
-    margin-left: 86px;
+    margin-left: 35px;
     margin-top: 4496px;
 
     font-family: 'DM Sans';
@@ -1577,7 +1577,7 @@ width: 1280px;
 .titofreefoooter2{
     position: absolute;
     margin-top: 4496px;
-    margin-left: 150px;
+    margin-left: 100px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -1625,6 +1625,7 @@ width: 1280px;
     margin-left: 34%;
     margin-top: 4480px;
 }
+
 
 .fixed-top{
     display: none;
