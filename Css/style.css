@@ -1257,19 +1257,11 @@ display: flex;
     height: 22px;
     margin-top: -40px;
     margin-left: 155px;
-
-    /* Text Single/300/Medium */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-    /* identical to box height, or 110% */
-
-
-    /* Neutral/400 */
-
     color: #170F49;
 }
 
@@ -1280,19 +1272,11 @@ display: flex;
     height: 20px;
     margin-left: 49px;
     margin-top: 17px;
-
-    /* Text Single/200/Bold */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
-
-
-    /* Neutral/800 */
-
     color: #170F49;
 }
 
@@ -1303,20 +1287,12 @@ display: flex;
 
 
 #bigcard5item1, #bigcard5item2, #bigcard5item3, #bigcard5item4{
-    /* Text 200 */
-    /* width: 243px; */
-    /* height: 20px; */
-    /* Text Single/200/Regular */
     margin-top: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 5px; */
-    /* identical to box height, or 111% */
-    /* Neutral/400 */
     color: #170F49;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -2846,5 +2822,158 @@ display: flex;
         margin-left: 80px;
     }
     
+}
+
+@media screen and (max-width: 376px){
+
+    #body{
+        display: flex;
+    }
+
+
+.titofree{
+    display: flex;
+    position: absolute;
+    Height: 72px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 72px;
+    color: #000000;
+}
+
+#iconmenuhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+#imagen1{
+    width: 24px;
+    height: 24px;
+    margin-top: 150px;
+}
+
+#imagen2{
+    width: 24px;
+    height: 24px;
+    margin-top: 100px;
+}
+
+
+#imagen3{
+    width: 24px;
+    height: 24px;
+}
+
+
+#imagen8{
+    width: 24px;
+    height: 24px;
+    margin-top: 550px;
+    margin-left: 90px;
+}
+
+
+#imagen4{
+    width: 24px;
+    height: 24px;
+    margin-top: 600px;
+}
+
+
+#imagen5{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+
+#imagen7{
+    width: 24px;
+    height: 24px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+
+#imagen6{
+    width: 64px;
+    height: 64px;
+    margin-left: 220px;
+    margin-top: 550px;
+}
+
+
+#imagen3{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 530px;
+}
+
+
+#bekind{
+    margin-left: 120px;
+}
+
+
+#weconnect{
+    margin-left: 50px;
+}
+
+#leaveusyour{
+    margin-left: 50px;
+}
+
+.mailclienty{
+    width: 370px;
+    margin-left: 0px;
+}
+
+
+#tildecontextoitsfree{
+    margin-top: 500px;
+    margin-left: 15px;
+}
+
+#itsfree{
+    font-size: 10px;
+}
+
+#itssimple{
+    margin-left: 140px;
+}
+
+
+#howitworks{
+    margin-left: 130px;
+}
+
+#watchashortvideo{
+    margin-left: 30px;
+}
+
+#connectworkes{
+    margin-left: 30px;
+    margin-top: 940px;
+    text-align: center;
+}
+
+#botonapplemobile{
+    margin-left: 0px;
+    margin-top: 990px;
+}
+
+#botongooglemobile{
+    margin-left: 200px;
+    margin-top: 990px;
+}
+
 
 }
