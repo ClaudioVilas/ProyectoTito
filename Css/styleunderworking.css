@@ -1,6 +1,4 @@
-/* @media screen and (max-width: 1440px){ */
-
-    
+  
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
@@ -14,286 +12,84 @@
     @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
     
     
-    #body{
-        /* Home */
-    
-    
-    position: relative;
-    width: 1920px;
-    height: 1024px;
-    overflow: scroll;
-    margin-left: 300px;
-    
-    background: #FFFFFF;
-    }
-    
-    
-    .header {
-        /* Rectangle 4269 */
-        Width: 1440px;
-        Height: 126.43px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    
-        /* Neutral/100 */
-        background: #FFFFFF;
-    }
-    
-    .botontito,.botontito2{
-        position: absolute;
-        Width: 214px;
-        Height: 72px;
-        margin-top: 27px;
-        margin-left: 67px;
-        /* Estilo de fuente */
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 48px;
-        line-height: 72px;
-        color: #000000;
-    }
-    
-    
-    .botontito2{
-        position: absolute;
-        margin-left: 177px;
-        color: #4A3AFF;
-    
-    }
-    
-    
-    .botonheaderprint{
-        /* Plans */
-        position: absolute;
-        Width: 87px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 786px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-    
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderbusiness{
-        /* Contact */
-        position: absolute;
-        Width: 68px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 931px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderworker{
-        /* Contact */
-        position: absolute;
-        Width: 68px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 1057px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-    
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderdownload{
-        /* Button Text */
-        position: absolute;
-        Width: 163px;
-        Height: 61px;
-        margin-top: 32px;
-        margin-left: 1173px;
-        border-radius: 56px;
-        /* padding-left: 10px; */
-        padding-top: 20px;
-        background-color: #4A3AFF;
-    
-    
-        /* Text Single/200/Regular */
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
-    
-        /* identical to box height, or 111% */
-        text-align: center;
-    
-        /* Neutral/100 */
-        color: #FFFFFF;
-    
-    
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    
-.underworking1, .underworking2, .underworking3{
-/* WE ARE WORKING ON THIS PAGE FOR YOU */
-    position: absolute;
-    width: 437px;
-    height: 420px;
-    margin-left: 89px;
-    margin-top: 100px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 84px;
-    color: #000000;
+
+@media screen and (max-width: 1920px){
+
+#titofreeunderworking{
+    display: flex;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#underworking{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 15px;
 }
 
 
-.underworking2{
+#soonyoucan{
+    display: flex;
     position: absolute;
-    width: 137px;
-    margin-left: 285px;
-    margin-top: 352px;
-    color: #4A3AFF;
+    margin-top: 700px;
+    margin-left: 15px;
 }
 
 
-.underworking3{
+#navunderworking{
+    display: flex;
     position: absolute;
-    width: 137px;
-    margin-left: 89px;
-    margin-top: 435px;
-    color: #4A3AFF;
+    margin-top: 30px;
+    margin-left: 900px;
+
 }
 
 
-.soonyoucan, .soonyoucan2{
-    /* Soon you can download your app */
+#botondownload{
+    display: flex;
     position: absolute;
-    width: 431px;
-    height: 125px;
-    margin-left: 89px;
-    margin-top: 550px;
+    margin-top: 0px;
+    margin-left: 1400px;
+}
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
+#undergif{
 
-    color: #000000;
+    margin-top: 50px;
+    margin-left: 900px;
+}
+
+#playstoreunderworking{
+    display: flex;
+    position: absolute;
+    margin-top: 150px;
 }
 
 
-.soonyoucan2{
+#applestoreunderworking{
+    display: flex;
     position: absolute;
-    margin-top: 605px;
-    margin-left: 310px;
-    color: #4A3AFF;
+    margin-top: 150px;
+    margin-left: 250px;
+
 }
 
 
-.titofreefoooter{
-    /* Tito Free */
+#botontermsandconditions{
+    display: flex;
     position: absolute;
-    width: 184.36px;
-    height: 32px;
-    margin-left: 86px;
-    margin-top: 800px;
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29.4627px;
-    line-height: 31px;
-    /* or 106% */
-    /* Neutral/800 */
-    color: #170F49;
+    margin-top: 300px;
+    margin-left: 1150px;
 }
 
-
-.titofreefoooter2{
+#fototitofreeunderworking{
+    display: flex;
     position: absolute;
-    margin-top: 800px;
-    margin-left: 150px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29.4627px;
-    line-height: 31px;
-    color: #4A3AFF;
-}
-
-
-.footer{
-    /* Copyright */
-    position: absolute;
-    width: 600px;
-    height: 20px;
-    margin-left: 830px;
-    margin-top: 800px;
-
-    /* Text Single/200/Regular */
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: right;
-
-    /* Neutral/600 */
-
-    color: #000000;
-    background-color: #FFFFFF;
-    border: none;
-    text-decoration: none;
-    text-transform: none;
-}
-
-
-.botonapple2{
-    position: absolute; 
-    margin-top: 1300px;
+    margin-top: 300px;
     margin-left: 50px;
-    margin-top: 700px;
 }
 
 
-.botongoogle2{
-    position: absolute; 
-
-    margin-top: 1300px;
-    margin-left: 260px;
-    margin-top: 700px;
-}
-
-
-.underworkingpicture{
-    /* Rectangle */
-    position: absolute;
-    width: 1069px;
-    height: 733px;
-    margin-left: 764px;
 }

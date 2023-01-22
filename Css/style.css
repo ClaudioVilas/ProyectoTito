@@ -13,6 +13,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+
+
+@media screen and (max-width: 1920px){
+
 #body{
 
 /* overflow: scroll; */
@@ -21,7 +25,7 @@ display: flex;
 }
 
 
-.header {
+#header {
     display: flex;
     position: fixed;
     margin-left: 2%;
@@ -110,7 +114,7 @@ display: flex;
     display: flex;
 }
 
-.imagen1{
+#imagen1{
     position: absolute;
     display: flex;
     margin-left: 4%;
@@ -121,7 +125,7 @@ display: flex;
 
 
 
-.imagen2{  
+#imagen2{  
     position: absolute;
     display: flex;
     margin-left: 18%;
@@ -132,7 +136,7 @@ display: flex;
 
 
 
-.imagen3{
+#imagen3{
     position: absolute;
     display: flex;
     margin-left: 95%;
@@ -141,7 +145,7 @@ display: flex;
 
 
 
-.imagen4{
+#imagen4{
     position: absolute;
     display: flex;
     margin-left: 8%;
@@ -151,7 +155,7 @@ display: flex;
 } 
 
 
-.imagen5{
+#imagen5{
     position: absolute;
     display: flex;
     margin-left: 88%;
@@ -159,7 +163,7 @@ display: flex;
 } 
 
 
-.imagen6{
+#imagen6{
     position: absolute;
     display: flex;
     margin-left: 70%;
@@ -168,7 +172,7 @@ display: flex;
 } 
 
 
-.imagen7{
+#imagen7{
     position: absolute;
     display: flex;
     margin-left: 70%;
@@ -178,7 +182,7 @@ display: flex;
 } 
 
 
-.imagen8{
+#imagen8{
     position: absolute;
     display: flex;
     margin-left: 25%;
@@ -188,7 +192,7 @@ display: flex;
 } 
 
 
-.bekind{
+#bekind{
     /* be kind. be free */
     display: flex;
     position: absolute;
@@ -207,7 +211,7 @@ display: flex;
     color: #4A3AFF;
 }
 
-.weconnect{
+#weconnect{
     /* We connect employers with workers */
     position: absolute;
     display: flex;
@@ -225,7 +229,7 @@ display: flex;
 }
 
 
-.leaveusyour{
+#leaveusyour{
     /* Leave us your email to be in touch with the recent news */
     position: absolute;
     display: flex;
@@ -253,7 +257,7 @@ display: flex;
 }
 
 
-.tildecontextoitsfree{
+#tildecontextoitsfree{
     /* It's 100% free and we will never send more than one email */
     position: absolute;
     display: flex;
@@ -263,7 +267,7 @@ display: flex;
 }
 
 
-.itsfree{
+#itsfree{
     /* It's 100% free and we will never send more than one email */
     margin-left: 10px;
     font-family: 'DM Sans';
@@ -276,7 +280,7 @@ display: flex;
 }
 
 
-.itssimple{
+#itssimple{
     /* it's simple */
     position: absolute;
     display: flex;
@@ -292,7 +296,7 @@ display: flex;
 }
 
 
-.howitworks{
+#howitworks{
     /* HOW IT WORKS? */
     position: absolute;
     display: flex;
@@ -307,7 +311,7 @@ display: flex;
 }
 
 
-.watchashortvideo{
+#watchashortvideo{
     /* Watch a short video about TITO FREE and discover how this wonderful app works */
     position: absolute;
     display: flex;
@@ -322,7 +326,7 @@ display: flex;
 }
 
 
-.imagenvideo{
+#imagenvideo{
     /* contenedor video */
     position: absolute;
     display: flex;
@@ -333,7 +337,7 @@ display: flex;
 }
 
 
-.connectworkes{
+#connectworkes{
     /* Connect workers with restaurants that have positions to fill on demand */
     position: absolute;
     display: flex;
@@ -350,7 +354,7 @@ display: flex;
 }
 
 
-.botongoogle {
+#botongoogle {
     position: absolute;
     display: flex;
     margin-top: 1228px;
@@ -358,7 +362,7 @@ display: flex;
 }
 
 
-.botonapple{
+#botonapple{
     position: absolute;
     display: flex;
     margin-top: 1228px;
@@ -373,7 +377,7 @@ display: flex;
 }
 
 
-.subrayadotitobusiness{
+#subrayadotitobusiness{
     /* Rectangle 4518 */
     position: absolute;
     display: flex;
@@ -386,7 +390,7 @@ display: flex;
 }
 
 
-.titobusiness{
+#titobusiness{
     /* Titulo Tito business */
     position: absolute;
     display: flex;
@@ -403,7 +407,7 @@ display: flex;
 } 
 
 
-.downloadtheapp {
+#downloadtheapp {
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
     display: flex;
@@ -644,7 +648,7 @@ display: flex;
 }
 
 
-.titoworker{
+#titoworker{
     /* Tito Worker */
     position: absolute;
     display: flex;
@@ -661,7 +665,7 @@ display: flex;
 }
 
 
-.subrayadotitoworker{
+#subrayadotitoworker{
     /* Rectangle 4531 */
     position: absolute;
     display: flex;
@@ -673,7 +677,7 @@ display: flex;
 }
 
 
- .improveyourskills{
+ #improveyourskills{
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
     display: flex;
@@ -690,13 +694,13 @@ display: flex;
 }
 
 
-.bigcard1, .bigcard2, .bigcard3 {
+#bigcard1, #bigcard2, #bigcard3 {
 /* category */
     position: absolute;
     display: flex;
     width: 390px;
     height: 510px;
-    margin-left: 12%;
+    margin-left: 50px;
     margin-top: 2663px;
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
@@ -712,7 +716,7 @@ display: flex;
 }
 
 
-.bigcard1polygon, .bigcard2polygon, .bigcard3polygon{
+#bigcard1polygon, #bigcard2polygon, #bigcard3polygon{
     position: absolute;
     display: flex;
     margin-left: 70.5%;
@@ -721,7 +725,7 @@ display: flex;
 }
 
 
-.bigcard1rectangulo, .bigcard2rectangulo, .bigcard3rectangulo{
+#bigcard1rectangulo, #bigcard2rectangulo, #bigcard3rectangulo{
     position: absolute;
     display: flex;
     width: 71px;
@@ -731,7 +735,7 @@ display: flex;
 }
 
 
-.numero{
+#numero{
   /* 1 */
     position: absolute;
     display: flex;
@@ -748,17 +752,17 @@ display: flex;
 }
 
 
-.bigcard2{
-    margin-left: 40%;
+#bigcard2{
+    margin-left: 640px;
 }
 
 
-.bigcard3{
-    margin-left: 68%;
+#bigcard3{
+    margin-left: 1200px;
 }
 
 
-.bigcard1title, .bigcard2title, .bigcard3title{
+#bigcard1title, #bigcard2title, #bigcard3title{
     /* Get ready */
     position: absolute;
     display: flex;
@@ -774,7 +778,7 @@ display: flex;
 }
 
 
-.bigcard1subtitle, .bigcard2subtitle, .bigcard3subtitle{
+#bigcard1subtitle, #bigcard2subtitle, #bigcard3subtitle{
     /* You need to complete some necesary steps for your first job */
     position: absolute;
     display: flex;
@@ -791,7 +795,7 @@ display: flex;
 }
 
 
-.bigcard1lista, .bigcard2lista, .bigcard3lista{
+#bigcard1lista, #bigcard2lista, #bigcard3lista{
     /* 500 visitors */
     position: absolute;
     display: flex;
@@ -808,14 +812,14 @@ display: flex;
 }
 
 
-.circulitomini{
+#circulitomini{
     position: absolute;
     display: flex;
     margin-top: 2px;
 }
 
 
-.circulitominitext{
+#circulitominitext{
     position: absolute;
     display: flex;
     margin-left: 10%;
@@ -823,14 +827,14 @@ display: flex;
 }
 
 
-.circulitomini2{
+#circulitomini2{
     position: absolute;
     display: flex;
     margin-top: 50px;
 }
 
 
-.circulitominitext2{
+#circulitominitext2{
     position: absolute;
     display: flex;
     margin-top: 50px;
@@ -839,14 +843,14 @@ display: flex;
 }
 
 
-.circulitomini3{
+#circulitomini3{
     position: absolute;
     display: flex;
     margin-top: 100px;
 }
 
 
-.circulitominitext3{
+#circulitominitext3{
     position: absolute;
     display: flex;
     margin-top: 100px;
@@ -857,7 +861,7 @@ display: flex;
 
 
 
-.bigcard1footer, .bigcard2footer, .bigcard3footer{
+#bigcard1footer, #bigcard2footer, #bigcard3footer{
     position: absolute;
     display: flex;
     margin-left: 25%;
@@ -877,7 +881,7 @@ display: flex;
 }
 
 
-.bigcard1footertext{
+#bigcard1footertext{
     position: absolute;
     display: flex;
     margin-top: 20px;
@@ -885,7 +889,7 @@ display: flex;
 }
 
 
-.youdecidewhen{
+#youdecidewhen{
     /* You decide when an where you work with freedom, just be kind. */
     position: absolute;
     display: flex;
@@ -900,7 +904,7 @@ display: flex;
 }
 
 
-.subrayadopricing{
+#subrayadopricing{
         /* Rectangle 4531 */
         position: absolute;
         display: flex;
@@ -912,7 +916,7 @@ display: flex;
 }
 
 
-.pricing{
+#pricing{
     /* Our pricing plans */
     position: absolute;
     display: flex;
@@ -929,7 +933,7 @@ display: flex;
 }
 
 
-.forworkersalwaysfree{
+#forworkersalwaysfree{
     /* For workers always free. For business you have one month free then just $69 per month. */
     position: absolute;
     display: flex;
@@ -947,7 +951,7 @@ display: flex;
 }
 
 
-.bigcard4{
+#bigcard4{
     /* Pricing Card */
     box-sizing: border-box;
     position: absolute;
@@ -967,7 +971,7 @@ display: flex;
 }
 
 
-.rectangle4464{
+#rectangle4464{
 /* Rectangle 4464 */
     position: absolute;
     display: flex;
@@ -979,7 +983,7 @@ display: flex;
     border-radius: 10px;
 }
 
-.rectangle4464text{
+#rectangle4464text{
     /* Free */
     position: absolute;
     display: flex;
@@ -1003,7 +1007,7 @@ display: flex;
 }
 
 
-.cucarda{
+#cucarda{
     /* Icon Background */
     width: 72px;
     height: 72px;
@@ -1018,7 +1022,7 @@ display: flex;
 }
 
 
-.bigcard4title{
+#bigcard4title{
     /* Price */
     position: absolute;
     width: 147px;
@@ -1037,7 +1041,7 @@ display: flex;
 }
 
 
-.bigcard4subtitle{
+#bigcard4subtitle{
     /* Paragraph */
     position: absolute;
     width: 307px;
@@ -1054,7 +1058,7 @@ display: flex;
 }
 
 
-.bigcard4price{
+#bigcard4price{
     width: 71px;
     height: 66px;
     margin-top: 213px;
@@ -1073,7 +1077,7 @@ display: flex;
 }
 
 
-.bigcard4forever{
+#bigcard4forever{
     /* /for ever */
     position: absolute;
     width: 81px;
@@ -1089,7 +1093,7 @@ display: flex;
 }
 
 
-.bigcar4dwhat{
+#bigcar4dwhat{
     /* Text 200 */
     position: absolute;
     width: 151px;
@@ -1105,12 +1109,12 @@ display: flex;
 }
 
 
-.bigcard4lista{
+#bigcard4lista{
     margin-top: 75px;
 }
 
 
-.bigcard4item1, .bigcard4item2, .bigcard4item3, .bigcard4item4{
+#bigcard4item1, #bigcard4item2, #bigcard4item3, #bigcard4item4{
     margin-top: 10px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -1123,7 +1127,7 @@ display: flex;
 }
 
 
-.bigcard4footer {
+#bigcard4footer {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -1143,7 +1147,7 @@ display: flex;
 }
 
 
-.bigcard4footertext{
+#bigcard4footertext{
     margin-top: 20px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -1158,7 +1162,7 @@ display: flex;
 }
 
 
-.bigcard5{ 
+#bigcard5{ 
     /* Pricing Card */
     box-sizing: border-box;
     position: absolute;
@@ -1173,7 +1177,7 @@ display: flex;
 }
 
 
-.cucarda2{
+#cucarda2{
         /* Icon Background */
         width: 72px;
         height: 72px;
@@ -1184,7 +1188,7 @@ display: flex;
 }
 
 
-.bigcard5title{
+#bigcard5title{
     position: absolute;
     /* width: 147px; */
     height: 35px;
@@ -1207,7 +1211,7 @@ display: flex;
 }
 
 
-.bigcard5subtitle{
+#bigcard5subtitle{
     /* Paragraph */
     position: absolute;
     width: 307px;
@@ -1227,7 +1231,7 @@ display: flex;
 }
 
 
-.bigcard5price{
+#bigcard5price{
     width: 71px;
     height: 66px;
     margin-top: 213px;
@@ -1246,7 +1250,7 @@ display: flex;
 }
 
 
-.bigcard5forever{
+#bigcard5forever{
     /* /for ever */
     position: absolute;
     width: 81px;
@@ -1269,7 +1273,7 @@ display: flex;
     color: #170F49;
 }
 
-.bigcar5dwhat{
+#bigcar5dwhat{
     /* Text 200 */
     position: absolute;
     width: 151px;
@@ -1293,12 +1297,12 @@ display: flex;
 }
 
 
-.bigcard5lista{
+#bigcard5lista{
     margin-top: 75px;
 }
 
 
-.bigcard5item1, .bigcard5item2, .bigcard5item3, .bigcard5item4{
+#bigcard5item1, #bigcard5item2, #bigcard5item3, #bigcard5item4{
     /* Text 200 */
     /* width: 243px; */
     /* height: 20px; */
@@ -1319,7 +1323,7 @@ display: flex;
 }
 
 
-.bigcard5footer{
+#bigcard5footer{
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -1346,7 +1350,7 @@ display: flex;
 }
 
 
-.bigcard5footertext{
+#bigcard5footertext{
     /* Button Text */
     width: 101px;
     height: 20px;
@@ -1375,7 +1379,7 @@ display: flex;
 }
 
 
-.footerfinal{
+#footerfinal{
     /* Paragraph */
     position: absolute;
     width: 191px;
@@ -1399,7 +1403,7 @@ display: flex;
 }
 
 
-.elipse{
+#elipse{
     /* Ellipse 5 */
     position: absolute;
     display: flex;
@@ -1408,7 +1412,7 @@ display: flex;
 }
 
 
-.elipse2{
+#elipse2{
     /* Ellipse 5 */
     position: absolute;
     display: flex;
@@ -1419,7 +1423,7 @@ display: flex;
 }
 
 
-.elipse3{
+#elipse3{
     /* Ellipse 5 */
     position: absolute;
     display: flex;
@@ -1429,7 +1433,7 @@ display: flex;
 }
 
 
-.circulitoytilde1{
+#circulitoytilde1{
     position: absolute;
     width: 300px;
     margin-top: 55px;
@@ -1438,7 +1442,7 @@ display: flex;
 }
 
 
-.circulitoytilde2{
+#circulitoytilde2{
     position: absolute;
     width: 300px;
     margin-top: 95px;
@@ -1447,7 +1451,7 @@ display: flex;
 }
 
 
-.circulitoytilde3{
+#circulitoytilde3{
     position: absolute;
     width: 300px;
     margin-top: 135px;
@@ -1456,7 +1460,7 @@ display: flex;
 }
 
 
-.circulitoytilde4{
+#circulitoytilde4{
     position: absolute;
     width: 300px;
     margin-top: 175px;
@@ -1465,7 +1469,7 @@ display: flex;
 }
 
 
-.circulitoytilde1texto{
+#circulitoytilde1texto{
     /* Text Single/200/Regular */
     position: absolute;
     margin-left: 45px;
@@ -1483,7 +1487,7 @@ display: flex;
 
 
 
- .circulitoytilde5{
+ #circulitoytilde5{
     position: absolute;
     width: 300px;
     margin-top: 55px;
@@ -1492,20 +1496,20 @@ display: flex;
 }
 
 
-.tilde1{
+#tilde1{
     position: absolute;
     margin-top: 12px;
     margin-left: -19px;
 }
 
-.circulitoytilde2texto{
+#circulitoytilde2texto{
     position: absolute;
     margin-left: 45px;
     margin-top: -30px;
 }
 
 
-.circulitoytilde6{
+#circulitoytilde6{
     position: absolute;
     width: 300px;
     margin-top: 95px;
@@ -1514,7 +1518,7 @@ display: flex;
 }
 
 
-.circulitoytilde7{
+#circulitoytilde7{
     position: absolute;
     width: 300px;
     margin-top: 135px;
@@ -1523,7 +1527,7 @@ display: flex;
 }
 
 
-.circulitoytilde8{
+#circulitoytilde8{
     position: absolute;
     width: 300px;
     margin-top: 175px;
@@ -1532,7 +1536,7 @@ display: flex;
 }
 
 
-.titofreefoooter{
+#titofreefoooter{
     /* Tito Free */
     position: absolute;
     width: 184.36px;
@@ -1551,7 +1555,7 @@ display: flex;
 }
 
 
-.titofreefoooter2{
+#titofreefoooter2{
     position: absolute;
     margin-top: 4496px;
     margin-left: 150px;
@@ -1570,13 +1574,13 @@ display: flex;
     display: flex;
     width: 600px;
     height: 20px;
-    margin-left: 62%;
-    margin-top: 4492px;
+    margin-left: 900px;
+    margin-top: 4500px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 15px;
     color: #000000;
     background-color: #FFFFFF;
     border: none;
@@ -1586,20 +1590,19 @@ display: flex;
 }
 
 
-.botonapple2{
+
+#botonapple2{
     position: absolute; 
     display: flex;
-    margin-top: 1300px;
-    margin-left: 13%;
+    margin-left: 500px;
     margin-top: 4480px;
 }
 
 
-.botongoogle2{
+#botongoogle2{
     position: absolute; 
     display: flex;
-    margin-top: 1300px;
-    margin-left: 25%;
+    margin-left: 250px;
     margin-top: 4480px;
 }
 
@@ -1607,7 +1610,7 @@ display: flex;
     display: none;
 }
 
-.botonapplemobile, .botongooglemobile{
+#botonapplemobile, #botongooglemobile{
     display: none;
 }
 
@@ -1644,7 +1647,7 @@ display: flex;
 }
 
 
-.botongooglefooter, .botonapplefooter{
+#botongooglefooter, #botonapplefooter{
     display: none;
 }
 
@@ -1660,3 +1663,1188 @@ display: flex;
     display: none;
 }
 
+}
+
+@media screen and (max-width: 720px){
+
+    #body{
+
+        /* overflow: scroll; */
+        background: #FFFFFF;
+        display: flex;
+        }
+
+        
+    .cubo{
+        position: absolute;
+        display: flex;
+        width: 360px;
+        height: 1600px;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+    }
+    
+       
+    #elipse{
+        margin-top: 247px;
+    
+    }
+    
+    
+    #header{
+        position: absolute;
+        display: flex;
+        height: 33px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 15px;
+        color: #000000;
+    }
+    
+    
+    #titofree{
+        display: flex;
+        position: absolute;
+        margin-left: 4.65%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 36px;
+        color: #000000;
+    }
+    
+    #menuheader{
+        display: none;
+    }
+    
+    .printable, .business, .worker, .download{
+        display: none;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: none;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: none;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: none;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+    
+    .download{
+        display: none;
+    }
+    
+    .icon-menu{
+        display: flex;
+        position: absolute;
+    }
+
+
+    #iconmenuhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 650px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    #imagen1{
+        position: absolute;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 219px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    
+    #imagen2{  
+        position: absolute;
+        display: flex;
+        margin-left: 100px;
+        margin-top: 109px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    
+    #imagen3{
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 450px;
+    } 
+    
+    
+    
+    #imagen4{
+        position: absolute;
+        display: flex;
+        margin-left: 8%;
+        margin-top: 574px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    #imagen5{
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 109px;
+    } 
+    
+    
+    #imagen6{
+        position: absolute;
+        display: flex;
+        margin-left: 500px;
+        margin-top: 520px;
+    
+    
+    } 
+    
+    
+    #imagen7{
+        position: absolute;
+        display: flex;
+        margin-left: 650px;
+        margin-top: 219px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    #imagen8{
+        position: absolute;
+        display: flex;
+        margin-left: 150px;
+        margin-top: 490px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    #bekind{
+        /* be kind. be free */
+        position: absolute;
+        display: flex;
+        margin-left: 270px;
+        margin-right: 15px;
+        margin-top: 130px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        /* or 112% */
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
+    }
+    
+    
+    #weconnect{
+        /* We connect employers with workers */
+        position: absolute;
+        display: flex;
+        height: 64px;
+        text-align: center;
+        margin-top: 175px;
+        margin-left: 220px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 160% */
+        text-align: center;
+        color: #000000;
+    }
+    
+    
+    #leaveusyour{
+        position: absolute;
+        height: 30px;
+        margin-left: 200px;
+        margin-top: 250px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+        /* identical to box height, or 250% */
+        text-align: center;
+        /* Neutral/600 */
+        color: #6F6C90;
+    }
+    
+    
+    .mailclienty{
+        position: absolute;
+        display: flex;
+        margin-left: 65px;
+        margin-top: 280px;
+    }
+    
+    
+    
+    #tildecontextoitsfree{
+        position: absolute;
+        display: flex;
+        width: 600px;
+        height: 34px;
+        margin-left: 140px;
+        margin-top: 430px;
+    
+    }
+    
+    
+    #itsfree{
+        margin-left: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* or 150% */
+        text-align: center;
+        /* Neutral/600 */
+        color: #6F6C90;
+    }
+    
+    
+    #tilde{
+        position: absolute;
+        display: flex;
+        width: 11px;
+        height: 11px;
+        margin-top: 3px;
+    }
+    
+    
+    #itssimple{
+        position: absolute;
+        display: flex;
+        width: 156px;
+        height: 22.22px;
+        margin-left: 300px;
+        margin-top: 600px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
+    }
+    
+    
+    #howitworks{
+        position: absolute;
+        display: flex;
+        width: 329px;
+        height: 48.9px;
+        margin-left: 300px;
+        margin-top: 630px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    
+    #watchashortvideo{
+        position: absolute;
+        display: flex;
+        width: 320px;
+        height: 71.11px;
+        margin-left: 200px;
+        margin-right: 8px;
+        margin-top: 650px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        /* or 150% */
+        align-items: center;
+        text-align: center;
+        color: #383838;
+    }
+    
+    
+    #imagenvideo{
+        position: absolute;
+        display: flex;
+        margin-left: 7%;
+        width: 329px;
+        height: 208px;
+        margin-top: 720px;
+    }
+    
+    
+    #connectworkes{
+        position: absolute;
+        display: flex;
+        height: 56px;
+        width: 300px;
+        margin-left: 400px;
+        margin-top: 750px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: left;
+        color: #000000;
+    }
+    
+    
+    #botonapple, #botongoogle, #botonapple2, #botongoogle2{
+        display: none;
+    }
+    
+    
+    #botonapplemobile, #botongooglemobile{
+        position: absolute;
+        display: flex;
+        width: 174px;
+        margin-left: 390px;
+        margin-top: 850px;
+    }
+    
+    
+    #botongooglemobile{
+        margin-left: 540px;
+    
+    }
+    
+    
+    #espacioenblanco{
+        display: flex;
+        position: absolute;
+        margin-top: 1090px;
+    }
+    
+    
+    #subrayadotitobusiness{
+        /* Rectangle 4518 */
+        position: absolute;
+        display: flex;
+        width: 330px;
+        height: 13px;
+        margin-left: 0px;
+        margin-top: 1060px;
+        background: #7551FF;
+    
+    }
+    
+    
+    #header3{
+        height: 25px;
+        margin-top: 1100px;
+    }
+    
+    
+    #titobusiness{
+        /* Tito Worker */
+        position: absolute;
+        display: flex;
+        width: 668px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 1015px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    
+    #header3{
+        position: absolute;
+        display: flex;
+        margin-left: 3%;
+        margin-top: 1095px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    
+    #downloadtheapp{
+        /* Download the app and start hiring the best workers in the position you need */
+        position: absolute;
+        display: flex;
+        width: 620px;
+        height: 23px;
+        margin-left: 5px;
+        margin-top: 1081px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #606060; 
+    }
+    
+    .card1, .card4, .card7, .card10{
+        /* Waiter */
+        position: absolute;
+        display: flex;
+        width: 170px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 1120px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+    
+    .card4{
+        margin-top: 1200px;
+    }
+    
+    .card7{
+        margin-top: 1324px;
+    }
+    
+    .card10{
+        margin-top: 1438px;
+    }
+    
+    
+    
+    .imagencard1, .imagencard4, .imagencard7, .imagencard10{
+        /* image 5 */
+        position: absolute;
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin-left: 24px;
+        margin-top: 30px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px;
+    }
+    
+    
+    .card1text, .card4text, .card7text, .card10text{
+        position: absolute;
+        display: flex;
+        height: 62px;
+        margin-left: 100px;
+        margin-top: 12px;
+        padding-top: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        color: #000000; 
+    }
+    
+    
+    .card1text2, .card4text2, .card7text2, .card10text2 {
+        /* xxxx workers avaibles */
+        position: absolute;
+        display: flex;
+        width: 123px;
+        height: 16px;
+        margin-left: 90px;
+        margin-top: 74px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 12px;
+        color: #999999;
+    }
+    
+    
+    .card2, .card5, .card8, .card11{
+        /* Waiter */
+        position: absolute;
+        display: flex;
+        width: 170px;
+        height: 100px;
+        margin-left: 250px;
+        margin-top: 1120px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+    
+    .card5{
+        margin-top: 1200px;
+    }
+    
+    
+    .card8{
+        margin-top: 1324px;
+    }
+    
+    
+    .card11{
+        margin-top: 1438px;
+    }
+    
+    
+    .imagencard2, .imagencard5, .imagencard8, .imagencard11{
+        /* image 5 */
+        position: absolute;
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin-left: 24px;
+        margin-top: 30px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px;
+    }
+    
+    
+    .card2text, .card5text, .card8text, .card11text{
+        position: absolute;
+        display: flex;
+        height: 62px;
+        margin-left: 100px;
+        margin-top: 12px;
+        padding-top: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        color: #000000; 
+    }
+    
+    
+    .card2text2, .card5text2, .card8text2, .card11text2{
+        /* xxxx workers avaibles */
+        position: absolute;
+        display: flex;
+        width: 123px;
+        height: 16px;
+        margin-left: 90px;
+        margin-top: 74px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        color: #999999;
+    }
+    
+    
+    .card3, .card6, .card9, .card12{
+        /* Waiter */
+        position: absolute;
+        display: flex;
+        width: 170px;
+        height: 100px;
+        margin-left: 500px;
+        margin-top: 1120px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+    }
+    
+    
+    .card6{
+        margin-top: 1200px;
+    }
+    
+    
+    .card9{
+        margin-top: 1324px;
+    }
+    
+    
+    .card12{
+        margin-top: 1438px;
+    }
+    
+    .imagencard3, .imagencard6, .imagencard9, .imagencard12{
+        /* image 5 */
+        position: absolute;
+        display: flex;
+        width: 60px;
+        height: 60px;
+        margin-left: 24px;
+        margin-top: 30px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px;
+    }
+    
+    
+    .card3text, .card6text, .card9text, .card12text{
+        position: absolute;
+        display: flex;
+        height: 62px;
+        margin-left: 100px;
+        margin-top: 12px;
+        padding-top: 30px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 12px;
+        color: #000000; 
+    }
+    
+    
+    .card3text2, .card6text2, .card9text2, .card12text2{
+        /* xxxx workers avaibles */
+        position: absolute;
+        display: flex;
+        width: 123px;
+        height: 16px;
+        margin-left: 90px;
+        margin-top: 74px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+        color: #999999;
+    }
+    
+    
+    #titocardscontextoytodo{
+        margin-top: 50px;
+    }
+    
+    #espacioenblanco2{
+        position: absolute;
+        margin-top: 2350px;
+    }
+    
+    
+    #titoworker{
+        /* Tito Worker */
+        position: absolute;
+        display: flex;
+        width: 668px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 1700px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    #subrayadotitoworker{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 279px;
+        height: 13px;
+        margin-left: 5px;
+        margin-top: 1740px;
+        background: #FFDCC8;
+    }
+    
+    
+    #improveyourskills{
+        /* Download the app and start hiring the best workers in the position you need */
+        position: absolute;
+        display: flex;
+        width: 400px;
+        height: 20px;
+        margin-left: 5px;
+        margin-top: 1760px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #606060;
+    }
+    
+    
+    #bigcard1, #bigcard2, #bigcard3 {
+        /* category */
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 510px;
+        margin-left: 10px;
+        margin-top: 1900px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+        border-radius: 16px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+    }
+        
+        
+    #bigcard1polygon, #bigcard2polygon, #bigcard3polygon{
+        position: absolute;
+        display: flex;
+        margin-left: 133px;
+        margin-top: -29px;  
+    }
+        
+        
+    #bigcard1rectangulo, #bigcard2rectangulo, #bigcard3rectangulo{
+        position: absolute;
+        display: flex;
+        width: 71px;
+        height: 122px;
+        margin-left: 150px;
+        margin-top: -29px;
+    }
+        
+        
+    #numero{
+        /* 1 */
+        position: absolute;
+        display: flex;
+        width: 9px;
+        height: 17px;
+        margin-left: 180px;
+        margin-top: 23px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+        
+        
+    #bigcard2{
+            margin-left: 255px;
+    }
+        
+        
+    #bigcard3{
+            margin-left: 490px;
+    }
+        
+        
+    #bigcard1title, #bigcard2title, #bigcard3title{
+        /* Get ready */
+        position: absolute;
+        display: flex;
+        height: 42px;
+        margin-left: 27%;
+        margin-top: 93px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 42px;
+        color: #000000;
+    }
+    
+    #bigcard3title{
+            margin-left: 25px;
+    }
+        
+        
+    #bigcard1subtitle, #bigcard2subtitle, #bigcard3subtitle{
+        /* You need to complete some necesary steps for your first job */
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 40px;
+        margin-left: 1px;
+        margin-top: 142px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        color: #606060;
+    }
+        
+        
+    #bigcard1lista, #bigcard2lista, #bigcard3lista{
+        /* 500 visitors */
+        position: absolute;
+        display: flex;
+        width: 100%;
+        margin-left: 5px;
+        height: 27px;
+        margin-top: 225px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #000000;
+    }
+        
+        
+    #circulitomini{
+        position: absolute;
+        display: flex;
+        margin-top: 2px;
+    }
+        
+        
+    #circulitominitext{
+        position: absolute;
+        display: flex;
+        margin-left: 25px;
+        margin-top: 5px;
+        color: #000000;
+    }
+        
+        
+    #circulitomini2{
+        position: absolute;
+        display: flex;
+        margin-top: 50px;
+    }
+        
+        
+    #circulitominitext2{
+        position: absolute;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 25px;
+        color: #000000;
+    }
+        
+        
+    #circulitomini3{
+        position: absolute;
+        display: flex;
+        margin-top: 100px;
+    }
+        
+        
+    #circulitominitext3{
+        position: absolute;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 25px;
+        color: #000000;
+    }
+        
+        
+        
+        
+    #bigcard1footer, #bigcard2footer, #bigcard3footer{
+        position: absolute;
+        display: flex;
+        margin-left: 20px;
+        margin-top: 400px;
+        width: 150px;
+        height: 63px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
+        border-radius: 16px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+        color: #8F8F8F;
+    }
+        
+        
+    #bigcard1footertext{
+        position: absolute;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 20%;
+    }
+    
+    
+    #youdecidewhen{
+        /* You decide when an where you work with freedom, just be kind. */
+        position: absolute;
+        display: flex;
+        margin-left: 75px;
+        margin-top: 2500px;
+        width: 621px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31px;
+        color: #606060;
+    }
+    
+    
+    #subrayadopricing{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 421px;
+        height: 13px;
+        margin-left: 5px;
+        margin-top: 2630px;
+        background: #D64DE1;
+    }
+    
+    
+    #pricing{
+        /* Our pricing plans */
+        position: absolute;
+        display: flex;
+        width: 421px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 2590px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    
+    #forworkersalwaysfree{
+        /* For workers always free. For business you have one month free then just $69 per month. */
+        position: absolute;
+        display: flex;
+        width: 509px;
+        height: 39px;
+        margin-left: 5px;
+        margin-top: 2660px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 14px;
+        color: #606060;
+        text-align: left;
+    }
+    
+    #bigcard4, #bigcard5{
+        display: none;
+    }
+    
+    
+    #bigcardmobile{
+        position: absolute;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 2760px;
+    }
+    
+    #fotobigcard4{
+        width: 300px;
+    }
+    
+    #botonapplefooter{
+        position: absolute;
+        display: flex;
+        margin-left: 300px;
+        margin-top: 3500px;
+    }
+    
+    #botongooglefooter{
+        position: absolute;
+        display: flex;
+        margin-left: 150px;
+        margin-top: 3500px;
+    }
+    
+    
+    #footer{
+        /* Copyright */
+        position: absolute;
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-left: 400px;
+        margin-top: 3500px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        background-color: #FFFFFF;
+        border: none;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    #titofreefoooter{
+        /* Tito Free */
+        position: absolute;
+        width: 184.36px;
+        height: 32px;
+        margin-left: 5px;
+        margin-top: 3496px;
+    
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29.4627px;
+        line-height: 31px;
+        /* or 106% */
+        /* Neutral/800 */
+        color: #170F49;
+    }
+    
+    
+    #titofreefoooter2{
+        position: absolute;
+        margin-top: 3496px;
+        margin-left: 70px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29.4627px;
+        line-height: 31px;
+        color: #4A3AFF;
+    }
+    
+
+    .mostrar{
+        transform: translate(-600px);
+    }
+    
+    
+    .opacity{
+    
+        background-color: #000000;
+        transition: all .5s ease;
+    }
+
+
+    #menu{
+        display: flex;
+        position: absolute;
+        width: 350px;
+        height: 600px;
+        background-color: #ffffff;
+        margin-left: 7px;
+        border-radius: 56px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        z-index: 1;
+    }
+    
+    #titohamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 55px;
+    }
+
+
+    #bekindmobilehamburgesa{
+        /* be kind. be free */
+        display: flex;
+        position: absolute;
+        width: 360px;
+        padding-top: 120px;
+        margin-left: 75px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: #4A3AFF;
+    }
+    
+    
+    #printinhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 3%;
+        padding-top: 250px;
+    }
+    
+    #businesshamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 3%;
+    }
+    
+    
+    
+    #workerhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 3%;
+    }
+    
+    
+    
+    #downloadhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 450px;
+        margin-left: 80px;
+    }
+    
+
+}
