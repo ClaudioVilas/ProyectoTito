@@ -69,6 +69,38 @@
         margin-top: 820px;
         margin-left: 900px;
     }
+}
 
+
+@media screen and (max-width: 376px){
+
+    #soonyoucan, #navunderworking, #botondownload{
+        display: none;
+    }
+
+    #underworking{
+        width: 360px;
+    }
+
+    #undergif{
+        display: flex;
+        position: absolute;
+        width: 370px;
+        margin-top: 600px;
+        margin-left: 0px;
+    }
+
+    #playstoreunderworking, #applestoreunderworking{
+        width: 100px;
+        margin-top: 1000px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
+        position: absolute;
+        margin-top: 1100px;
+        margin-left: 0px;
+        width: 360px;
+    }
 
 }
