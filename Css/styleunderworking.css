@@ -72,6 +72,61 @@
 }
 
 
+@media screen and (max-width: 1367px){
+    #navunderworking{
+        margin-left: 700px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1170px;
+    }
+
+
+    #undergif{
+        margin-left: 600px;
+    }
+
+    #botontermsandconditions{
+        margin-left: 800px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 721px){
+
+    #navunderworking{
+        margin-left: 600px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1070px;
+    }
+
+    #undergif{
+        margin-left: 500px;
+    }
+
+    #fototitofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 900px;
+        margin-left: 70px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
+        position: absolute;
+        width: 500px;
+        margin-left: 500px;
+
+    }
+}
+
+
 @media screen and (max-width: 376px){
 
     #soonyoucan, #navunderworking, #botondownload{

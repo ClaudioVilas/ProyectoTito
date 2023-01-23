@@ -1641,6 +1641,58 @@ display: flex;
 
 }
 
+
+@media screen and (max-width: 1367px){
+
+#body{
+    width: 1366px;
+}
+
+.textotito{
+    margin-left: 5px;
+}
+
+.textofee{
+    margin-left: 5px;
+}
+
+.titofree{
+    margin-left: 5px;
+}
+
+#menuheader{
+    display: flex;
+    position: absolute;
+    width: 1366px;
+    margin-left: 0px;
+}
+
+#imagen7{
+    margin-left: 1045px;
+}
+
+#imagen3{
+    margin-left: 1250px;
+}
+
+
+
+#bigcard2{
+    margin-left: 495px;
+}
+
+#bigcard3{
+    margin-left: 950px;
+}
+
+#footer{
+    margin-left: 750px;
+}
+
+
+
+}
+
 @media screen and (max-width: 720px){
 
     #body{
@@ -2826,9 +2878,10 @@ display: flex;
 
 @media screen and (max-width: 376px){
 
-    #body{
-        display: flex;
-    }
+#body{
+    display: flex;
+    width: 375px;
+}
 
 
 .titofree{
@@ -2850,6 +2903,7 @@ display: flex;
     position: absolute;
     margin-left: 330px;
     margin-top: 30px;
+    z-index: 1;
 }
 
 #imagen1{
@@ -3116,6 +3170,11 @@ display: flex;
 #footer {
     margin-top: 2750px;
     margin-left: 35px;
+}
+
+#imagenvideo{
+    width: 375px;
+    margin-left: 0px;
 }
 
 }
@@ -3149,6 +3208,8 @@ display: flex;
     margin-top: 30px;
 }
 
+
+
 #imagen1{
     width: 24px;
     height: 24px;
@@ -3270,7 +3331,7 @@ display: flex;
 }
 
 #botongooglemobile{
-    margin-left: 200px;
+    margin-left: 180px;
     margin-top: 990px;
 }
 
@@ -3289,11 +3350,10 @@ display: flex;
 
 
 #downloadtheapp{
-    font-size: 12px;
+    font-size: 10px;
     margin-left: 0px;
     margin-top: 1070px;
     width: 200px;
-
 }
 
 .cardsdesktop{
@@ -3414,5 +3474,86 @@ display: flex;
     margin-top: 2750px;
     margin-left: 35px;
 }
+
+#imagenvideo{
+    width: 375px;
+    margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 360px){
+
+#body{
+    width: 360px;
+}
+
+
+.titofree{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#iconmenuhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 310px;
+    z-index: 1;
+}
+
+#menuheader{
+    display: none;
+}
+
+#weconnect{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 30px;
+}
+
+#leaveusyour{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 30px;
+}
+
+.mailclienty{
+    width: 360px;
+}
+
+#howitworks{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 130px;
+}
+
+#imagenvideo{
+    width: 360px;
+    margin-left:0px;
+}
+
+#elipse{
+display: none;
+}
+
+#titobusiness{
+    width: 360px;
+}
+
+#titoworker{
+    width: 360px;
+}
+
+#improveyourskills{
+    width: 360px;
+}
+
+#pricing{
+    width: 360px;
+}
+
+
 
 }

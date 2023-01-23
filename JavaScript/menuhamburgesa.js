@@ -6,6 +6,11 @@ const ocultar2 = document.querySelector ("#workerhamburgesa")
 
 const ocultar3 = document.querySelector ("#downloadhamburgesa")
 
+const ocultar4 = document.querySelector ("#menu")
+
+
+
+
     iconoMenu.addEventListener ("click", (e) => {
         menu.classList.toggle ("mostrar")
             document.body.classList.toggle ("opacity")
@@ -23,11 +28,17 @@ const ocultar3 = document.querySelector ("#downloadhamburgesa")
             document.body.classList.toggle ("opacity")
     })
 
+
     ocultar3.addEventListener ("click", () => {
         document.body.classList.toggle ("opacity")
         menu.classList.toggle ("mostrar")
     })
 
+
+    ocultar4.addEventListener ("click", () => {
+        document.body.classList.toggle ("opacity")
+        menu.classList.toggle ("mostrar")
+    })
 
 
 
