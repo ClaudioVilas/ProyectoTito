@@ -1690,8 +1690,6 @@ display: flex;
 
 
 @media screen and (max-width: 1441px){
-
-
     #body{
         width: 1440px;
     }
@@ -1730,9 +1728,54 @@ display: flex;
     #footer{
         margin-left: 750px;
     }
-
-
 }
+
+@media screen and (max-width: 800px){
+    #body{
+        width: 800px;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+
+    #header{
+        width: 800px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 800px;
+        margin-left: 10px;
+    }
+
+    #imagen3{
+        margin-left: 1300px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+}
+
 
 @media screen and (max-width: 720px){
 
