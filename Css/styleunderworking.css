@@ -1,0 +1,74 @@
+@media screen and (max-width: 1920px){
+
+    #titofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    #underworking{
+        display: flex;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+
+    #soonyoucan{
+        display: flex;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 5px;
+    }
+
+    #navunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 1000px;
+    }
+
+    #botondownload{
+        display: flex;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 1500px;
+    }
+
+    #undergif{
+        display: flex;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 800px;
+    }
+
+    #playstoreunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 250px;
+    }
+
+    #applestoreunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 5px;
+    }
+
+    #fototitofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 900px;
+        margin-left: 70px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
+        position: absolute;
+        margin-top: 820px;
+        margin-left: 900px;
+    }
+
+
+}

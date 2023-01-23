@@ -1651,7 +1651,7 @@ display: flex;
         }
 
         
-    .cubo{
+    /* .cubo{
         position: absolute;
         display: flex;
         width: 360px;
@@ -1659,7 +1659,7 @@ display: flex;
         border-color: #000000;
         border-width: 1px;
         border-style: solid;
-    }
+    } */
     
        
     #elipse{
@@ -2072,7 +2072,7 @@ display: flex;
     
     
     #titobusiness{
-        /* Tito Worker */
+        /* Tito Business */
         position: absolute;
         display: flex;
         width: 668px;
@@ -2925,14 +2925,16 @@ display: flex;
 
 #weconnect{
     margin-left: 50px;
+    width: 375px;
 }
 
 #leaveusyour{
     margin-left: 50px;
+    width: 375px;
 }
 
 .mailclienty{
-    width: 370px;
+    width: 375px;
     margin-left: 0px;
 }
 
@@ -2975,5 +2977,145 @@ display: flex;
     margin-top: 990px;
 }
 
+
+#subrayadotitobusiness{
+    height: 5px;
+    width: 160px;
+}
+
+
+#titobusiness{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1020px;
+}
+
+
+#downloadtheapp{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 1070px;
+    width: 200px;
+
+}
+
+.cardsdesktop{
+    display: none;
+}
+
+
+#carouselExample1{
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 60px;
+    width: 250px;
+    height: 80px;
+    background-color: #FFDCC8;
+}
+
+
+.textocarusel{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+.fotocarusel{
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+
+#titoworker{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1400px;
+
+}
+
+
+#subrayadotitoworker{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1435px;
+    margin-left: 0px;
+}
+
+
+#improveyourskills{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 1440px;
+
+}
+
+
+#bigcard1, #bigcard2, #bigcard3, #bigcard4, #bigcard5{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: flex;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 1500px;
+}
+
+
+#youdecidewhen{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 1800px;
+    width: 300px;
+    text-align: center;
+}
+
+
+#pricing{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1900px;
+
+}
+
+
+#subrayadopricing{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1939px;
+    margin-left: 0px;
+    width: 200px;
+}
+
+#forworkersalwaysfree{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 1950px;
+    width: 350px;
+}
+
+#bigcardmobile{
+    margin-left: 35px;
+    margin-top: 2000px;
+}
+
+
+#titofreefoooter, #titofreefoooter2, #botongooglefooter, #botonapplefooter{
+    margin-top: 2700px;
+}
+
+#botonapplefooter{
+    margin-left: 250px;
+}
+
+#footer {
+    margin-top: 2750px;
+    margin-left: 35px;
+}
 
 }
