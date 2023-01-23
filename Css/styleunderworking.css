@@ -94,6 +94,30 @@
 
 }
 
+@media screen and (max-width: 1441px){
+
+    #navunderworking{
+        margin-left: 700px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1170px;
+    }
+
+
+    #undergif{
+        margin-left: 600px;
+    }
+
+    #botontermsandconditions{
+        margin-left: 800px;
+
+    }
+
+}
+
+
 
 @media screen and (max-width: 721px){
 
@@ -134,28 +158,42 @@
     }
 
     #underworking{
-        width: 360px;
+        width: 270px;
+        z-index: 1;
     }
 
     #undergif{
         display: flex;
         position: absolute;
         width: 370px;
-        margin-top: 600px;
+        margin-top: 350px;
         margin-left: 0px;
     }
 
     #playstoreunderworking, #applestoreunderworking{
         width: 100px;
-        margin-top: 1000px;
+        margin-top: 720px;
+        margin-left: 75px;
+    }
+
+    #applestoreunderworking{
+        margin-left: 200px;
     }
 
     #botontermsandconditions{
         display: flex;
         position: absolute;
-        margin-top: 1100px;
-        margin-left: 0px;
+        margin-top: 805px;
+        margin-left: 115px;
         width: 360px;
+        font-size: 8px;
+    }
+
+     #fototitofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 20px;
     }
 
 }
