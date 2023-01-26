@@ -1802,6 +1802,161 @@ display: flex;
 }
 
 
+@media screen and (max-width: 1280px){
+
+    #body{
+        width: 1280px;
+    }
+
+    #header{
+        margin-left: 0px;
+        width: 1280px;
+    }
+
+    .textotito{
+        margin-left: 5px;
+    }
+
+    .textofee{
+        margin-left: 5px;
+    }
+
+    .titofree{
+        margin-left: 5px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 1280px;
+        margin-left: 0px;
+    }
+
+    #bekind{
+        margin-left: 690px;
+    }
+
+
+    #itssimple{
+        margin-left: 700px;
+    }
+
+    #imagen7{
+        margin-left: 1150px;
+        margin-top: 500px;
+    }
+
+    #imagen3{
+        margin-top: 330px;
+        margin-left: 1100px;
+    }
+
+
+    #imagenvideo{
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    #connectworkes{
+        margin-left: 705px;
+    }
+
+    #botongoogle{
+        margin-left: 690px;
+    }
+
+    #titobusiness, #subrayadotitobusiness{
+        margin-left: 5px;
+    }
+
+    #downloadtheapp{
+        margin-left: 0px;
+    }
+
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #botonapple{
+        margin-left: 900px;
+    }
+
+    .cardsdesktop{
+        margin-left: 100px;
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 210px;
+        height: 120px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 210px;
+        height: 120px;
+        margin-left: 370px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 210px;
+        height: 120px;
+        margin-left: 700px; 
+    } 
+
+    #contenedor3tarjetas{
+        margin-left: 0px;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        height: 500px;
+        margin-top: 2700px;
+        margin-left: 0px;
+    }
+    
+    #bigcardfoto2{
+        margin-left: 400px;
+    }
+    
+    #bigcardfoto3{
+        margin-left: 800px;
+    }
+
+    #bigcard5{
+        margin-left: 700px;
+    }
+
+    #footer{
+        width: 590px;
+        margin-left: 700px;
+    }
+
+    #todoelfooter{
+        margin-left: -100px;
+    }
+
+    #botonapple2{
+        margin-left: 150px;
+    }
+
+    #botongoogle2{
+        margin-left: 350px;
+    }
+
+}
+
+
+
 @media screen and (max-width: 790px){
     #body{
         width: 800px !important;
