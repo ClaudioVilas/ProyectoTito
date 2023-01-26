@@ -2588,8 +2588,6 @@ display: flex;
         width: 700px;
     
     }
-      
-
     
     #menuheader{
         display: none;
@@ -2658,8 +2656,6 @@ display: flex;
         z-index: 1;
     }
     
-    
-    
     #imagen1{
         position: absolute;
         display: flex;
@@ -2680,16 +2676,12 @@ display: flex;
         height: 60px;
     } 
     
-    
-    
     #imagen3{
         position: absolute;
         display: flex;
         margin-left: 600px;
         margin-top: 450px;
     } 
-    
-    
     
     #imagen4{
         position: absolute;
@@ -2700,14 +2692,12 @@ display: flex;
         height: 60px;
     } 
     
-    
     #imagen5{
         position: absolute;
         display: flex;
         margin-left: 670px;
         margin-top: 109px;
     } 
-    
     
     #imagen6{
         position: absolute;
@@ -2718,7 +2708,6 @@ display: flex;
     
     } 
     
-    
     #imagen7{
         position: absolute;
         display: flex;
@@ -2728,7 +2717,6 @@ display: flex;
         height: 60px;
     } 
     
-    
     #imagen8{
         position: absolute;
         display: flex;
@@ -2737,7 +2725,6 @@ display: flex;
         width: 60px;
         height: 60px;
     } 
-    
     
     #bekind{
         /* be kind. be free */
@@ -2758,7 +2745,6 @@ display: flex;
         color: #4A3AFF;
     }
     
-    
     #weconnect{
         /* We connect employers with workers */
         position: absolute;
@@ -2778,7 +2764,6 @@ display: flex;
         width: 300px;
     }
     
-    
     #leaveusyour{
         position: absolute;
         height: 30px;
@@ -2796,7 +2781,6 @@ display: flex;
         color: #6F6C90;
     }
     
-    
     .mailclienty{
         position: absolute;
         display: flex;
@@ -2805,8 +2789,6 @@ display: flex;
         width: 690px;
     }
     
-    
-    
     #tildecontextoitsfree{
         position: absolute;
         display: flex;
@@ -2814,9 +2796,7 @@ display: flex;
         height: 34px;
         margin-left: 140px;
         margin-top: 430px;
-    
     }
-    
     
     #itsfree{
         margin-left: 20px;
@@ -2831,7 +2811,6 @@ display: flex;
         color: #6F6C90;
     }
     
-    
     #tilde{
         position: absolute;
         display: flex;
@@ -2839,7 +2818,6 @@ display: flex;
         height: 11px;
         margin-top: 3px;
     }
-    
     
     #itssimple{
         position: absolute;
@@ -2861,7 +2839,6 @@ display: flex;
         color: #4A3AFF;
     }
     
-    
     #howitworks{
         position: absolute;
         display: flex;
@@ -2877,7 +2854,6 @@ display: flex;
         text-align: center;
         color: #000000;
     }
-    
     
     #watchashortvideo{
         position: absolute;
@@ -2898,7 +2874,6 @@ display: flex;
         color: #383838;
     }
     
-    
     #imagenvideo{
         position: absolute;
         display: flex;
@@ -2907,7 +2882,6 @@ display: flex;
         height: 250px;
         margin-top: 740px;
     }
-    
     
     #connectworkes{
         position: absolute;
@@ -2925,11 +2899,9 @@ display: flex;
         color: #000000;
     }
     
-    
     #botonapple, #botongoogle, #botonapple2, #botongoogle2{
         display: none;
     }
-    
     
     #botonapplemobile, #botongooglemobile{
         position: absolute;
@@ -2939,19 +2911,16 @@ display: flex;
         margin-top: 900px;
     }
     
-    
     #botongooglemobile{
         margin-left: -150px;
     
     }
-    
     
     #espacioenblanco{
         display: flex;
         position: absolute;
         margin-top: 1090px;
     }
-    
     
     #subrayadotitobusiness{
         /* Rectangle 4518 */
@@ -2962,16 +2931,13 @@ display: flex;
         margin-left: 5px;
         margin-top: 1055px;
         background: #7551FF;
-    
     }
-    
     
     #header3{
         height: 25px;
         margin-top: 1100px;
         width: 700px;
     }
-    
     
     #titobusiness{
         /* Tito Business */
@@ -2989,7 +2955,6 @@ display: flex;
         color: #170F49;
     }
     
-    
     #header3{
         position: absolute;
         display: flex;
@@ -3002,7 +2967,6 @@ display: flex;
         line-height: 62px;
         color: #170F49;
     }
-    
     
     #downloadtheapp{
         /* Download the app and start hiring the best workers in the position you need */
@@ -3052,9 +3016,7 @@ display: flex;
     .card10{
         margin-top: 1462px;
     }
-    
-    
-    
+
     .imagencard1, .imagencard4, .imagencard7, .imagencard10{
         /* image 5 */
         /* position: absolute;
@@ -3516,7 +3478,7 @@ display: flex;
         /* You decide when an where you work with freedom, just be kind. */
         position: absolute;
         display: flex;
-        margin-left: 120px;
+        margin-left: 180px;
         margin-top: 2400px;
         width: 621px;
         font-family: 'DM Sans';
@@ -3534,7 +3496,7 @@ display: flex;
         display: flex;
         width: 330px;
         height: 8px;
-        margin-left: 230px;
+        margin-left: 250px;
         margin-top: 2533px;
         background: #D64DE1;
     }
@@ -3546,7 +3508,7 @@ display: flex;
         display: flex;
         width: 720px;
         height: 48px;
-        margin-left: 230px;
+        margin-left: 250px;
         margin-top: 2490px;
         font-family: 'DM Sans';
         font-style: normal;
@@ -3576,12 +3538,12 @@ display: flex;
     
     #bigcard4, #bigcard5{
         width: 280px;
-        margin-left: 50px;
-        margin-top: 2690px;
+        margin-left: 100px;
+        margin-top: 2650px;
     }
 
     #bigcard5{
-        margin-left: 400px;
+        margin-left: 450px;
     }
 
     #bigcard4footer, #bigcard5footer{
@@ -3768,6 +3730,10 @@ display: flex;
         margin-top: 450px;
         margin-left: 70px;
     }
+
+#contenedor3tarjetas{
+    margin-left: 0px;
+}
 
     #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
         display: flex;
