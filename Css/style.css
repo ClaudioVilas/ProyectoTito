@@ -3752,7 +3752,7 @@ display: flex;
 }
 
 .mailclienty{
-    width: 375px;
+    width: 370px;
     margin-left: 0px;
 }
 
@@ -4011,6 +4011,56 @@ display: none;
 #pricing{
     width: 360px;
 }
+
+#connectworkes{
+    margin-top: 1000px;
+}
+
+#botonapplemobile, #botongooglemobile{
+    margin-top: 1050px;
+}
+
+#titobusiness{
+    margin-top: 1090px;
+    margin-left: 5px;
+}
+
+#subrayadotitobusiness{
+    margin-top: 1125px;
+    margin-left: 5px;
+}
+
+#downloadtheapp{
+    margin-top: 1130px;
+    margin-left: 5px;
+}
+
+.fotocarusel{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#botongooglefooter, #botonapplefooter{
+    margin-top: 2500px;
+    margin-left: 50px;
+}
+
+#botonapplefooter{
+    margin-left: 180px;
+}
+
+#footer{
+    margin-top: 2550px;
+}
+
+#imagen3{
+    margin-top: 450px;
+}
+
+#imagen6{
+    margin-top: 480px;
+}
+
 
 
 
