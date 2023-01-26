@@ -1891,7 +1891,7 @@ display: flex;
     }
 
     .cardsdesktop{
-        margin-left: 100px;
+        margin-left: 150px;
     }
 
     .card1, .card4, .card7, .card10{
@@ -1913,7 +1913,7 @@ display: flex;
     } 
 
     #contenedor3tarjetas{
-        margin-left: 0px;
+        margin-left: -100px;
     }
 
     #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
@@ -1938,7 +1938,7 @@ display: flex;
 
     #footer{
         width: 590px;
-        margin-left: 700px;
+        margin-left: 600px;
     }
 
     #todoelfooter{
