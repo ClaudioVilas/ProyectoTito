@@ -1802,6 +1802,253 @@ display: flex;
 }
 
 
+@media screen and (max-width: 790px){
+    #body{
+        width: 800px !important;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+
+    #header{
+        width: 800px;
+        margin-left: 0px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 600px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+
+    .printable, .business, .worker, .download{
+        display: flex;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: flex;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: flex;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+
+
+    #imagen3{
+        margin-left: 670px;
+    }
+
+    #imagen7{
+        margin-left: 690px;
+        margin-top: 650px;
+    }
+
+    #imagen8{
+        margin-left: 90px;
+        margin-top: 350px;
+    }
+
+    #imagen4{
+        margin-left: 40px;
+        margin-top: 650px;
+    }
+
+    #bekind{
+        margin-left: 350px;
+    }
+
+    #weconnect{
+        width: 550px;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    #leaveusyour{
+        margin-left: 150px;
+    }
+
+    .mailclienty{
+        margin-left: 130px;
+
+    }
+
+    #itssimple{
+        margin-left: 370px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #howitworks{
+        margin-left: 240px;
+    }
+
+    #watchashortvideo{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #imagenvideo{
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    #connectworkes{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    #botongoogle{
+        margin-top: 1450px;
+        margin-left: 100px;
+    }
+
+    #botonapple{
+        margin-top: 1450px;
+        margin-left: 500px; 
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 200px;
+        height: 100px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 200px;
+        height: 100px;
+        margin-left: 290px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 200px;
+        height: 100px;
+        margin-left: 570px; 
+    } 
+    
+    #bigcard1, #bigcard2, #bigcard3{
+        display: none;
+    }
+
+    #bigcard4{
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #bigcard5{
+        margin-left: 430px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #pricing, #subrayadopricing{
+        margin-left: 200px;
+        margin-top: 3300px;
+    }
+
+    #subrayadopricing{
+        margin-top: 3340px;
+    }
+
+     #botonapple2, #botongoogle2{
+        margin-top: 4300px;
+    }
+
+    #titofreefoooter, #titofreefoooter2{
+        margin-top: 4320px;
+    }
+
+    #footer{
+        margin-left: 100px;
+        margin-top: 4390px;
+    }
+
+    #youdecidewhen{
+        width: 600px;
+        margin-top: 3100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 2700px;
+        width: 190px;
+        margin-left: 0px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 200px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 400px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 800px){
     #body{
         width: 800px !important;
@@ -2045,6 +2292,260 @@ display: flex;
         margin-left: 400px;
     }
 }
+
+
+@media screen and (max-width: 811px){
+    #body{
+        width: 800px !important;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+
+    #header{
+        width: 800px;
+        margin-left: 0px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 600px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+
+    .printable, .business, .worker, .download{
+        display: flex;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: flex;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: flex;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+
+
+    #imagen3{
+        margin-left: 670px;
+    }
+
+    #imagen7{
+        margin-left: 690px;
+        margin-top: 650px;
+    }
+
+    #imagen8{
+        margin-left: 90px;
+        margin-top: 350px;
+    }
+
+    #imagen4{
+        margin-left: 40px;
+        margin-top: 650px;
+    }
+
+    #bekind{
+        margin-left: 350px;
+    }
+
+    #weconnect{
+        width: 550px;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    #leaveusyour{
+        margin-left: 150px;
+    }
+
+    .mailclienty{
+        margin-left: 130px;
+
+    }
+
+    #itssimple{
+        margin-left: 370px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #howitworks{
+        margin-left: 240px;
+    }
+
+    #watchashortvideo{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #imagenvideo{
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    #connectworkes{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    #botongoogle{
+        margin-top: 1450px;
+        margin-left: 100px;
+    }
+
+    #botonapple{
+        margin-top: 1450px;
+        margin-left: 500px; 
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 200px;
+        height: 100px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 200px;
+        height: 100px;
+        margin-left: 290px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 200px;
+        height: 100px;
+        margin-left: 570px; 
+    } 
+    
+    #bigcard1, #bigcard2, #bigcard3{
+        display: none;
+    }
+
+    #bigcard4{
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #bigcard5{
+        margin-left: 430px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #pricing, #subrayadopricing{
+        margin-left: 200px;
+        margin-top: 3300px;
+    }
+
+    #subrayadopricing{
+        margin-top: 3340px;
+    }
+
+     #botonapple2, #botongoogle2{
+        margin-top: 4300px;
+    }
+
+    #titofreefoooter, #titofreefoooter2{
+        margin-top: 4320px;
+    }
+
+    #footer{
+        margin-left: 100px;
+        margin-top: 4390px;
+    }
+
+    #youdecidewhen{
+        width: 600px;
+        margin-top: 3100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 2700px;
+        width: 190px;
+        margin-left: 0px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 200px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 400px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 721px){
