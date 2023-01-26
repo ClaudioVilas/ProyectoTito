@@ -3772,17 +3772,17 @@ display: flex;
     #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
         display: flex;
         position: absolute;
-        margin-top: 2000px;
-        width: 190px;
+        margin-top: 1900px;
+        width: 290px;
         margin-left: 20px;
     }
 
     #bigcardfoto2{
-        margin-left: 250px;
+        margin-left: 320px;
     }
 
     #bigcardfoto3{
-        margin-left: 510px;
+        margin-left: 610px;
     }
 
     
