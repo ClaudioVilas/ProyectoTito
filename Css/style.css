@@ -3636,12 +3636,12 @@ display: flex;
 }
 
 
-@media screen and (max-width: 375px){ */
+@media screen and (max-width: 374px){ */
 
     #body{
         display: flex;
         position: absolute;
-        width: 100%;
+        width: 375px;
     }
     
 
