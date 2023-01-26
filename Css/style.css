@@ -18,7 +18,6 @@
 @media screen and (max-width: 1920px){
 
 #body{
-
 /* overflow: scroll; */
 background: #FFFFFF;
 display: flex;
@@ -142,7 +141,6 @@ display: flex;
     margin-left: 1600px;
     margin-top: 380px;
 } 
-
 
 
 #imagen4{
@@ -428,13 +426,13 @@ display: flex;
     /* Waiter */
     position: absolute;
     display: flex;
-    width: 288px;
-    height: 128px;
-    margin-left: 20%;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 10%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 .card4{
@@ -453,19 +451,19 @@ display: flex;
 
 .imagencard1, .imagencard4, .imagencard7, .imagencard10{
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 
 .card1text, .card4text, .card7text, .card10text{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     height: 62px;
     margin-left: 110px;
@@ -475,13 +473,13 @@ display: flex;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    color: #000000; 
+    color: #000000;  */
 }
 
 
 .card1text2, .card4text2, .card7text2, .card10text2 {
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 123px;
     height: 16px;
@@ -492,7 +490,7 @@ display: flex;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #999999;
+    color: #999999; */
 }
 
 
@@ -500,13 +498,13 @@ display: flex;
     /* Waiter */
     position: absolute;
     display: flex;
-    width: 288px;
-    height: 128px;
-    margin-left: 42%;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 40%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 .card5{
@@ -524,21 +522,21 @@ display: flex;
 }
 
 
-.imagencard2, .imagencard5, .imagencard8, .imagencard11{
+/* .imagencard2, .imagencard5, .imagencard8, .imagencard11{ */
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
-}
+    border-radius: 2px; */
+/* } */
 
 
-.card2text, .card5text, .card8text, .card11text{
-    position: absolute;
+/* .card2text, .card5text, .card8text, .card11text{ */
+    /* position: absolute;
     display: flex;
     height: 62px;
     margin-left: 110px;
@@ -548,13 +546,13 @@ display: flex;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    color: #000000; 
-}
+    color: #000000;  */
+/* }
 
 
-.card2text2, .card5text2, .card8text2, .card11text2{
+.card2text2, .card5text2, .card8text2, .card11text2{ */
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 123px;
     height: 16px;
@@ -565,21 +563,21 @@ display: flex;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #999999;
-}
+    color: #999999; */
+/* } */
 
 
 .card3, .card6, .card9, .card12{
     /* Waiter */
     position: absolute;
     display: flex;
-    width: 288px;
-    height: 128px;
-    margin-left: 62%;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 72%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 
@@ -599,19 +597,19 @@ display: flex;
 
 .imagencard3, .imagencard6, .imagencard9, .imagencard12{
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 
 .card3text, .card6text, .card9text, .card12text{
-    position: absolute;
+    /* position: absolute;
     display: flex;
     height: 62px;
     margin-left: 110px;
@@ -621,13 +619,13 @@ display: flex;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    color: #000000; 
+    color: #000000;  */
 }
 
 
 .card3text2, .card6text2, .card9text2, .card12text2{
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
     display: flex;
     width: 123px;
     height: 16px;
@@ -638,7 +636,7 @@ display: flex;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    color: #999999;
+    color: #999999; */
 }
 
 
@@ -893,8 +891,8 @@ display: flex;
     /* You decide when an where you work with freedom, just be kind. */
     position: absolute;
     display: flex;
-    margin-left: 31%;
-    margin-top: 3250px;
+    margin-left: 29%;
+    margin-top: 3350px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -910,8 +908,8 @@ display: flex;
         display: flex;
         width: 421px;
         height: 13px;
-        margin-left: 40%;
-        margin-top: 3445px;
+        margin-left: 38%;
+        margin-top: 3495px;
         background: #D64DE1;
 }
 
@@ -922,8 +920,8 @@ display: flex;
     display: flex;
     width: 421px;
     height: 48px;
-    margin-left: 40%;
-    margin-top: 3402px;
+    margin-left: 38%;
+    margin-top: 3452px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -955,19 +953,16 @@ display: flex;
     /* Pricing Card */
     box-sizing: border-box;
     position: absolute;
-    width: 394px;
-    height: 660px;
-    margin-left: 19%;
+    /* width: 394px;
+    height: 660px; */
+    margin-left: 15%;
     margin-top: 3623px;
-
     /* Primary/Color 1 */
-
-    background: #9747FF;
+    /* background: #9747FF; */
     /* Neutral/300 */
-
-    border: 1px solid #EFF0F7;
-    box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 24px;
+        /* border: 1px solid #EFF0F7;
+        box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 24px; */
 }
 
 
@@ -1006,7 +1001,6 @@ display: flex;
     color: #FFFFFF;
 }
 
-
 #cucarda{
     /* Icon Background */
     width: 72px;
@@ -1020,7 +1014,6 @@ display: flex;
 
     border-radius: 16px;
 }
-
 
 #bigcard4title{
     /* Price */
@@ -1040,7 +1033,6 @@ display: flex;
     color: #FFFFFF;
 }
 
-
 #bigcard4subtitle{
     /* Paragraph */
     position: absolute;
@@ -1056,7 +1048,6 @@ display: flex;
     line-height: 30px;
     color: #D9DBE9;
 }
-
 
 #bigcard4price{
     width: 71px;
@@ -1076,7 +1067,6 @@ display: flex;
     color: #FFFFFF; 
 }
 
-
 #bigcard4forever{
     /* /for ever */
     position: absolute;
@@ -1091,7 +1081,6 @@ display: flex;
     line-height: 22px;
     color: #D9DBE9;
 }
-
 
 #bigcar4dwhat{
     /* Text 200 */
@@ -1108,11 +1097,9 @@ display: flex;
     color: #FFFFFF;
 }
 
-
 #bigcard4lista{
     margin-top: 75px;
 }
-
 
 #bigcard4item1, #bigcard4item2, #bigcard4item3, #bigcard4item4{
     margin-top: 10px;
@@ -1125,7 +1112,6 @@ display: flex;
     order: 1;
     flex-grow: 0;
 }
-
 
 #bigcard4footer {
     /* Auto layout */
@@ -1146,7 +1132,6 @@ display: flex;
     flex-grow: 1;
 }
 
-
 #bigcard4footertext{
     margin-top: 20px;
     font-family: 'DM Sans';
@@ -1164,16 +1149,16 @@ display: flex;
 
 #bigcard5{ 
     /* Pricing Card */
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     position: absolute;
     width: 394px;
-    height: 660px;
-    margin-left: 60%;
+    height: 660px; */
+    margin-left: 900px;
     margin-top: 3623px;
-    background: #FFFFFF;
+    /* background: #FFFFFF;
     border: 1px solid #EFF0F7;
     box-shadow: 53px 196px 81px rgba(0, 0, 0, 0.01), 30px 110px 68px rgba(0, 0, 0, 0.05), 13px 49px 51px rgba(0, 0, 0, 0.09), 3px 12px 28px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 24px;
+    border-radius: 24px; */
 }
 
 
@@ -1186,7 +1171,6 @@ display: flex;
         margin-top: 50px;
         border-radius: 16px;
 }
-
 
 #bigcard5title{
     position: absolute;
@@ -1209,7 +1193,6 @@ display: flex;
 
     color: #170F49;
 }
-
 
 #bigcard5subtitle{
     /* Paragraph */
@@ -1249,7 +1232,6 @@ display: flex;
     color: #170F49; 
 }
 
-
 #bigcard5forever{
     /* /for ever */
     position: absolute;
@@ -1280,11 +1262,9 @@ display: flex;
     color: #170F49;
 }
 
-
 #bigcard5lista{
     margin-top: 75px;
 }
-
 
 #bigcard5item1, #bigcard5item2, #bigcard5item3, #bigcard5item4{
     margin-top: 10px;
@@ -1297,7 +1277,6 @@ display: flex;
     order: 1;
     flex-grow: 0;
 }
-
 
 #bigcard5footer{
     /* Auto layout */
@@ -1324,7 +1303,6 @@ display: flex;
     order: 0;
     flex-grow: 1;
 }
-
 
 #bigcard5footertext{
     /* Button Text */
@@ -1353,7 +1331,6 @@ display: flex;
     order: 1;
     flex-grow: 0;
 }
-
 
 #footerfinal{
     /* Paragraph */
@@ -1417,7 +1394,6 @@ display: flex;
     line-height: 30px;
 }
 
-
 #circulitoytilde2{
     position: absolute;
     width: 300px;
@@ -1425,7 +1401,6 @@ display: flex;
     margin-left: 25px;
     line-height: 30px;
 }
-
 
 #circulitoytilde3{
     position: absolute;
@@ -1435,7 +1410,6 @@ display: flex;
     line-height: 30px;
 }
 
-
 #circulitoytilde4{
     position: absolute;
     width: 300px;
@@ -1443,7 +1417,6 @@ display: flex;
     margin-left: 25px;
     line-height: 30px;
 }
-
 
 #circulitoytilde1texto{
     /* Text Single/200/Regular */
@@ -1461,8 +1434,6 @@ display: flex;
     color: #D9DBE9;
 }
 
-
-
  #circulitoytilde5{
     position: absolute;
     width: 300px;
@@ -1470,7 +1441,6 @@ display: flex;
     margin-left: 25px;
     line-height: 30px;
 }
-
 
 #tilde1{
     position: absolute;
@@ -1484,7 +1454,6 @@ display: flex;
     margin-top: -30px;
 }
 
-
 #circulitoytilde6{
     position: absolute;
     width: 300px;
@@ -1493,7 +1462,6 @@ display: flex;
     line-height: 30px;
 }
 
-
 #circulitoytilde7{
     position: absolute;
     width: 300px;
@@ -1501,7 +1469,6 @@ display: flex;
     margin-left: 25px;
     line-height: 30px;
 }
-
 
 #circulitoytilde8{
     position: absolute;
@@ -1514,12 +1481,12 @@ display: flex;
 
 #titofreefoooter{
     /* Tito Free */
+    display: flex;
     position: absolute;
     width: 184.36px;
     height: 32px;
-    margin-left: 86px;
-    margin-top: 4496px;
-
+    margin-top: 4500px;
+    margin-left: 90px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -1533,7 +1500,8 @@ display: flex;
 
 #titofreefoooter2{
     position: absolute;
-    margin-top: 4496px;
+    display: flex;
+    margin-top: 4500px;
     margin-left: 150px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -1565,22 +1533,21 @@ display: flex;
     
 }
 
-
-
 #botonapple2{
     position: absolute; 
     display: flex;
-    margin-left: 500px;
-    margin-top: 4480px;
+    margin-left: 250px;
+    margin-top: 4485px;
 }
 
 
 #botongoogle2{
     position: absolute; 
     display: flex;
-    margin-left: 250px;
-    margin-top: 4480px;
+    margin-left: 500px;
+    margin-top: 4485px;
 }
+
 
 .fixed-top{
     display: none;
@@ -1639,13 +1606,51 @@ display: flex;
     display: none;
 }
 
+#logo3titofree{
+    margin-top: 4500px;
+}
+
+#contenedor3tarjetas{
+    margin-left: 25px;
+}
+
+#bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+    display: flex;
+    position: absolute;
+    margin-top: 2700px;
+    margin-left: 20px;
+}
+
+#bigcardfoto2{
+    margin-left: 550px;
+}
+
+#bigcardfoto3{
+    margin-left: 1100px;
 }
 
 
 
-@media screen and (max-width: 1441px){
+
+
+}
+
+
+
+@media screen and (max-width: 1440px){
     #body{
         width: 1440px;
+    }
+
+    #header{
+        width: 1440px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 1300px;
+        margin-left: 160px;
     }
 
     .textotito{
@@ -1660,15 +1665,27 @@ display: flex;
         margin-left: 15px;
     }
 
-    #menuheader{
-        display: flex;
-        position: absolute;
-        width: 1366px;
-        margin-left: 10px;
+    #imagen3{
+        margin-top: 550px;
+        margin-left: 1230px;
     }
 
-    #imagen3{
-        margin-left: 1230px;
+
+
+    .card1, .card4, .card7, .card10{
+        margin-left: 120px;
+    }
+
+    .card2, .card5, .card8, .card11{
+        margin-left: 600px;
+    }
+
+    .card3, .card6, .card9, .card12{
+        margin-left: 1100px;
+    }
+
+    #itssimple{
+        margin-left: 730px;
     }
 
     #bigcard2{
@@ -1682,6 +1699,18 @@ display: flex;
     #footer{
         margin-left: 750px;
     }
+
+    #bigcard5{
+        margin-left: 850px;
+    }
+
+    #botonapple{
+        margin-left: 1050px;
+    }
+
+    #subrayadotitobusiness, #titobusiness, #downloadtheapp, #subrayadotitoworker, #titoworker, #improveyourskills{
+        margin-left: 5px;
+    }   
 }
 
 
@@ -1766,12 +1795,16 @@ display: flex;
     #footer{
         margin-left: 750px;
     }
+
+    #botonapple{
+        margin-left: 900px;
+    }
 }
 
 
 @media screen and (max-width: 800px){
     #body{
-        width: 800px;
+        width: 800px !important;
     }
 
     .textotito{
@@ -1789,17 +1822,104 @@ display: flex;
 
     #header{
         width: 800px;
+        margin-left: 0px;
     }
 
     #menuheader{
         display: flex;
         position: absolute;
-        width: 800px;
-        margin-left: 10px;
+        width: 600px;
+        margin-left: 70px;
+        margin-top: 20px;
     }
 
+
+    .printable, .business, .worker, .download{
+        display: flex;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: flex;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: flex;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+
+
     #imagen3{
-        margin-left: 1300px;
+        margin-left: 670px;
+    }
+
+    #imagen7{
+        margin-left: 690px;
+        margin-top: 650px;
+    }
+
+    #imagen8{
+        margin-left: 90px;
+        margin-top: 350px;
+    }
+
+    #imagen4{
+        margin-left: 40px;
+        margin-top: 650px;
+    }
+
+    #bekind{
+        margin-left: 350px;
+    }
+
+    #weconnect{
+        width: 550px;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    #leaveusyour{
+        margin-left: 150px;
+    }
+
+    .mailclienty{
+        margin-left: 130px;
+
+    }
+
+    #itssimple{
+        margin-left: 370px;
     }
 
     #bigcard2{
@@ -1813,16 +1933,141 @@ display: flex;
     #footer{
         margin-left: 750px;
     }
+
+    #howitworks{
+        margin-left: 240px;
+    }
+
+    #watchashortvideo{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #imagenvideo{
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    #connectworkes{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    #botongoogle{
+        margin-top: 1450px;
+        margin-left: 100px;
+    }
+
+    #botonapple{
+        margin-top: 1450px;
+        margin-left: 500px; 
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 200px;
+        height: 100px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 200px;
+        height: 100px;
+        margin-left: 290px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 200px;
+        height: 100px;
+        margin-left: 570px; 
+    } 
+    
+    #bigcard1, #bigcard2, #bigcard3{
+        display: none;
+    }
+
+    #bigcard4{
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #bigcard5{
+        margin-left: 430px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #pricing, #subrayadopricing{
+        margin-left: 200px;
+        margin-top: 3300px;
+    }
+
+    #subrayadopricing{
+        margin-top: 3340px;
+    }
+
+     #botonapple2, #botongoogle2{
+        margin-top: 4300px;
+    }
+
+    #titofreefoooter, #titofreefoooter2{
+        margin-top: 4320px;
+    }
+
+    #footer{
+        margin-left: 100px;
+        margin-top: 4390px;
+    }
+
+    #youdecidewhen{
+        width: 600px;
+        margin-top: 3100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 2700px;
+        width: 190px;
+        margin-left: 0px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 200px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 400px;
+    }
 }
 
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 721px){
 
     #body{
         /* overflow: scroll; */
         background: #FFFFFF;
         display: flex;
+        width: 720px !important;
+    }
+
+    #header{
+        position: absolute;
+        display: flex;
         width: 720px;
+        height: 33px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 15px;
+        color: #000000;
     }
 
         
@@ -1842,33 +2087,8 @@ display: flex;
         width: 700px;
     
     }
-    
-    
-    #header{
-        position: absolute;
-        display: flex;
-        height: 33px;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 36px;
-        margin-left: 15px;
-        color: #000000;
-    }
-    
-    
-    #titofree{
-        display: flex;
-        position: absolute;
-        margin-left: 4.65%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 36px;
-        color: #000000;
-    }
+      
+
     
     #menuheader{
         display: none;
@@ -1932,8 +2152,8 @@ display: flex;
     #iconmenuhamburgesa{
         display: flex;
         position: absolute;
-        margin-left: 750px;
-        margin-top: 0px;
+        margin-left: 710px;
+        margin-top: 35px;
         z-index: 1;
     }
     
@@ -2182,7 +2402,7 @@ display: flex;
         position: absolute;
         display: flex;
         margin-left: 2%;
-        width: 400px;
+        width: 350px;
         height: 250px;
         margin-top: 740px;
     }
@@ -2193,7 +2413,7 @@ display: flex;
         display: flex;
         height: 56px;
         width: 300px;
-        margin-left: 450px;
+        margin-left: 400px;
         margin-top: 750px;
         font-family: 'Roboto';
         font-style: normal;
@@ -2213,14 +2433,14 @@ display: flex;
     #botonapplemobile, #botongooglemobile{
         position: absolute;
         display: flex;
-        width: 174px;
-        margin-left: 420px;
-        margin-top: 870px;
+        width: 150px;
+        margin-left: -300px;
+        margin-top: 900px;
     }
     
     
     #botongooglemobile{
-        margin-left: 600px;
+        margin-left: -150px;
     
     }
     
@@ -2237,9 +2457,9 @@ display: flex;
         position: absolute;
         display: flex;
         width: 330px;
-        height: 13px;
-        margin-left: 0px;
-        margin-top: 1060px;
+        height: 8px;
+        margin-left: 5px;
+        margin-top: 1055px;
         background: #7551FF;
     
     }
@@ -2256,14 +2476,14 @@ display: flex;
         /* Tito Business */
         position: absolute;
         display: flex;
-        width: 668px;
+        width: 720px;
         height: 48px;
         margin-left: 5px;
         margin-top: 1015px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 62px;
         color: #170F49;
     }
@@ -2302,7 +2522,7 @@ display: flex;
     .cardsdesktop{
         position: absolute;
         display: flex;
-        margin-left: 35px;
+        margin-left: 5px;
         margin-top: 35px;
     }
 
@@ -2311,14 +2531,13 @@ display: flex;
         /* Waiter */
         position: absolute;
         display: flex;
-        margin-left: 10px;
         width: 190px;
         height: 90px;
-        margin-left: 5px;
+        margin-left: 0px;
         margin-top: 1120px;
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 3px;
+        border-radius: 3px; */
     }
     
     .card4{
@@ -2337,19 +2556,19 @@ display: flex;
     
     .imagencard1, .imagencard4, .imagencard7, .imagencard10{
         /* image 5 */
-        position: absolute;
+        /* position: absolute;
         display: flex;
         width: 60px;
         height: 60px;
         margin-left: 24px;
         margin-top: 20px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 2px;
+        border-radius: 2px; */
     }
     
     
     .card1text, .card4text, .card7text, .card10text{
-        position: absolute;
+        /* position: absolute;
         display: flex;
         height: 62px;
         margin-left: 100px;
@@ -2360,13 +2579,13 @@ display: flex;
         font-weight: 700;
         font-size: 12px;
         line-height: 12px;
-        color: #000000; 
+        color: #000000;  */
     }
     
     
     .card1text2, .card4text2, .card7text2, .card10text2 {
         /* xxxx workers avaibles */
-        position: absolute;
+        /* position: absolute;
         display: flex;
         width: 123px;
         height: 16px;
@@ -2377,22 +2596,20 @@ display: flex;
         font-weight: 300;
         font-size: 10px;
         line-height: 12px;
-        color: #999999;
+        color: #999999; */
     }
     
     
     .card2, .card5, .card8, .card11{
-        /* Waiter */
         position: absolute;
         display: flex;
-        margin-left: 10px;
         width: 190px;
         height: 90px;
-        margin-left: 280px;
+        margin-left: 275px;
         margin-top: 1120px;
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 3px;
+        border-radius: 3px; */
     }
     
     .card5{
@@ -2412,19 +2629,19 @@ display: flex;
     
     .imagencard2, .imagencard5, .imagencard8, .imagencard11{
         /* image 5 */
-        position: absolute;
-        display: flex;
-        width: 60px;
-        height: 60px;
-        margin-left: 24px;
-        margin-top: 20px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 2px;
+        /* position: absolute;
+        display: flex; */
+        /* width: 60px;
+        height: 60px; */
+        /* margin-left: 24px;
+        margin-top: 20px; */
+        /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px; */
     }
     
     
     .card2text, .card5text, .card8text, .card11text{
-        position: absolute;
+        /* position: absolute;
         display: flex;
         height: 62px;
         margin-left: 100px;
@@ -2435,13 +2652,13 @@ display: flex;
         font-weight: 700;
         font-size: 12px;
         line-height: 12px;
-        color: #000000; 
+        color: #000000;  */
     }
     
     
     .card2text2, .card5text2, .card8text2, .card11text2{
         /* xxxx workers avaibles */
-        position: absolute;
+        /* position: absolute;
         display: flex;
         width: 123px;
         height: 16px;
@@ -2452,7 +2669,7 @@ display: flex;
         font-weight: 500;
         font-size: 10px;
         line-height: 16px;
-        color: #999999;
+        color: #999999; */
     }
     
     
@@ -2463,11 +2680,11 @@ display: flex;
         margin-left: 10px;
         width: 190px;
         height: 90px;
-        margin-left: 530px;
+        margin-left: 525px;
         margin-top: 1120px;
-        background-color: #FFFFFF;
+        /* background-color: #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-        border-radius: 3px;
+        border-radius: 3px; */
     }
     
     
@@ -2487,19 +2704,19 @@ display: flex;
     
     .imagencard3, .imagencard6, .imagencard9, .imagencard12{
         /* image 5 */
-        position: absolute;
-        display: flex;
-        width: 60px;
-        height: 60px;
-        margin-left: 24px;
-        margin-top: 20px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        border-radius: 2px;
+        /* position: absolute;
+        display: flex; */
+        /* width: 60px;
+        height: 60px; */
+        /* margin-left: 24px;
+        margin-top: 20px; */
+        /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 2px; */
     }
     
     
     .card3text, .card6text, .card9text, .card12text{
-        position: absolute;
+        /* position: absolute;
         display: flex;
         height: 62px;
         margin-left: 100px;
@@ -2510,13 +2727,13 @@ display: flex;
         font-weight: 700;
         font-size: 12px;
         line-height: 12px;
-        color: #000000; 
+        color: #000000;  */
     }
     
     
     .card3text2, .card6text2, .card9text2, .card12text2{
         /* xxxx workers avaibles */
-        position: absolute;
+        /* position: absolute;
         display: flex;
         width: 123px;
         height: 16px;
@@ -2527,7 +2744,7 @@ display: flex;
         font-weight: 500;
         font-size: 10px;
         line-height: 16px;
-        color: #999999;
+        color: #999999; */
     }
     
     
@@ -2545,14 +2762,14 @@ display: flex;
         /* Tito Worker */
         position: absolute;
         display: flex;
-        width: 668px;
+        width: 720px;
         height: 48px;
         margin-left: 5px;
         margin-top: 1700px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 62px;
         color: #170F49;
     }
@@ -2561,11 +2778,12 @@ display: flex;
         /* Rectangle 4531 */
         position: absolute;
         display: flex;
-        width: 279px;
-        height: 13px;
+        width: 330px;
+        height: 8px;
         margin-left: 5px;
         margin-top: 1740px;
         background: #FFDCC8;
+
     }
     
     
@@ -2798,7 +3016,7 @@ display: flex;
         position: absolute;
         display: flex;
         margin-left: 120px;
-        margin-top: 2500px;
+        margin-top: 2400px;
         width: 621px;
         font-family: 'DM Sans';
         font-style: normal;
@@ -2813,10 +3031,10 @@ display: flex;
         /* Rectangle 4531 */
         position: absolute;
         display: flex;
-        width: 421px;
-        height: 13px;
-        margin-left: 5px;
-        margin-top: 2633px;
+        width: 330px;
+        height: 8px;
+        margin-left: 230px;
+        margin-top: 2533px;
         background: #D64DE1;
     }
     
@@ -2825,14 +3043,14 @@ display: flex;
         /* Our pricing plans */
         position: absolute;
         display: flex;
-        width: 421px;
+        width: 720px;
         height: 48px;
-        margin-left: 5px;
-        margin-top: 2590px;
+        margin-left: 230px;
+        margin-top: 2490px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 50px;
+        font-size: 40px;
         line-height: 62px;
         color: #170F49;
     }
@@ -2856,9 +3074,9 @@ display: flex;
     }
     
     #bigcard4, #bigcard5{
-        width: 350px;
-        margin-left: 0px;
-        margin-top: 2760px;
+        width: 280px;
+        margin-left: 50px;
+        margin-top: 2690px;
     }
 
     #bigcard5{
@@ -2871,11 +3089,10 @@ display: flex;
     
     
     #bigcardmobile{
+        display: none;
         position: absolute;
-        display: flex;
         margin-left: 200px;
         margin-top: 2760px;
-        display: none;
     }
 
     #footerfinal{
@@ -2889,9 +3106,7 @@ display: flex;
     #rectangle4464text{
         margin-left: 35px;
     }
-
-
-   
+ 
     #fotobigcard4{
         margin-top: 50px;
         margin-left: 50px;
@@ -2901,15 +3116,17 @@ display: flex;
     #botonapplefooter{
         position: absolute;
         display: flex;
-        margin-left: 300px;
-        margin-top: 3500px;
+        width: 90px;
+        margin-left: -500px;
+        margin-top: 3200px;
     }
     
     #botongooglefooter{
         position: absolute;
         display: flex;
-        margin-left: 150px;
-        margin-top: 3500px;
+        width: 90px;
+        margin-left: -600px;
+        margin-top: 3200px;
     }
     
     
@@ -2919,8 +3136,8 @@ display: flex;
         display: flex;
         width: 300px;
         height: 20px;
-        margin-left: 450px;
-        margin-top: 3500px;
+        margin-left: 350px;
+        margin-top: 3200px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 400;
@@ -2936,11 +3153,11 @@ display: flex;
     #titofreefoooter{
         /* Tito Free */
         position: absolute;
+        display: flex;
         width: 184.36px;
         height: 32px;
-        margin-left: 5px;
-        margin-top: 3496px;
-    
+        margin-left: -600px;
+        margin-top: 3150px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
@@ -2954,8 +3171,9 @@ display: flex;
     
     #titofreefoooter2{
         position: absolute;
-        margin-top: 3496px;
-        margin-left: 70px;
+        display: flex;
+        margin-top: 3150px;
+        margin-left: -540px;
         font-family: 'DM Sans';
         font-style: normal;
         font-weight: 700;
@@ -3047,8 +3265,25 @@ display: flex;
         position: absolute;
         margin-left: 10%;
         margin-top: 450px;
-        margin-left: 80px;
+        margin-left: 70px;
     }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 2000px;
+        width: 190px;
+        margin-left: 20px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 250px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 510px;
+    }
+
     
 }
 
@@ -3058,6 +3293,10 @@ display: flex;
     #body{
         display: flex;
         width: 390px;
+    }
+
+    #pricing{
+        width: 400px;
     }
 
 }
@@ -3071,7 +3310,6 @@ display: flex;
 
 #header{
     width: 335px !important ;
-
 }
 
 .titofree{
@@ -3093,7 +3331,7 @@ display: flex;
     display: flex;
     position: absolute;
     margin-left: 330px;
-    margin-top: 30px;
+    margin-top: 20px;
     z-index: 1;
 }
 
@@ -3213,22 +3451,25 @@ display: flex;
 #watchashortvideo{
     margin-top: 630px;
     margin-left: 30px;
+    width: 320px;
+    font-size: 12px;
 }
 
 #connectworkes{
     margin-left: 30px;
-    margin-top: 940px;
+    margin-top: 1000px;
     text-align: center;
+    font-size: 16px;
 }
 
 #botonapplemobile{
     margin-left: 0px;
-    margin-top: 990px;
+    margin-top: 1060px;
 }
 
 #botongooglemobile{
     margin-left: 200px;
-    margin-top: 990px;
+    margin-top: 1060px;
 }
 
 
@@ -3236,14 +3477,14 @@ display: flex;
     height: 5px;
     width: 160px;
     margin-left: 5px;
-    margin-top: 1056px;
+    margin-top: 1096px;
 }
 
 
 #titobusiness{
     font-size: 24px;
     margin-left: 5px;
-    margin-top: 1020px;
+    margin-top: 1060px;
     width: 295px;
 }
 
@@ -3251,7 +3492,7 @@ display: flex;
 #downloadtheapp{
     font-size: 12px;
     margin-left: 5px;
-    margin-top: 1065px;
+    margin-top: 1105px;
     width: 270px;
 
 }
@@ -3303,7 +3544,7 @@ display: flex;
 }
 
 
-#bigcard1, #bigcard2, #bigcard3, #bigcard4, #bigcard5{
+#bigcard1, #bigcard2, #bigcard3, #bigcard4, #bigcard5, #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
     display: none;
 }
 
@@ -3351,10 +3592,7 @@ display: flex;
     width: 350px;
 }
 
-#bigcardmobile{
-    margin-left: 35px;
-    margin-top: 1900px;
-}
+
 
 
 #titofreefoooter, #titofreefoooter2, #botongooglefooter, #botonapplefooter{
@@ -3379,20 +3617,33 @@ display: flex;
     width: 375px;
 }
 
+#bigcardmobile{
+    display: flex;
+    position: absolute;
+    margin-top: 1850px;
+    margin-left: 35px;
+}
+
+#botongooglefooter, #botonapplefooter{
+    margin-top: 2400px;
+    margin-left: 50px;
+}
+
+#botonapplefooter{
+    margin-left: 200px;
+}
+
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px){ */
 
     #body{
         display: flex;
+        position: absolute;
         width: 100%;
     }
     
-    #contenedortotal{
-        width: 375px !important ;
-    }
-
 
 .titofree{
     display: flex;
@@ -3532,6 +3783,7 @@ display: flex;
     margin-left: 30px;
     margin-top: 940px;
     text-align: center;
+
 }
 
 #botonapplemobile{
