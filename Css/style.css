@@ -2294,7 +2294,7 @@ display: flex;
 }
 
 
-@media screen and (max-width: 811px){
+@media screen and (max-width: 812px){
     #body{
         width: 800px !important;
     }
