@@ -1,299 +1,197 @@
-/* @media screen and (max-width: 1440px){ */
+@media screen and (max-width: 1920px){
 
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
-    
-    
-    #body{
-        /* Home */
-    
-    
-    position: relative;
-    width: 1920px;
-    height: 1024px;
-    overflow: scroll;
-    margin-left: 300px;
-    
-    background: #FFFFFF;
+    #titofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 5px;
     }
-    
-    
-    .header {
-        /* Rectangle 4269 */
-        Width: 1440px;
-        Height: 126.43px;
+
+    #underworking{
+        display: flex;
+        position: absolute;
+        margin-top: 150px;
+        margin-left: 5px;
+    }
+
+    #soonyoucan{
+        display: flex;
+        position: absolute;
+        margin-top: 600px;
+        margin-left: 5px;
+    }
+
+    #navunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 1000px;
+    }
+
+    #botondownload{
+        display: flex;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 1500px;
+    }
+
+    #undergif{
+        display: flex;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 800px;
+    }
+
+    #playstoreunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 250px;
+    }
+
+    #applestoreunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 800px;
+        margin-left: 5px;
+    }
+
+    #fototitofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 900px;
+        margin-left: 70px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
+        position: absolute;
+        margin-top: 820px;
+        margin-left: 900px;
+    }
+}
+
+
+@media screen and (max-width: 1367px){
+    #navunderworking{
+        margin-left: 700px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1170px;
+    }
+
+
+    #undergif{
+        margin-left: 600px;
+    }
+
+    #botontermsandconditions{
+        margin-left: 800px;
+
+    }
+
+}
+
+@media screen and (max-width: 1441px){
+
+    #navunderworking{
+        margin-left: 700px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1170px;
+    }
+
+
+    #undergif{
+        margin-left: 600px;
+    }
+
+    #botontermsandconditions{
+        margin-left: 800px;
+
+    }
+
+}
+
+@media screen and (max-width: 721px){
+
+    #navunderworking{
+        margin-left: 600px;
+    }
+
+    #botondownload{
+        margin-top: 5px;
+        margin-left: 1070px;
+    }
+
+    #undergif{
+        margin-left: 500px;
+    }
+
+    #fototitofreeunderworking{
+        display: flex;
+        position: absolute;
+        margin-top: 900px;
+        margin-left: 70px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
+        position: absolute;
+        width: 500px;
+        margin-left: 500px;
+
+    }
+}
+
+
+@media screen and (max-width: 376px){
+
+    #soonyoucan, #navunderworking, #botondownload{
+        display: none;
+    }
+
+    #underworking{
+        width: 270px;
+        z-index: 1;
+    }
+
+    #undergif{
+        display: flex;
+        position: absolute;
+        width: 370px;
+        margin-top: 350px;
         margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    
-        /* Neutral/100 */
-        background: #FFFFFF;
     }
-    
-    .botontito,.botontito2{
+
+    #playstoreunderworking, #applestoreunderworking{
+        width: 100px;
+        margin-top: 720px;
+        margin-left: 75px;
+    }
+
+    #applestoreunderworking{
+        margin-left: 200px;
+    }
+
+    #botontermsandconditions{
+        display: flex;
         position: absolute;
-        Width: 214px;
-        Height: 72px;
-        margin-top: 27px;
-        margin-left: 67px;
-        /* Estilo de fuente */
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 48px;
-        line-height: 72px;
-        color: #000000;
+        margin-top: 805px;
+        margin-left: 115px;
+        width: 360px;
+        font-size: 8px;
     }
-    
-    
-    .botontito2{
+
+     #fototitofreeunderworking{
+        display: flex;
         position: absolute;
-        margin-left: 177px;
-        color: #4A3AFF;
-    
+        margin-top: 800px;
+        margin-left: 20px;
     }
-    
-    
-    .botonheaderprint{
-        /* Plans */
-        position: absolute;
-        Width: 87px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 786px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-    
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderbusiness{
-        /* Contact */
-        position: absolute;
-        Width: 68px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 931px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderworker{
-        /* Contact */
-        position: absolute;
-        Width: 68px;
-        Height: 25px;
-        margin-top: 52px;
-        margin-left: 1057px;
-        /* Estilo de fuente */
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 21px;
-        line-height: 25px;
-    
-        /* identical to box height */
-        color: #4A3AFF;
-    }
-    
-    .botonheaderdownload{
-        /* Button Text */
-        position: absolute;
-        Width: 163px;
-        Height: 61px;
-        margin-top: 32px;
-        margin-left: 1173px;
-        border-radius: 56px;
-        /* padding-left: 10px; */
-        padding-top: 20px;
-        background-color: #4A3AFF;
-    
-    
-        /* Text Single/200/Regular */
-        font-family: 'DM Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 20px;
-    
-        /* identical to box height, or 111% */
-        text-align: center;
-    
-        /* Neutral/100 */
-        color: #FFFFFF;
-    
-    
-        /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-    
-.underworking1, .underworking2, .underworking3{
-/* WE ARE WORKING ON THIS PAGE FOR YOU */
-    position: absolute;
-    width: 437px;
-    height: 420px;
-    margin-left: 89px;
-    margin-top: 100px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 84px;
-    color: #000000;
-}
-
-
-.underworking2{
-    position: absolute;
-    width: 137px;
-    margin-left: 285px;
-    margin-top: 352px;
-    color: #4A3AFF;
-}
-
-
-.underworking3{
-    position: absolute;
-    width: 137px;
-    margin-left: 89px;
-    margin-top: 435px;
-    color: #4A3AFF;
-}
-
-
-.soonyoucan, .soonyoucan2{
-    /* Soon you can download your app */
-    position: absolute;
-    width: 431px;
-    height: 125px;
-    margin-left: 89px;
-    margin-top: 550px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #000000;
-}
-
-
-.soonyoucan2{
-    position: absolute;
-    margin-top: 605px;
-    margin-left: 310px;
-    color: #4A3AFF;
-}
-
-
-.titofreefoooter{
-    /* Tito Free */
-    position: absolute;
-    width: 184.36px;
-    height: 32px;
-    margin-left: 86px;
-    margin-top: 800px;
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29.4627px;
-    line-height: 31px;
-    /* or 106% */
-    /* Neutral/800 */
-    color: #170F49;
-}
-
-
-.titofreefoooter2{
-    position: absolute;
-    margin-top: 800px;
-    margin-left: 150px;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 29.4627px;
-    line-height: 31px;
-    color: #4A3AFF;
-}
-
-
-.footer{
-    /* Copyright */
-    position: absolute;
-    width: 600px;
-    height: 20px;
-    margin-left: 830px;
-    margin-top: 800px;
-
-    /* Text Single/200/Regular */
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: right;
-
-    /* Neutral/600 */
-
-    color: #000000;
-    background-color: #FFFFFF;
-    border: none;
-    text-decoration: none;
-    text-transform: none;
-}
-
-
-.botonapple2{
-    position: absolute; 
-    margin-top: 1300px;
-    margin-left: 50px;
-    margin-top: 700px;
-}
-
-
-.botongoogle2{
-    position: absolute; 
-
-    margin-top: 1300px;
-    margin-left: 260px;
-    margin-top: 700px;
-}
-
-
-.underworkingpicture{
-    /* Rectangle */
-    position: absolute;
-      width: 1069px;
-    height: 733px;
-    margin-left: 764px;
 }

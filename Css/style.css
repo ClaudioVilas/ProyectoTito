@@ -1,6 +1,4 @@
-/* @media screen and (max-width: 1440px){ */
-
-    
+  
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
@@ -13,40 +11,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@500&family=Montserrat:wght@600&family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+
+
+
+@media screen and (max-width: 1920px){
 
 #body{
-    /* Home */
-position: relative;
-/* width: 1920px; */
-height: 4565px;
-overflow: scroll;
-margin-left: 250px;
+/* overflow: scroll; */
 background: #FFFFFF;
+display: flex;
 }
 
 
-
-.header {
-    /* Rectangle 4269 */
+#header {
+    display: flex;
     position: fixed;
-    Width: 1440px;
+    margin-left: 2%;
     Height: 126.43px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    width: 100%;
     z-index: 1;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 
-.botontito,.botontito2{
+.titofree{
+    display: flex;
     position: absolute;
-    Width: 214px;
     Height: 72px;
-    margin-top: 27px;
-    margin-left: 67px;
-    /* Estilo de fuente */
+    margin-left: 4.65%;
+    margin-top: 21px;
+    margin-right: 80.49%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
@@ -55,531 +50,374 @@ background: #FFFFFF;
     color: #000000;
 }
 
-
-.botontito2{
-    position: absolute;
-    margin-left: 177px;
-    color: #4A3AFF;
-
+.textotito{
+    display: flex;
+    color: #000000;
 }
 
 
-.botonheaderprint{
-    /* Plans */
+.textofee{
+    display: flex;
+    margin-left: 10px;
+    color: #4A3AFF;
+}
+
+
+.printable, .business, .worker, .download{
+    display: flex;
     position: absolute;
-    Width: 87px;
-    Height: 25px;
+    margin-left: 55.91%;
+    margin-right: 40.07%;
     margin-top: 52px;
-    margin-left: 786px;
-    /* Estilo de fuente */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 21px;
-    line-height: 25px;
-
-    /* identical to box height */
+    line-height: 25px;   
     color: #4A3AFF;
 }
 
-.botonheaderbusiness{
-    /* Contact */
-    position: absolute;
-    Width: 68px;
-    Height: 25px;
-    margin-top: 52px;
-    margin-left: 931px;
-    /* Estilo de fuente */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-    /* identical to box height */
-    color: #4A3AFF;
+.business{
+    display: flex;
+    margin-left: 65.91%;
 }
 
-.botonheaderworker{
-    /* Contact */
-    position: absolute;
-    Width: 68px;
-    Height: 25px;
-    margin-top: 52px;
-    margin-left: 1057px;
-    /* Estilo de fuente */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    line-height: 25px;
-
-    /* identical to box height */
-    color: #4A3AFF;
+.worker{
+    display: flex;
+    margin-left: 75.91%;
 }
 
-.botonheaderdownload{
-    /* Button Text */
-    position: absolute;
+.download{
+    /* display: flex;
+    position: absolute; */
     Width: 163px;
     Height: 61px;
     margin-top: 32px;
-    margin-left: 1173px;
+    margin-left: 82.91%;
     border-radius: 56px;
-    /* padding-left: 10px; */
     padding-top: 20px;
+    padding-left: 41px;
     background-color: #4A3AFF;
-
-
+    border-style: none;
     /* Text Single/200/Regular */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-
-    /* identical to box height, or 111% */
-    text-align: center;
-
     /* Neutral/100 */
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
-.imagen1{
+.download{
+    display: flex;
+}
+
+#imagen1{
     position: absolute;
-    margin-left: 100px;
+    display: flex;
+    margin-left: 4%;
     margin-top: 219px;
+    width: 60px;
+    height: 60px;
 } 
 
 
-.imagen2{  
+
+#imagen2{  
     position: absolute;
-    margin-left: 348px;
+    display: flex;
+    margin-left: 18%;
     margin-top: 149px;
+    width: 60px;
+    height: 60px;
 } 
 
 
-.imagen3{
+
+#imagen3{
     position: absolute;
-    margin-left: 1113px;
+    display: flex;
+    margin-left: 1600px;
     margin-top: 380px;
 } 
 
 
-.imagen4{
+#imagen4{
     position: absolute;
-    margin-left: 130px;
+    display: flex;
+    margin-left: 8%;
     margin-top: 574px;
+    width: 60px;
+    height: 60px;
 } 
 
 
-.imagen5{
+#imagen5{
     position: absolute;
-    margin-left: 1279px;
-    margin-top: 258px;
+    display: flex;
+    margin-left: 88%;
+    margin-top: 170px;
 } 
 
 
-.imagen6{
+#imagen6{
     position: absolute;
-    margin-left: 1268px;
-    margin-top: 513px;
+    display: flex;
+    margin-left: 70%;
+    margin-top: 700px;
+
 } 
 
 
-.imagen7{
+#imagen7{
     position: absolute;
-    margin-left: 1073px;
-    margin-top: 149px;
+    display: flex;
+    margin-left: 1300px;
+    margin-top: 400px;
+    width: 60px;
+    height: 60px;
 } 
 
 
-.imagen8{
+#imagen8{
     position: absolute;
-    margin-left: 253px;
-    margin-top: 355px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 390px;
+    width: 60px;
+    height: 60px;
 } 
 
 
-.title{
-    /* We connect employers with workers */
-    /* position: absolute; */
-    position: absolute;
-    width: 742px;
-    height: 124px;
-    margin-left: 314px;
-    margin-top: 270px;
-    /* Headings/Typography Size 1 */
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 62px;
-
-    /* or 124% */
-    text-align: center;
-
-    /* Neutral/800 */
-    color: #170F49;
-
-}
-
-.subtitle{
+#bekind{
     /* be kind. be free */
-    /* position: absolute; */
+    display: flex;
     position: absolute;
     width: 186px;
     height: 18.06px;
-    margin-left: 592px;
+    margin-left: 45%;
     margin-top: 236px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    /* or 112% */
-
     text-align: center;
     letter-spacing: 0.24em;
     text-transform: uppercase;
-
-    /* Primary/Color 1 */
     color: #4A3AFF;
 }
 
-.subtitle2{
+#weconnect{
+    /* We connect employers with workers */
+    position: absolute;
+    display: flex;
+    width: 742px;
+    height: 124px;
+    margin-left: 30%;   
+    margin-top: 270px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #170F49;
+}
+
+
+#leaveusyour{
     /* Leave us your email to be in touch with the recent news */
     position: absolute;
+    display: flex;
     width: 604px;
     height: 30px;
-    margin-left: 418px;
+    margin-left: 37%;
     margin-top: 428px;
-
-
-    /* Paragraph/Default */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    /* identical to box height, or 167% */
-
     text-align: center;
-
-    /* Neutral/600 */
-
     color: #6F6C90;
-    
-}
-
-.contorno{
-    position: absolute;
-    box-sizing: border-box;
-    Width: 607.22px;
-    Height: 78.19px;
-    position: absolute;
-    margin-left: 405px;
-    margin-top: 477.77px;
-
-    border-radius: 60px;
-    border: 1px; 
-    border-style: solid;
-    border-color: #EFF0F6;
-    font-size: 22px;
-}
-
-.contornotexto{
-    position: absolute;
-    margin-left: 39.16px;
-    margin-top: 25.97px;
-    Width: 307.97px;
-    Height: 30.13px;
-
-    font-family: 'DM Sans';
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 30px;
-    line-height: 128%;
-    text-Align: Left;
-    vertical-align: Top;
-    /* Fill-Color-Style: Neutral/600; */
-    Fill: Solid;
-    color: #6F6C90;
-}
-
-.botonsuscribite{
-    position: absolute;
-    Width: 154.49px;
-    Height: 55px;
-    margin-top: 490px;
-    margin-Left: 840px;
-    border-radius: 56px;
-    padding-top: 14px;
-    padding-left: 7px;
-    Gap: 8px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* padding: 16px 32 px 19px; */
-    gap: 8px;
-    background-color: #4A3AFF;
-    color: #FFFFFF;
-    border-radius: 56px;
-    border: none;
 }
 
 
 .mailclienty{
     position: absolute;
+    display: flex;
     Width: 607.22px;
     Height: 78.19px;
-    margin-left: 405px;
+    margin-left: 34%;
     margin-top: 465px;
 }
 
 
-
-.tilde{
+#tildecontextoitsfree{
+    /* It's 100% free and we will never send more than one email */
     position: absolute;
-    margin-left: 475px;
+    display: flex;
+    height: 19.26px;
+    margin-left: 36%;
     margin-top: 680px;
 }
 
 
-.subtitle3{
-    position: absolute;
-    width: 497.69px;
-    height: 19.26px;
-    margin-top: 680px;
-    margin-left: 479.54px;
-
-    /* Text Single/100/Regular */
-
+#itsfree{
+    /* It's 100% free and we will never send more than one email */
+    margin-left: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-    /* or 112% */
-    text-align: center;
-
-    /* Neutral/600 */
     color: #6F6C90;
 
 }
 
-.subtitle4{
-    position: absolute;
-    width: 120px;
-    height: 20.07px;
-    margin-left: 633.69px;
-    margin-top: 749.97px;
 
+#itssimple{
+    /* it's simple */
+    position: absolute;
+    display: flex;
+    margin-left: 47%;
+    margin-top: 749.97px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* or 111% */
-
     letter-spacing: 0.1em;
-    text-transform: uppercase;
-
-    /* Primary/Color 1 */
-
     color: #4A3AFF;
 }
 
-.header2{
+
+#howitworks{
     /* HOW IT WORKS? */
     position: absolute;
-    width: 668px;
-    height: 62.21px;
-    margin-left: 351px;
+    display: flex;
+    margin-left: 40%;
     margin-top: 791px;
-
-    /* Headings/Typography Size 1 */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
-
-    text-align: center;
-
-    /* Neutral/800 */
-
     color: #170F49;
 }
 
 
-.subtitle5{
+#watchashortvideo{
     /* Watch a short video about TITO FREE and discover how this wonderful app works */
     position: absolute;
-    height: 64.21px;
-    width: 508px;
-    margin-left: 434.69px;
+    display: flex;
+    margin-left: 33%;
     margin-top: 869.36px;
-
-    /* Paragraph/Default */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-
-    /* or 167% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* Neutral/600 */
     color: #6F6C90;
 }
 
 
-.comentario{
+#imagenvideo{
+    /* contenedor video */
+    position: absolute;
+    display: flex;
+    width: 529px;
+    height: 350px;
+    margin-left: 12%;
+    margin-top: 990px;
+}
+
+
+#connectworkes{
     /* Connect workers with restaurants that have positions to fill on demand */
     position: absolute;
+    display: flex;
     width: 395px;
     height: 139px;
-    margin-left: 851.62px;
+    margin-left: 56%;
     margin-top: 1047px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 38px;
-
     color: #313131;
 }
 
 
-.imagenvideo{
-    /* contenedor video */
+#botongoogle {
     position: absolute;
-    width: 529px;
-    height: 350px;
-    margin-left: 204px;
-    margin-top: 990px;
-
-}
-
-
-.joinnowboton{
-    position: absolute;
-    height: 55px;
-    width: 182px;
-    margin-left: 852px;
-    margin-top: 1186px;
-    border-radius: 56px;
-    background: #4A3AFF;
-    box-shadow: 0px 36px 14px rgba(0, 0, 0, 0.01), 0px 20px 12px rgba(0, 0, 0, 0.05), 0px 9px 9px rgba(0, 0, 0, 0.09), 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-
-}
-
-
-.botongoogle {
-    position: absolute;
+    display: flex;
     margin-top: 1228px;
-    margin-left: 1050px;
+    margin-left: 55%;
 }
 
 
-.botonapple{
+#botonapple{
     position: absolute;
+    display: flex;
     margin-top: 1228px;
-    margin-left: 830px;
+    margin-left: 68%;
 }
 
 
-.textjoin{
-    /* Button Text */
+#espacioenblanco{
+    /* se utiliza para ir al sector tito business */
     position: absolute;
-    width: 90px;
-    height: 20px;
-    margin-left: 32px;
-    margin-top: 16.05px;
-
-    /* Text Single/200/Bold */
-
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: center;
-
-    /* Neutral/100 */
-
-    color: #FFFFFF;
+    margin-top: 1350px;
 }
 
 
-.subrayadotitobusiness{
+#subrayadotitobusiness{
     /* Rectangle 4518 */
     position: absolute;
+    display: flex;
     width: 320px;
     height: 13px;
-    margin-left: 121px;
+    margin-left: 6%;
     margin-top: 1560px;
     background: #7551FF;
 
 }
 
-#espacioenblanco{
-    position: absolute;
-    margin-top: 1350px;
-}
 
-.header3{
-    /* Tito business */
+#titobusiness{
+    /* Titulo Tito business */
     position: absolute;
+    display: flex;
     width: 668px;
     height: 62.21px;
-    margin-left: 118px;
+    margin-left: 6%;
     margin-top: 1519px;
-
-    /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    
-    /* or 124% */
-
-
-    /* Neutral/800 */
     color: #170F49;
 } 
 
 
-.subtitle6 {
+#downloadtheapp {
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
+    display: flex;
     width: 620px;
     height: 23px;
-    margin-left: 125px;
+    margin-left: 6%;
     margin-top: 1581px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-
     color: #606060;
 }
 
@@ -587,13 +425,14 @@ background: #FFFFFF;
 .card1, .card4, .card7, .card10{
     /* Waiter */
     position: absolute;
-    width: 288px;
-    height: 128px;
-    margin-left: 253px;
+    display: flex;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 10%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 .card4{
@@ -604,7 +443,6 @@ background: #FFFFFF;
     margin-top: 2076px;
 }
 
-
 .card10{
     margin-top: 2276px;
 }
@@ -613,19 +451,20 @@ background: #FFFFFF;
 
 .imagencard1, .imagencard4, .imagencard7, .imagencard10{
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 
 .card1text, .card4text, .card7text, .card10text{
-    position: absolute;
-    /* width: 64px; */
+    /* position: absolute;
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -634,14 +473,14 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
-    color: #000000; 
+    color: #000000;  */
 }
 
 
 .card1text2, .card4text2, .card7text2, .card10text2 {
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -651,21 +490,21 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
-    color: #999999;
+    color: #999999; */
 }
 
 
 .card2, .card5, .card8, .card11{
     /* Waiter */
     position: absolute;
-    width: 288px;
-    height: 128px;
-    margin-left: 653px;
+    display: flex;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 40%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 .card5{
@@ -683,21 +522,22 @@ background: #FFFFFF;
 }
 
 
-.imagencard2, .imagencard5, .imagencard8, .imagencard11{
+/* .imagencard2, .imagencard5, .imagencard8, .imagencard11{ */
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
-}
+    border-radius: 2px; */
+/* } */
 
 
-.card2text, .card5text, .card8text, .card11text{
-    position: absolute;
-    /* width: 62px; */
+/* .card2text, .card5text, .card8text, .card11text{ */
+    /* position: absolute;
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -706,14 +546,14 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
-    color: #000000; 
-}
+    color: #000000;  */
+/* }
 
 
-.card2text2, .card5text2, .card8text2, .card11text2{
+.card2text2, .card5text2, .card8text2, .card11text2{ */
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -723,21 +563,21 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
-    color: #999999;
-}
+    color: #999999; */
+/* } */
 
 
 .card3, .card6, .card9, .card12{
     /* Waiter */
     position: absolute;
-    width: 288px;
-    height: 128px;
-    margin-left: 1053px;
+    display: flex;
+    /* width: 288px;
+    height: 128px; */
+    margin-left: 72%;
     margin-top: 1676px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 3px;
+    border-radius: 3px; */
 }
 
 
@@ -757,19 +597,20 @@ background: #FFFFFF;
 
 .imagencard3, .imagencard6, .imagencard9, .imagencard12{
     /* image 5 */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 60px;
     height: 60px;
     margin-left: 24px;
     margin-top: 30px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 2px;
+    border-radius: 2px; */
 }
 
 
 .card3text, .card6text, .card9text, .card12text{
-    position: absolute;
-    /* width: 62px; */
+    /* position: absolute;
+    display: flex;
     height: 62px;
     margin-left: 110px;
     margin-top: 12px;
@@ -778,14 +619,14 @@ background: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 62px;
-    /* identical to box height, or 310% */
-    color: #000000; 
+    color: #000000;  */
 }
 
 
 .card3text2, .card6text2, .card9text2, .card12text2{
     /* xxxx workers avaibles */
-    position: absolute;
+    /* position: absolute;
+    display: flex;
     width: 123px;
     height: 16px;
     margin-left: 110px;
@@ -795,8 +636,7 @@ background: #FFFFFF;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-    /* identical to box height */
-    color: #999999;
+    color: #999999; */
 }
 
 
@@ -806,45 +646,42 @@ background: #FFFFFF;
 }
 
 
-.titoworker{
+#titoworker{
     /* Tito Worker */
     position: absolute;
+    display: flex;
     width: 668px;
     height: 48px;
-    margin-left: 119px;
+    margin-left: 6%;
     margin-top: 2506px;
-
-    /* Headings/Typography Size 1 */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
-
-
-    /* Neutral/800 */
     color: #170F49;
 }
 
 
-.subrayadotito{
+#subrayadotitoworker{
     /* Rectangle 4531 */
     position: absolute;
+    display: flex;
     width: 279px;
     height: 13px;
-    margin-left: 121px;
+    margin-left: 6%;
     margin-top: 2546px;
     background: #FFDCC8;
 }
 
 
- .subtitle7{
+ #improveyourskills{
     /* Download the app and start hiring the best workers in the position you need */
     position: absolute;
+    display: flex;
     width: 400px;
     height: 20px;
-    margin-left: 125px;
+    margin-left: 6%;
     margin-top: 2568px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -855,196 +692,178 @@ background: #FFFFFF;
 }
 
 
-.bigcard1, .bigcard2, .bigcard3{
+#bigcard1, #bigcard2, #bigcard3 {
 /* category */
     position: absolute;
+    display: flex;
     width: 390px;
     height: 510px;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 2663px;
-
     background: #FFFFFF;
     box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
     border-radius: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
 
 }
 
 
-.bigcard1polygon, .bigcard2polygon, .bigcard3polygon{
+#bigcard1polygon, #bigcard2polygon, #bigcard3polygon{
     position: absolute;
-    margin-left: 98px;
+    display: flex;
+    margin-left: 70.5%;
     margin-top: -29px;
    
 }
 
 
-.bigcard1rectangulo, .bigcard2rectangulo, .bigcard3rectangulo{
+#bigcard1rectangulo, #bigcard2rectangulo, #bigcard3rectangulo{
     position: absolute;
+    display: flex;
     width: 71px;
     height: 122px;
-    margin-left: 115px;
+    margin-left: 75%;
     margin-top: -29px;
 }
 
 
-.numero{
+#numero{
   /* 1 */
     position: absolute;
+    display: flex;
     width: 9px;
     height: 17px;
-    margin-left: 339px;
+    margin-left: 83%;
     margin-top: 23px;
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
     color: #FFFFFF;
 }
 
 
-
-
-.bigcard1, .bigcard2, .bigcard3{
-    /* category */
-    position: absolute;
-    width: 390px;
-    height: 510px;
-    margin-left: 100px;
-    margin-top: 2663px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 20px rgba(0, 40, 100, 0.25);
-    border-radius: 16px;
-    background-color: #FFFFFF;
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #000000;
+#bigcard2{
+    margin-left: 640px;
 }
 
 
-.bigcard2{
-    margin-left: 528px;
+#bigcard3{
+    margin-left: 1200px;
 }
 
 
-.bigcard3{
-    margin-left: 952px;
-}
-
-
-.bigcard1title, .bigcard2title, .bigcard3title{
+#bigcard1title, #bigcard2title, #bigcard3title{
     /* Get ready */
     position: absolute;
-    /* width: 152px; */
+    display: flex;
     height: 42px;
-    /* margin-bottom: calc(50% - 155px/2 - 0.5px); */
+    margin-left: 27%;
     margin-top: 93px;
-    margin-left: 114px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
-    /* identical to box height */
-    align-content: center;
     color: #000000;
 }
 
 
-.bigcard1subtitle, .bigcard2subtitle, .bigcard3subtitle{
+#bigcard1subtitle, #bigcard2subtitle, #bigcard3subtitle{
     /* You need to complete some necesary steps for your first job */
     position: absolute;
+    display: flex;
     width: 281px;
     height: 40px;
-    margin-left: 54px;
+    margin-left: 15%;
     margin-top: 142px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    text-align: center;
     color: #606060;
 }
 
 
-.bigcard1lista, .bigcard2lista, .bigcard3lista{
+#bigcard1lista, #bigcard2lista, #bigcard3lista{
     /* 500 visitors */
-    /* width: 181px; */
+    position: absolute;
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
     height: 27px;
-    margin-top: 215px;
+    margin-top: 225px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
-    /* identical to box height, or 27px */
     color: #000000;
 }
 
 
-.circulitomini{
+#circulitomini{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 2px;
 }
 
 
-.circulitominitext{
+#circulitominitext{
     position: absolute;
-    margin-left: 100px;
+    display: flex;
+    margin-left: 10%;
     color: #000000;
 }
 
 
-.circulitomini2{
+#circulitomini2{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 50px;
 }
 
 
-.circulitominitext2{
+#circulitominitext2{
     position: absolute;
+    display: flex;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 10%;
     color: #000000;
 }
 
 
-.circulitomini3{
+#circulitomini3{
     position: absolute;
-    margin-left: -135px;
+    display: flex;
     margin-top: 100px;
 }
 
 
-.circulitominitext3{
+#circulitominitext3{
     position: absolute;
+    display: flex;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 10%;
     color: #000000;
 }
 
 
 
 
-.bigcard1footer, .bigcard2footer, .bigcard3footer{
+#bigcard1footer, #bigcard2footer, #bigcard3footer{
     position: absolute;
-    margin-left: 101px;
-    margin-top: 170px;
+    display: flex;
+    margin-left: 25%;
+    margin-top: 400px;
     width: 187px;
     height: 63px;
     background: #FFFFFF;
@@ -1060,106 +879,97 @@ background: #FFFFFF;
 }
 
 
-.bigcard1footertext{
+#bigcard1footertext{
+    position: absolute;
+    display: flex;
     margin-top: 20px;
+    margin-left: 20%;
 }
 
-.subtitle8{
+
+#youdecidewhen{
     /* You decide when an where you work with freedom, just be kind. */
     position: absolute;
-    width: 791px;
-    height: 31px;
-    margin-left: 350px;
-    margin-top: 3210px;
-
+    display: flex;
+    margin-left: 29%;
+    margin-top: 3350px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 31px;
-    text-align: center;
-
     color: #606060;
 }
 
 
-.pricing{
+#subrayadopricing{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 421px;
+        height: 13px;
+        margin-left: 38%;
+        margin-top: 3495px;
+        background: #D64DE1;
+}
+
+
+#pricing{
     /* Our pricing plans */
     position: absolute;
+    display: flex;
     width: 421px;
     height: 48px;
-    margin-left: 509px;
-    margin-top: 3402px;
-
-    /* Headings/Typography Size 1 */
-
+    margin-left: 38%;
+    margin-top: 3452px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 62px;
-    /* or 124% */
-
-
-    /* Neutral/800 */
-
     color: #170F49;
 }
 
 
-.subrayadopricing{
-        /* Rectangle 4531 */
-        position: absolute;
-        width: 421px;
-        height: 13px;
-        margin-left: 509px;
-        margin-top: 3445px;
-        background: #D64DE1;
-}
-
-
-.subtitle9{
+#forworkersalwaysfree{
     /* For workers always free. For business you have one month free then just $69 per month. */
     position: absolute;
+    display: flex;
     width: 409px;
     height: 39px;
-    margin-left: 515px;
+    margin-left: 40%;
     margin-top: 3475px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 18px;
-    text-align: center;
-
     color: #606060;
+    text-align: center;
 }
 
 
-.bigcard4{
+#bigcard4{
     /* Pricing Card */
     box-sizing: border-box;
     position: absolute;
-    width: 394px;
-    height: 660px;
-    margin-left: 277px;
+    /* width: 394px;
+    height: 660px; */
+    margin-left: 15%;
     margin-top: 3623px;
-
     /* Primary/Color 1 */
-
-    background: #9747FF;
+    /* background: #9747FF; */
     /* Neutral/300 */
-
-    border: 1px solid #EFF0F7;
-    box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 24px;
+        /* border: 1px solid #EFF0F7;
+        box-shadow: 84px 209px 90px rgba(0, 0, 0, 0.01), 47px 118px 76px rgba(0, 0, 0, 0.05), 21px 52px 56px rgba(0, 0, 0, 0.09), 5px 13px 31px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 24px; */
 }
 
 
-.rectangle4464{
+#rectangle4464{
 /* Rectangle 4464 */
     position: absolute;
+    display: flex;
     width: 98px;
     height: 40px;
     margin-left: 256px;
@@ -1168,9 +978,10 @@ background: #FFFFFF;
     border-radius: 10px;
 }
 
-.rectangle4464text{
+#rectangle4464text{
     /* Free */
     position: absolute;
+    display: flex;
     width: 50px;
     height: 15px;
     margin-left: 24px;
@@ -1190,8 +1001,7 @@ background: #FFFFFF;
     color: #FFFFFF;
 }
 
-
-.cucarda{
+#cucarda{
     /* Icon Background */
     width: 72px;
     height: 72px;
@@ -1205,8 +1015,7 @@ background: #FFFFFF;
     border-radius: 16px;
 }
 
-
-.bigcard4title{
+#bigcard4title{
     /* Price */
     position: absolute;
     width: 147px;
@@ -1224,29 +1033,23 @@ background: #FFFFFF;
     color: #FFFFFF;
 }
 
-
-.bigcard4subtitle{
-/* Paragraph */
-position: absolute;
-width: 307px;
-height: 60px;
-margin-left: 44px;
-margin-top: 140px;
-text-align: center;
-
-/* Paragraph/Default */
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
-/* Neutral/400 */
-color: #D9DBE9;
+#bigcard4subtitle{
+    /* Paragraph */
+    position: absolute;
+    width: 307px;
+    height: 60px;
+    margin-left: 44px;
+    margin-top: 140px;
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #D9DBE9;
 }
 
-
-.bigcard4price{
+#bigcard4price{
     width: 71px;
     height: 66px;
     margin-top: 213px;
@@ -1264,77 +1067,53 @@ color: #D9DBE9;
     color: #FFFFFF; 
 }
 
-
-.bigcard4forever{
+#bigcard4forever{
     /* /for ever */
     position: absolute;
     width: 81px;
     height: 22px;
     margin-top: -40px;
     margin-left: 130px;
-
-    /* Text Single/300/Medium */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-    /* identical to box height, or 110% */
-
-
-    /* Neutral/400 */
-
     color: #D9DBE9;
 }
 
-
-.bigcar4dwhat{
+#bigcar4dwhat{
     /* Text 200 */
     position: absolute;
     width: 151px;
     height: 20px;
     margin-left: 49px;
     margin-top: 17px;
-    /* Text Single/200/Bold */
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
-    /* Neutral/100 */
     color: #FFFFFF;
 }
 
-
-.bigcard4lista{
+#bigcard4lista{
     margin-top: 75px;
 }
 
-
-.bigcard4item1, .bigcard4item2, .bigcard4item3, .bigcard4item4{
-    /* Text 200 */
-    /* width: 243px; */
-    /* height: 20px; */
-    /* Text Single/200/Regular */
+#bigcard4item1, #bigcard4item2, #bigcard4item3, #bigcard4item4{
     margin-top: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 5px; */
-    /* identical to box height, or 111% */
-    /* Neutral/400 */
     color: #D9DBE9;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-
-.bigcard4footer {
+#bigcard4footer {
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -1344,62 +1123,46 @@ color: #D9DBE9;
     gap: 6px;
     margin-left: 35px;
     margin-top: 260px;
-    
-
     width: 308px;
     height: 72px;
-
-    /* Neutral/100 */
-
     background: #FFFFFF;
     border-radius: 96px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 1;
 }
 
-
-.bigcard4footertext{
-    /* Button Text */
-    /* Text Single/200/Bold */
+#bigcard4footertext{
     margin-top: 20px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
     text-align: center;
-    /* Primary/Color 1 */
     color: #4A3AFF;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
 
-.bigcard5{ 
+#bigcard5{ 
     /* Pricing Card */
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     position: absolute;
     width: 394px;
-    height: 660px;
-    margin-left: 759px;
+    height: 660px; */
+    margin-left: 900px;
     margin-top: 3623px;
-    /* Neutral/100 */
-    background: #FFFFFF;
-    /* Neutral/300 */
+    /* background: #FFFFFF;
     border: 1px solid #EFF0F7;
     box-shadow: 53px 196px 81px rgba(0, 0, 0, 0.01), 30px 110px 68px rgba(0, 0, 0, 0.05), 13px 49px 51px rgba(0, 0, 0, 0.09), 3px 12px 28px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 24px;
+    border-radius: 24px; */
 }
 
 
-.cucarda2{
+#cucarda2{
         /* Icon Background */
         width: 72px;
         height: 72px;
@@ -1409,8 +1172,7 @@ color: #D9DBE9;
         border-radius: 16px;
 }
 
-
-.bigcard5title{
+#bigcard5title{
     position: absolute;
     /* width: 147px; */
     height: 35px;
@@ -1432,8 +1194,7 @@ color: #D9DBE9;
     color: #170F49;
 }
 
-
-.bigcard5subtitle{
+#bigcard5subtitle{
     /* Paragraph */
     position: absolute;
     width: 307px;
@@ -1453,7 +1214,7 @@ color: #D9DBE9;
 }
 
 
-.bigcard5price{
+#bigcard5price{
     width: 71px;
     height: 66px;
     margin-top: 213px;
@@ -1471,81 +1232,53 @@ color: #D9DBE9;
     color: #170F49; 
 }
 
-
-.bigcard5forever{
+#bigcard5forever{
     /* /for ever */
     position: absolute;
     width: 81px;
     height: 22px;
     margin-top: -40px;
     margin-left: 155px;
-
-    /* Text Single/300/Medium */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 22px;
-    /* identical to box height, or 110% */
-
-
-    /* Neutral/400 */
-
     color: #170F49;
 }
 
-.bigcar5dwhat{
+#bigcar5dwhat{
     /* Text 200 */
     position: absolute;
     width: 151px;
     height: 20px;
     margin-left: 49px;
     margin-top: 17px;
-
-    /* Text Single/200/Bold */
-
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
-
-
-    /* Neutral/800 */
-
     color: #170F49;
 }
 
-
-.bigcard5lista{
+#bigcard5lista{
     margin-top: 75px;
 }
 
-
-.bigcard5item1, .bigcard5item2, .bigcard5item3, .bigcard5item4{
-    /* Text 200 */
-    /* width: 243px; */
-    /* height: 20px; */
-    /* Text Single/200/Regular */
+#bigcard5item1, #bigcard5item2, #bigcard5item3, #bigcard5item4{
     margin-top: 10px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    /* line-height: 5px; */
-    /* identical to box height, or 111% */
-    /* Neutral/400 */
     color: #170F49;
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
-
-.bigcard5footer{
+#bigcard5footer{
     /* Auto layout */
     display: flex;
     flex-direction: row;
@@ -1571,8 +1304,7 @@ color: #D9DBE9;
     flex-grow: 1;
 }
 
-
-.bigcard5footertext{
+#bigcard5footertext{
     /* Button Text */
     width: 101px;
     height: 20px;
@@ -1600,8 +1332,7 @@ color: #D9DBE9;
     flex-grow: 0;
 }
 
-
-.footerfinal{
+#footerfinal{
     /* Paragraph */
     position: absolute;
     width: 191px;
@@ -1625,48 +1356,37 @@ color: #D9DBE9;
 }
 
 
-.elipse{
+#elipse{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    /* margin-left: -392px; */
+    display: flex;
     margin-top: 2849px;
-
-    background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
-    /* Note: backdrop-filter has minimal browser support */
 }
 
 
-.elipse2{
+#elipse2{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    margin-left: 631px;
+    display: flex;
+    margin-left: 78.5%;
     margin-top: 828px;
     transform: rotate(180deg);
-    background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
-    /* Note: backdrop-filter has minimal browser support */
 }
 
 
-.elipse3{
+#elipse3{
     /* Ellipse 5 */
     position: absolute;
-    width: 787.64px;
-    height: 790.29px;
-    /* margin-left: -150px; */
+    display: flex;
     margin-top: 254.49px;
-
     background: rgba(255, 255, 255, 0.79);
     backdrop-filter: blur(70.063px);
 }
 
 
-.circulitoytilde1{
+#circulitoytilde1{
     position: absolute;
     width: 300px;
     margin-top: 55px;
@@ -1674,8 +1394,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde2{
+#circulitoytilde2{
     position: absolute;
     width: 300px;
     margin-top: 95px;
@@ -1683,8 +1402,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde3{
+#circulitoytilde3{
     position: absolute;
     width: 300px;
     margin-top: 135px;
@@ -1692,8 +1410,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde4{
+#circulitoytilde4{
     position: absolute;
     width: 300px;
     margin-top: 175px;
@@ -1701,8 +1418,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde1texto{
+#circulitoytilde1texto{
     /* Text Single/200/Regular */
     position: absolute;
     margin-left: 45px;
@@ -1718,9 +1434,7 @@ color: #D9DBE9;
     color: #D9DBE9;
 }
 
-
-
- .circulitoytilde5{
+ #circulitoytilde5{
     position: absolute;
     width: 300px;
     margin-top: 55px;
@@ -1728,21 +1442,19 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.tilde1{
+#tilde1{
     position: absolute;
     margin-top: 12px;
     margin-left: -19px;
 }
 
-.circulitoytilde2texto{
+#circulitoytilde2texto{
     position: absolute;
     margin-left: 45px;
     margin-top: -30px;
 }
 
-
-.circulitoytilde6{
+#circulitoytilde6{
     position: absolute;
     width: 300px;
     margin-top: 95px;
@@ -1750,8 +1462,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde7{
+#circulitoytilde7{
     position: absolute;
     width: 300px;
     margin-top: 135px;
@@ -1759,8 +1470,7 @@ color: #D9DBE9;
     line-height: 30px;
 }
 
-
-.circulitoytilde8{
+#circulitoytilde8{
     position: absolute;
     width: 300px;
     margin-top: 175px;
@@ -1769,14 +1479,14 @@ color: #D9DBE9;
 }
 
 
-.titofreefoooter{
+#titofreefoooter{
     /* Tito Free */
+    display: flex;
     position: absolute;
     width: 184.36px;
     height: 32px;
-    margin-left: 86px;
-    margin-top: 4496px;
-
+    margin-top: 4500px;
+    margin-left: 90px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -1788,9 +1498,10 @@ color: #D9DBE9;
 }
 
 
-.titofreefoooter2{
+#titofreefoooter2{
     position: absolute;
-    margin-top: 4496px;
+    display: flex;
+    margin-top: 4500px;
     margin-left: 150px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -1801,53 +1512,2598 @@ color: #D9DBE9;
 }
 
 
-.footer{
+#footer{
     /* Copyright */
     position: absolute;
+    display: flex;
     width: 600px;
     height: 20px;
-    margin-left: 630px;
-    margin-top: 4496px;
-
-    /* Text Single/200/Regular */
-
+    margin-left: 900px;
+    margin-top: 4500px;
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 20px;
-    /* identical to box height, or 111% */
-
-    text-align: right;
-
-    /* Neutral/600 */
-
+    line-height: 15px;
     color: #000000;
     background-color: #FFFFFF;
     border: none;
     text-decoration: none;
     text-transform: none;
+    
 }
 
-
-.botonapple2{
+#botonapple2{
     position: absolute; 
-
-    margin-top: 1300px;
-    margin-left: 213px;
-    margin-top: 4480px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 4485px;
 }
 
 
-.botongoogle2{
+#botongoogle2{
     position: absolute; 
+    display: flex;
+    margin-left: 500px;
+    margin-top: 4485px;
+}
 
-    margin-top: 1300px;
-    margin-left: 413px;
-    margin-top: 4480px;
+
+.fixed-top{
+    display: none;
+}
+
+#botonapplemobile, #botongooglemobile{
+    display: none;
+}
+
+#carouselExampleCaptions{
+    display: none;
+}
+
+#carouselExample{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: none;
+}
+
+.youdecide{
+    display: none;
+}
+
+
+.subrayadoourpricing{
+    display: none;
+}
+
+
+.ourpricing{
+    display: none;
+}
+
+
+#bigcard2mobile{
+    display: none;
+}
+
+
+#botongooglefooter, #botonapplefooter{
+    display: none;
+}
+
+.icon-menu{
+    display: none;
+}
+
+.cont-menu{
+    display: none;
+}
+
+#bigcardmobile,#carouselExample1{
+    display: none;
+}
+
+#logo3titofree{
+    margin-top: 4500px;
+}
+
+#contenedor3tarjetas{
+    margin-left: 150px;
+}
+
+#bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+    display: flex;
+    position: absolute;
+    margin-top: 2700px;
+    margin-left: 20px;
+}
+
+#bigcardfoto2{
+    margin-left: 550px;
+}
+
+#bigcardfoto3{
+    margin-left: 1100px;
 }
 
 
 
-/* }
 
+
+}
+
+
+
+@media screen and (max-width: 1440px){
+    #body{
+        width: 1440px;
+    }
+
+    #header{
+        width: 1440px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 1300px;
+        margin-left: 160px;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+    #imagen3{
+        margin-top: 550px;
+        margin-left: 1230px;
+    }
+
+
+
+    .card1, .card4, .card7, .card10{
+        margin-left: 120px;
+    }
+
+    .card2, .card5, .card8, .card11{
+        margin-left: 600px;
+    }
+
+    .card3, .card6, .card9, .card12{
+        margin-left: 1100px;
+    }
+
+    #itssimple{
+        margin-left: 730px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #bigcard5{
+        margin-left: 850px;
+    }
+
+    #botonapple{
+        margin-left: 1050px;
+    }
+
+    #subrayadotitobusiness, #titobusiness, #downloadtheapp, #subrayadotitoworker, #titoworker, #improveyourskills{
+        margin-left: 5px;
+    }   
+
+    #contenedor3tarjetas{
+        margin-left: 0px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 500px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 1368px){
+
+    #body{
+        width: 1367px;
+    }
+
+    #header{
+        width: 1367px;
+    }
+
+    .textotito{
+        margin-left: 5px;
+    }
+
+    .textofee{
+        margin-left: 5px;
+    }
+
+    .titofree{
+        margin-left: 5px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 1366px;
+        margin-left: 0px;
+    }
+
+    #bekind{
+        margin-left: 690px;
+    }
+
+
+    #itssimple{
+        margin-left: 700px;
+    }
+
+    #imagen7{
+        margin-left: 1150px;
+        margin-top: 500px;
+    }
+
+    #imagen3{
+        margin-top: 350px;
+    }
+
+
+    #imagenvideo{
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    #connectworkes{
+        margin-left: 705px;
+    }
+
+    #botongoogle{
+        margin-left: 690px;
+    }
+
+    #titobusiness, #subrayadotitobusiness{
+        margin-left: 5px;
+    }
+
+    #downloadtheapp{
+        margin-left: 0px;
+    }
+
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #botonapple{
+        margin-left: 900px;
+    }
+}
+
+
+@media screen and (max-width: 1280px){
+
+    #body{
+        width: 1280px;
+    }
+
+    #header{
+        margin-left: 0px;
+        width: 1280px;
+    }
+
+    .textotito{
+        margin-left: 5px;
+    }
+
+    .textofee{
+        margin-left: 5px;
+    }
+
+    .titofree{
+        margin-left: 5px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 1280px;
+        margin-left: 0px;
+    }
+
+    #bekind{
+        margin-left: 640px;
+    }
+
+
+    #itssimple{
+        margin-left: 700px;
+    }
+
+    #imagen7{
+        margin-left: 1150px;
+        margin-top: 500px;
+    }
+
+    #imagen3{
+        margin-top: 330px;
+        margin-left: 1100px;
+    }
+
+
+    #imagenvideo{
+        width: 600px;
+        margin-left: 50px;
+    }
+
+    #connectworkes{
+        margin-left: 705px;
+    }
+
+    #botongoogle{
+        margin-left: 690px;
+    }
+
+    #titobusiness, #subrayadotitobusiness{
+        margin-left: 5px;
+    }
+
+    #downloadtheapp{
+        margin-left: 0px;
+    }
+
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #botonapple{
+        margin-left: 900px;
+    }
+
+    .cardsdesktop{
+        margin-left: 150px;
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 210px;
+        height: 120px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 210px;
+        height: 120px;
+        margin-left: 370px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 210px;
+        height: 120px;
+        margin-left: 700px; 
+    } 
+
+    #contenedor3tarjetas{
+        margin-left: -100px;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        height: 500px;
+        margin-top: 2700px;
+        margin-left: 0px;
+    }
+    
+    #bigcardfoto2{
+        margin-left: 400px;
+    }
+    
+    #bigcardfoto3{
+        margin-left: 800px;
+    }
+
+    #bigcard5{
+        margin-left: 700px;
+    }
+
+    #footer{
+        width: 590px;
+        margin-left: 600px;
+    }
+
+    #todoelfooter{
+        margin-left: -100px;
+    }
+
+    #botonapple2{
+        margin-left: 150px;
+    }
+
+    #botongoogle2{
+        margin-left: 350px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 790px){
+    #body{
+        width: 800px !important;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+
+    #header{
+        width: 800px;
+        margin-left: 0px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 600px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+
+    .printable, .business, .worker, .download{
+        display: flex;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: flex;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: flex;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+
+
+    #imagen3{
+        margin-left: 670px;
+    }
+
+    #imagen7{
+        margin-left: 690px;
+        margin-top: 650px;
+    }
+
+    #imagen8{
+        margin-left: 90px;
+        margin-top: 350px;
+    }
+
+    #imagen4{
+        margin-left: 40px;
+        margin-top: 650px;
+    }
+
+    #bekind{
+        margin-left: 350px;
+    }
+
+    #weconnect{
+        width: 550px;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    #leaveusyour{
+        margin-left: 150px;
+    }
+
+    .mailclienty{
+        margin-left: 130px;
+
+    }
+
+    #itssimple{
+        margin-left: 370px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #howitworks{
+        margin-left: 240px;
+    }
+
+    #watchashortvideo{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #imagenvideo{
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    #connectworkes{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    #botongoogle{
+        margin-top: 1450px;
+        margin-left: 100px;
+    }
+
+    #botonapple{
+        margin-top: 1450px;
+        margin-left: 500px; 
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 200px;
+        height: 100px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 200px;
+        height: 100px;
+        margin-left: 290px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 200px;
+        height: 100px;
+        margin-left: 570px; 
+    } 
+    
+    #bigcard1, #bigcard2, #bigcard3{
+        display: none;
+    }
+
+    #bigcard4{
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #bigcard5{
+        margin-left: 430px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #pricing, #subrayadopricing{
+        margin-left: 200px;
+        margin-top: 3300px;
+    }
+
+    #subrayadopricing{
+        margin-top: 3340px;
+    }
+
+     #botonapple2, #botongoogle2{
+        margin-top: 4300px;
+    }
+
+    #titofreefoooter, #titofreefoooter2{
+        margin-top: 4320px;
+    }
+
+    #footer{
+        margin-left: 100px;
+        margin-top: 4390px;
+    }
+
+    #youdecidewhen{
+        width: 600px;
+        margin-top: 3100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 2700px;
+
+        margin-left: 0px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 200px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 400px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px){
+    #body{
+        width: 800px !important;
+    }
+
+    .textotito{
+        margin-left: 15px;
+    }
+
+    .textofee{
+        margin-left: 15px;
+    }
+
+    .titofree{
+        margin-left: 15px;
+    }
+
+
+    #header{
+        width: 800px;
+        margin-left: 0px;
+    }
+
+    #menuheader{
+        display: flex;
+        position: absolute;
+        width: 800px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+
+
+    .printable, .business, .worker, .download{
+        display: flex;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: flex;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: flex;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: flex;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+
+
+    #imagen3{
+        margin-left: 670px;
+    }
+
+    #imagen7{
+        margin-left: 690px;
+        margin-top: 650px;
+    }
+
+    #imagen8{
+        margin-left: 90px;
+        margin-top: 350px;
+    }
+
+    #imagen4{
+        margin-left: 40px;
+        margin-top: 650px;
+    }
+
+    #bekind{
+        margin-left: 350px;
+    }
+
+    #weconnect{
+        width: 550px;
+        margin-left: 150px;
+        font-size: 30px;
+    }
+
+    #leaveusyour{
+        margin-left: 150px;
+    }
+
+    .mailclienty{
+        margin-left: 130px;
+
+    }
+
+    #itssimple{
+        margin-left: 370px;
+    }
+
+    #bigcard2{
+        margin-left: 495px;
+    }
+
+    #bigcard3{
+        margin-left: 950px;
+    }
+
+    #footer{
+        margin-left: 750px;
+    }
+
+    #howitworks{
+        margin-left: 240px;
+    }
+
+    #watchashortvideo{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #imagenvideo{
+        margin-left: 0px;
+        width: 800px;
+    }
+
+    #connectworkes{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 1350px;
+        margin-left: 50px;
+        width: 700px;
+    }
+
+    #botongoogle{
+        margin-top: 1450px;
+        margin-left: 100px;
+    }
+
+    #botonapple{
+        margin-top: 1450px;
+        margin-left: 500px; 
+    }
+
+    .cardsdesktop{
+        margin-left: 0px;
+    }
+
+    .card1, .card4, .card7, .card10{
+        width: 200px;
+        height: 100px;
+        margin-left: 25px; 
+    }
+
+    .card2, .card5, .card8, .card11{
+        width: 200px;
+        height: 100px;
+        margin-left: 290px; 
+    }
+
+    .card3, .card6, .card9, .card12{
+        width: 200px;
+        height: 100px;
+        margin-left: 570px; 
+    } 
+    
+    #bigcard1, #bigcard2, #bigcard3{
+        display: none;
+    }
+
+    #bigcard4{
+        margin-left: 10px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #bigcard5{
+        margin-left: 530px;
+        width: 350px;
+        margin-top: 3500px;
+    }
+
+    #pricing, #subrayadopricing{
+        margin-left: 200px;
+        margin-top: 3300px;
+    }
+
+    #subrayadopricing{
+        margin-top: 3340px;
+    }
+
+     #botonapple2, #botongoogle2{
+        margin-top: 4300px;
+    }
+
+    #titofreefoooter, #titofreefoooter2{
+        margin-top: 4320px;
+    }
+
+    #footer{
+        margin-left: 100px;
+        margin-top: 4390px;
+    }
+
+    #youdecidewhen{
+        width: 600px;
+        margin-top: 3100px;
+        margin-left: 100px;
+        text-align: center;
+    }
+
+    #contenedor3tarjetas{
+        margin-left: 0px;
+ 
+    }
+
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-left: 00px;
+        margin-top: 2650px;
+        width: 250px;
+        height: 400px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 250px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 500px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 721px){
+
+    #body{
+        /* overflow: scroll; */
+        background: #FFFFFF;
+        display: flex;
+        width: 720px !important;
+    }
+
+    #header{
+        position: absolute;
+        display: flex;
+        width: 720px;
+        height: 33px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 36px;
+        margin-left: 15px;
+        color: #000000;
+    }
+
+        
+    /* .cubo{
+        position: absolute;
+        display: flex;
+        width: 360px;
+        height: 1600px;
+        border-color: #000000;
+        border-width: 1px;
+        border-style: solid;
+    } */
+    
+       
+    #elipse{
+        margin-top: 247px;
+        width: 700px;
+    
+    }
+    
+    #menuheader{
+        display: none;
+    }
+    
+    .printable, .business, .worker, .download{
+        display: none;
+        position: absolute;
+        margin-left: 250px;
+        margin-right: 40.07%;
+        margin-top: 32px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 25px;   
+        color: #4A3AFF;
+    }
+    
+    .business{
+        display: none;
+        margin-left: 350px;
+    }
+    
+    .worker{
+        display: none;
+        margin-left: 460px;
+    }
+    
+    .download{
+        display: none;
+        Width: 163px;
+        Height: 61px;
+        margin-top: 20px;
+        margin-left: 550px;
+        border-radius: 56px;
+        padding-top: 19px;
+        padding-left: 41px;
+        background-color: #4A3AFF;
+        border-style: none;
+        /* Text Single/200/Regular */
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        /* Neutral/100 */
+        color: #FFFFFF;
+    }
+    
+    .download{
+        display: none;
+    }
+    
+    .icon-menu{
+        display: flex;
+        position: absolute;
+    }
+
+
+    #iconmenuhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 650px;
+        margin-top: 35px;
+        z-index: 1;
+    }
+    
+    #imagen1{
+        position: absolute;
+        display: flex;
+        margin-left: 15px;
+        margin-top: 219px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    
+    
+    #imagen2{  
+        position: absolute;
+        display: flex;
+        margin-left: 100px;
+        margin-top: 109px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    #imagen3{
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 450px;
+    } 
+    
+    #imagen4{
+        position: absolute;
+        display: flex;
+        margin-left: 8%;
+        margin-top: 574px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    #imagen5{
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 109px;
+    } 
+    
+    #imagen6{
+        position: absolute;
+        display: flex;
+        margin-left: 500px;
+        margin-top: 520px;
+    } 
+    
+    #imagen7{
+        position: absolute;
+        display: flex;
+        margin-left: 600px;
+        margin-top: 219px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    #imagen8{
+        position: absolute;
+        display: flex;
+        margin-left: 150px;
+        margin-top: 490px;
+        width: 60px;
+        height: 60px;
+    } 
+    
+    #bekind{
+        /* be kind. be free */
+        position: absolute;
+        display: flex;
+        margin-left: 270px;
+        margin-right: 15px;
+        margin-top: 130px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        /* or 112% */
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
+    }
+    
+    #weconnect{
+        /* We connect employers with workers */
+        position: absolute;
+        display: flex;
+        height: 64px;
+        text-align: center;
+        margin-top: 175px;
+        margin-left: 200px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        /* or 160% */
+        text-align: center;
+        color: #000000;
+        width: 300px;
+    }
+    
+    #leaveusyour{
+        position: absolute;
+        height: 30px;
+        width: 400px;
+        margin-left: 170px;
+        margin-top: 230px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        /* identical to box height, or 250% */
+        text-align: center;
+        /* Neutral/600 */
+        color: #6F6C90;
+    }
+    
+    .mailclienty{
+        position: absolute;
+        display: flex;
+        margin-left: 55px;
+        margin-top: 280px;
+        width: 600px;
+    }
+    
+    #tildecontextoitsfree{
+        position: absolute;
+        display: flex;
+        width: 600px;
+        height: 34px;
+        margin-left: 140px;
+        margin-top: 430px;
+    }
+    
+    #itsfree{
+        margin-left: 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        /* or 150% */
+        text-align: center;
+        /* Neutral/600 */
+        color: #6F6C90;
+    }
+    
+    #tilde{
+        position: absolute;
+        display: flex;
+        width: 11px;
+        height: 11px;
+        margin-top: 3px;
+    }
+    
+    #itssimple{
+        position: absolute;
+        display: flex;
+        width: 156px;
+        height: 22.22px;
+        margin-left: 350px;
+        margin-top: 550px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        /* or 125% */
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        /* Primary/Color 1 */
+        color: #4A3AFF;
+    }
+    
+    #howitworks{
+        position: absolute;
+        display: flex;
+        width: 329px;
+        height: 48.9px;
+        margin-left: 350px;
+        margin-top: 600px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+    }
+    
+    #watchashortvideo{
+        position: absolute;
+        display: flex;
+        width: 620px;
+        height: 71.11px;
+        margin-left: 90px;
+        margin-right: 8px;
+        margin-top: 660px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 150% */
+        align-items: center;
+        text-align: center;
+        color: #383838;
+    }
+    
+    #imagenvideo{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        width: 350px;
+        height: 250px;
+        margin-top: 740px;
+    }
+    
+    #connectworkes{
+        position: absolute;
+        display: flex;
+        height: 56px;
+        width: 300px;
+        margin-left: 400px;
+        margin-top: 750px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        text-align: left;
+        color: #000000;
+    }
+    
+    #botonapple, #botongoogle, #botonapple2, #botongoogle2{
+        display: none;
+    }
+    
+    #botonapplemobile, #botongooglemobile{
+        position: absolute;
+        display: flex;
+        width: 185px;
+        margin-left: -310px;
+        margin-top: 900px;
+    }
+    
+    #botongooglemobile{
+        margin-left: -140px;
+    
+    }
+    
+    #espacioenblanco{
+        display: flex;
+        position: absolute;
+        margin-top: 1090px;
+    }
+    
+    #subrayadotitobusiness{
+        /* Rectangle 4518 */
+        position: absolute;
+        display: flex;
+        width: 330px;
+        height: 8px;
+        margin-left: 5px;
+        margin-top: 1055px;
+        background: #7551FF;
+    }
+    
+    #header3{
+        height: 25px;
+        margin-top: 1100px;
+        width: 700px;
+    }
+    
+    #titobusiness{
+        /* Tito Business */
+        position: absolute;
+        display: flex;
+        width: 720px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 1015px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    #header3{
+        position: absolute;
+        display: flex;
+        margin-left: 3%;
+        margin-top: 1095px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    #downloadtheapp{
+        /* Download the app and start hiring the best workers in the position you need */
+        position: absolute;
+        display: flex;
+        width: 620px;
+        height: 23px;
+        margin-left: 5px;
+        margin-top: 1081px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #606060; 
+    }
+    
+    .cardsdesktop{
+        position: absolute;
+        display: flex;
+        margin-left: -120px;
+        margin-top: 35px;
+    }
+
+
+    .card1, .card4, .card7, .card10{
+        /* Waiter */
+        position: absolute;
+        display: flex;
+        width: 190px;
+        height: 90px;
+        margin-left: -80px;
+        margin-top: 1120px;
+
+    }
+    
+    .card4{
+        margin-top: 1224px;
+    }
+    
+    .card7{
+        margin-top: 1348px;
+    }
+    
+    .card10{
+        margin-top: 1462px;
+    }
+    
+    .card2, .card5, .card8, .card11{
+        position: absolute;
+        display: flex;
+        width: 190px;
+        height: 90px;
+        margin-left: 160px;
+        margin-top: 1120px;
+    }
+    
+    .card5{
+        margin-top: 1234px;
+    }
+    
+    
+    .card8{
+        margin-top: 1348px;
+    }
+    
+    
+    .card11{
+        margin-top: 1462px;
+    } 
+    
+    .card3, .card6, .card9, .card12{
+        /* Waiter */
+        position: absolute;
+        display: flex;
+        margin-left: 10px;
+        width: 190px;
+        height: 90px;
+        margin-left: 405px;
+        margin-top: 1120px;
+
+    }
+        
+    .card6{
+        margin-top: 1234px;
+    }
+    
+    
+    .card9{
+        margin-top: 1348px;
+    }
+    
+    
+    .card12{
+        margin-top: 1462px;
+    }
+    
+   
+    
+    #titocardscontextoytodo{
+        margin-top: 50px;
+    }
+    
+    #espacioenblanco2{
+        position: absolute;
+        margin-top: 2350px;
+    }
+    
+    
+    #titoworker{
+        /* Tito Worker */
+        position: absolute;
+        display: flex;
+        width: 720px;
+        height: 48px;
+        margin-left: 5px;
+        margin-top: 1700px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    #subrayadotitoworker{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 330px;
+        height: 8px;
+        margin-left: 5px;
+        margin-top: 1740px;
+        background: #FFDCC8;
+
+    }
+    
+    
+    #improveyourskills{
+        /* Download the app and start hiring the best workers in the position you need */
+        position: absolute;
+        display: flex;
+        width: 400px;
+        height: 20px;
+        margin-left: 5px;
+        margin-top: 1760px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #606060;
+    }
+    
+    
+    
+    
+    #youdecidewhen{
+        /* You decide when an where you work with freedom, just be kind. */
+        position: absolute;
+        display: flex;
+        margin-left: 80px;
+        margin-top: 2400px;
+        width: 621px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31px;
+        color: #606060;
+    }
+    
+    
+    #subrayadopricing{
+        /* Rectangle 4531 */
+        position: absolute;
+        display: flex;
+        width: 330px;
+        height: 8px;
+        margin-left: 250px;
+        margin-top: 2533px;
+        background: #D64DE1;
+    }
+    
+    
+    #pricing{
+        /* Our pricing plans */
+        position: absolute;
+        display: flex;
+        width: 340px;
+        height: 48px;
+        margin-left: 250px;
+        margin-top: 2490px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 62px;
+        color: #170F49;
+    }
+    
+    
+    #forworkersalwaysfree{
+        /* For workers always free. For business you have one month free then just $69 per month. */
+        position: absolute;
+        display: flex;
+        width: 509px;
+        height: 39px;
+        margin-left: 5px;
+        margin-top: 2660px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 14px;
+        color: #606060;
+        text-align: left;
+    }
+    
+    #bigcard4, #bigcard5{
+        width: 280px;
+        margin-left: 50px;
+        margin-top: 2650px;
+    }
+
+    #bigcard5{
+        margin-left: 500px;
+    }
+
+    #bigcard4footer, #bigcard5footer{
+        margin-left: 20px;
+    }
+    
+    
+    #bigcardmobile{
+        display: none;
+        position: absolute;
+        margin-left: 200px;
+        margin-top: 2760px;
+    }
+
+    #footerfinal{
+        margin-left: 80px;
+    }
+
+    #rectangle4464{
+        margin-left: 230px;
+    }
+
+    #rectangle4464text{
+        margin-left: 35px;
+    }
+ 
+    #fotobigcard4{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 200px;
+    }
+    
+    #botonapplefooter{
+        position: absolute;
+        display: flex;
+        width: 90px;
+        margin-left: -500px;
+        margin-top: 3200px;
+    }
+    
+    #botongooglefooter{
+        position: absolute;
+        display: flex;
+        width: 90px;
+        margin-left: -600px;
+        margin-top: 3200px;
+    }
+    
+    
+    #footer{
+        /* Copyright */
+        position: absolute;
+        display: flex;
+        width: 300px;
+        height: 20px;
+        margin-left: 350px;
+        margin-top: 3200px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        background-color: #FFFFFF;
+        border: none;
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+    #titofreefoooter{
+        /* Tito Free */
+        position: absolute;
+        display: flex;
+        width: 184.36px;
+        height: 32px;
+        margin-left: -600px;
+        margin-top: 3150px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29.4627px;
+        line-height: 31px;
+        /* or 106% */
+        /* Neutral/800 */
+        color: #170F49;
+    }
+    
+    
+    #titofreefoooter2{
+        position: absolute;
+        display: flex;
+        margin-top: 3150px;
+        margin-left: -540px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29.4627px;
+        line-height: 31px;
+        color: #4A3AFF;
+    }
+    
+
+    .mostrar{
+        transform: translate(-600px);
+    }
+    
+    
+    .opacity{
+    
+        background-color: #000000;
+        transition: all .5s ease;
+    }
+
+
+    #menu{
+        display: flex;
+        position: absolute;
+        width: 350px;
+        height: 600px;
+        background-color: #ffffff;
+        margin-left: 7px;
+        border-radius: 56px;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        z-index: 1;
+    }
+    
+    #titohamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 55px;
+    }
+
+
+    #bekindmobilehamburgesa{
+        /* be kind. be free */
+        display: flex;
+        position: absolute;
+        width: 360px;
+        padding-top: 120px;
+        margin-left: 75px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.24em;
+        text-transform: uppercase;
+        color: #4A3AFF;
+    }
+    
+    
+    #printinhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 3%;
+        padding-top: 250px;
+    }
+    
+    #businesshamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 3%;
+    }
+    
+    
+    
+    #workerhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-top: 350px;
+        margin-left: 3%;
+    }
+    
+    
+    
+    #downloadhamburgesa{
+        display: flex;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 450px;
+        margin-left: 70px;
+    }
+
+#contenedor3tarjetas{
+    margin-left: 0px;
+}
+
+    #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+        display: flex;
+        position: absolute;
+        margin-top: 1900px;
+        width: 230px;
+        margin-left: 20px;
+    }
+
+    #bigcardfoto2{
+        margin-left: 250px;
+    }
+
+    #bigcardfoto3{
+        margin-left: 470px;
+    }
+
+    .cardsdesktop{
+        margin-left: 100px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 391px){
+
+    #body{
+        display: flex;
+        width: 390px;
+    }
+
+    #pricing{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 378px){
+
+#body{
+    display: flex;
+    width: 375px !important ;
+}
+
+#header{
+    width: 335px !important ;
+}
+
+.titofree{
+    display: flex;
+    position: absolute;
+    Height: 72px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 72px;
+    color: #000000;
+    width: 200px;
+}
+
+#iconmenuhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+#imagen1{
+    width: 24px;
+    height: 24px;
+    margin-top: 150px;
+}
+
+#imagen2{
+    width: 24px;
+    height: 24px;
+    margin-top: 100px;
+}
+
+
+#imagen3{
+    display: flex;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 24px;
+    height: 24px;
+}
+
+
+#imagen8{
+    width: 24px;
+    height: 24px;
+    margin-top: 450px;
+    margin-left: 130px;
+}
+
+
+#imagen4{
+    width: 24px;
+    height: 24px;
+    margin-top: 500px;
+}
+
+
+#imagen5{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+
+#imagen7{
+    width: 24px;
+    height: 24px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+
+#imagen6{
+    width: 74px;
+    height: 74px;
+    margin-left: 220px;
+    margin-top: 470px;
+}
+
+
+#imagen3{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 450px;
+}
+
+
+#bekind{
+    margin-left: 113px;
+}
+
+
+#weconnect{
+    margin-left: 50px;
+    width: 300px;
+}
+
+#leaveusyour{
+    margin-left: 50px;
+    width: 305px;
+}
+
+.mailclienty{
+    width: 375px;
+    margin-left: 0px;
+}
+
+
+#tildecontextoitsfree{
+    width: 355px;
+    margin-top: 500px;
+    margin-left: 15px;
+}
+
+#itsfree{
+    font-size: 10px;
+}
+
+#itssimple{
+    margin-top: 550px;
+    margin-left: 140px;
+}
+
+
+#howitworks{
+    margin-top: 580px;
+    width: 200px;
+    margin-left: 133px;
+}
+
+#watchashortvideo{
+    margin-top: 630px;
+    margin-left: 30px;
+    width: 320px;
+    font-size: 12px;
+}
+
+#connectworkes{
+    margin-left: 30px;
+    margin-top: 1000px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#botonapplemobile{
+    margin-left: 100px;
+    margin-top: 1060px;
+}
+
+#botongooglemobile{
+    margin-left: 300px;
+    margin-top: 1060px;
+}
+
+
+#subrayadotitobusiness{
+    height: 5px;
+    width: 160px;
+    margin-left: 5px;
+    margin-top: 1155px;
+}
+
+
+#titobusiness{
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 1120px;
+    width: 295px;
+}
+
+
+#downloadtheapp{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 1175px;
+    width: 270px;
+
+}
+
+.cardsdesktop{
+    display: none;
+}
+
+
+#carouselExample1{
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 70px;
+}
+
+
+.textocarusel{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+#titoworker{
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 1350px;
+    width: 275px;
+
+}
+
+
+#subrayadotitoworker{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1387px;
+    margin-left: 5px;
+}
+
+
+#improveyourskills{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 1395px;
+    width: 305px;
+
+}
+
+
+#bigcard1, #bigcard2, #bigcard3, #bigcard4, #bigcard5, #bigcardfoto1, #bigcardfoto2, #bigcardfoto3{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: flex;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 1450px;
+}
+
+
+
+#youdecidewhen{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 1700px;
+    width: 300px;
+    text-align: center;
+}
+
+
+#pricing{
+    font-size: 24px;
+    margin-left: 5px;
+    margin-top: 1800px;
+    width: 360px;
+
+}
+
+
+#subrayadopricing{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1837px;
+    margin-left: 5px;
+    width: 200px;
+}
+
+#forworkersalwaysfree{
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 1850px;
+    width: 350px;
+}
+
+#titofreefoooter, #titofreefoooter2, #botongooglefooter, #botonapplefooter{
+    margin-top: 2350px;
+}
+
+#botonapplefooter{
+    margin-left: 300px;
+}
+
+#botongooglefooter{
+    margin-left: 200px;
+}
+
+#footer {
+    margin-top: 2400px;
+    margin-left: 35px;
+}
+
+#imagenvideo{
+    width: 375px;
+    margin-left: 0px;
+}
+
+#elipse{
+    width: 375px;
+}
+
+#bigcardmobile{
+    display: flex;
+    position: absolute;
+    margin-top: 1850px;
+    margin-left: 35px;
+}
+
+
+.fotocarusel{
+    margin-top: 30px;
+}
+
+}
+
+
+@media screen and (max-width: 370px){ */
+
+    #body{
+        display: flex;
+        position: absolute;
+        width: 375px;
+    }
+    
+
+.titofree{
+    display: flex;
+    position: absolute;
+    Height: 72px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 72px;
+    color: #000000;
+}
+
+#iconmenuhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-left: 330px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+
+
+#imagen1{
+    width: 24px;
+    height: 24px;
+    margin-top: 150px;
+}
+
+#imagen2{
+    width: 24px;
+    height: 24px;
+    margin-top: 100px;
+}
+
+
+#imagen3{
+    width: 24px;
+    height: 24px;
+    margin-top: 430px;
+}
+
+
+#imagen8{
+    width: 24px;
+    height: 24px;
+    margin-top: 450px;
+    margin-left: 130px;
+}
+
+
+#imagen4{
+    width: 24px;
+    height: 24px;
+    margin-top: 500px;
+}
+
+
+#imagen5{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 70px;
+}
+
+
+#imagen7{
+    width: 24px;
+    height: 24px;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+
+#imagen6{
+    width: 64px;
+    height: 64px;
+    margin-left: 220px;
+    margin-top: 570px;
+}
+
+
+#imagen3{
+    width: 40px;
+    height: 44px;
+    margin-left: 320px;
+    margin-top: 430px;
+}
+
+
+#bekind{
+    margin-left: 115px;
+}
+
+
+#weconnect{
+    margin-left: 50px;
+    width: 375px;
+}
+
+#leaveusyour{
+    margin-left: 50px;
+    width: 375px;
+}
+
+.mailclienty{
+    width: 370px;
+    margin-left: 0px;
+}
+
+
+#tildecontextoitsfree{
+    margin-top: 500px;
+    margin-left: 15px;
+}
+
+#itsfree{
+    font-size: 10px;
+}
+
+#itssimple{
+    margin-left: 140px;
+}
+
+
+#howitworks{
+    margin-left: 130px;
+}
+
+#watchashortvideo{
+    margin-left: 30px;
+}
+
+#connectworkes{
+    margin-left: 30px;
+    margin-top: 940px;
+    text-align: center;
+
+}
+
+#botonapplemobile{
+    margin-left: 0px;
+    margin-top: 990px;
+}
+
+#botongooglemobile{
+    margin-left: 180px;
+    margin-top: 990px;
+}
+
+
+#subrayadotitobusiness{
+    height: 5px;
+    width: 160px;
+}
+
+
+#titobusiness{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1020px;
+}
+
+
+#downloadtheapp{
+    font-size: 10px;
+    margin-left: 0px;
+    margin-top: 1070px;
+    width: 200px;
+}
+
+.cardsdesktop{
+    display: none;
+}
+
+
+#carouselExample1{
+    display: flex;
+    position: absolute;
+    margin-top: 1200px;
+    margin-left: 70px;
+}
+
+
+.textocarusel{
+    margin-left: 110px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+
+.fotocarusel{
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+
+#titoworker{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1400px;
+
+}
+
+
+#subrayadotitoworker{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1435px;
+    margin-left: 0px;
+}
+
+
+#improveyourskills{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 1440px;
+    width: 375px;
+
+}
+
+
+#bigcard1, #bigcard2, #bigcard3, #bigcard4, #bigcard5{
+    display: none;
+}
+
+
+#carouselExampleIndicators{
+    display: flex;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 1500px;
+}
+
+
+#youdecidewhen{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 1800px;
+    width: 300px;
+    text-align: center;
+}
+
+
+#pricing{
+    font-size: 24px;
+    margin-left: 0px;
+    margin-top: 1900px;
+}
+
+
+#subrayadopricing{
+    /* Rectangle 4518 */
+    height: 5px;
+    width: 160px;
+    margin-top: 1939px;
+    margin-left: 0px;
+    width: 200px;
+}
+
+#forworkersalwaysfree{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 1950px;
+    width: 350px;
+}
+
+#bigcardmobile{
+    margin-left: 35px;
+    margin-top: 2000px;
+}
+
+
+#titofreefoooter, #titofreefoooter2, #botongooglefooter, #botonapplefooter{
+    margin-top: 2700px;
+}
+
+#botonapplefooter{
+    margin-left: 250px;
+}
+
+#footer {
+    margin-top: 2750px;
+    margin-left: 35px;
+}
+
+#imagenvideo{
+    width: 375px;
+    margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width: 362px){
+
+#body{
+    width: 360px;
+}
+
+
+.titofree{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#iconmenuhamburgesa{
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 310px;
+    z-index: 1;
+}
+
+#menuheader{
+    display: none;
+}
+
+#weconnect{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 30px;
+}
+
+#leaveusyour{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 30px;
+}
+
+.mailclienty{
+    width: 360px;
+}
+
+#howitworks{
+    width: 360px;
+    margin-left:0px;
+    padding-left: 130px;
+}
+
+#imagenvideo{
+    width: 360px;
+    margin-left:0px;
+}
+
+#elipse{
+display: none;
+}
+
+#titobusiness{
+    width: 360px;
+}
+
+#titoworker{
+    width: 360px;
+}
+
+#improveyourskills{
+    width: 360px;
+}
+
+#pricing{
+    width: 360px;
+}
+
+#connectworkes{
+    margin-top: 1000px;
+}
+
+#botonapplemobile, #botongooglemobile{
+    margin-top: 1050px;
+}
+
+#titobusiness{
+    margin-top: 1090px;
+    margin-left: 5px;
+}
+
+#subrayadotitobusiness{
+    margin-top: 1125px;
+    margin-left: 5px;
+}
+
+#downloadtheapp{
+    margin-top: 1130px;
+    margin-left: 5px;
+}
+
+.fotocarusel{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+#botongooglefooter, #botonapplefooter{
+    margin-top: 2500px;
+    margin-left: 50px;
+}
+
+#botonapplefooter{
+    margin-left: 180px;
+}
+
+#footer{
+    margin-top: 2550px;
+}
+
+#imagen3{
+    margin-top: 450px;
+}
+
+#imagen6{
+    margin-top: 480px;
+}
+
+
+
+
+}
